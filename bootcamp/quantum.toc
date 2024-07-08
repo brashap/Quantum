@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Light - a particle or a wave}{2}{0}{1}
+\beamer@sectionintoc {2}{Intro to Quantum Phenomenon}{7}{0}{2}
+\beamer@sectionintoc {3}{What is a Qubit}{9}{0}{3}
+\beamer@sectionintoc {4}{Quantum Computing}{11}{0}{4}
