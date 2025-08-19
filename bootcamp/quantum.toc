@@ -1,4 +1,5 @@
-\beamer@sectionintoc {1}{Light - a particle or a wave}{2}{0}{1}
-\beamer@sectionintoc {2}{Intro to Quantum Phenomenon}{7}{0}{2}
-\beamer@sectionintoc {3}{What is a Qubit}{9}{0}{3}
-\beamer@sectionintoc {4}{Quantum Computing}{11}{0}{4}
+\beamer@sectionintoc {1}{Geometric Optics}{2}{0}{1}
+\beamer@sectionintoc {2}{Light - a particle or a wave}{11}{0}{2}
+\beamer@sectionintoc {3}{Intro to Quantum Phenomenon}{16}{0}{3}
+\beamer@sectionintoc {4}{What is a Qubit}{18}{0}{4}
+\beamer@sectionintoc {5}{Quantum Computing}{20}{0}{5}
