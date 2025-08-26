@@ -228,6 +228,66 @@ We define the direction of polarization to be the direction parallel to the elec
 
 \end{frame}
 
+\section{Interferometry}
+
+\begin{frame}\frametitle{Michelson Interferometer}
+
+Invented by the American physicist Albert Abraham Michelson in 1887.
+
+\begin{columns}
+\begin{column}{7cm}
+\begin{center}
+\includegraphics[width=7cm]{fig/mint.jpg}
+\end{center}
+\end{column}
+\begin{column}{3cm}
+\begin{enumerate}
+\item Laser
+\item Beam Splitter
+\item Mirror
+\item Screen
+\end{enumerate}
+\end{column}
+\end{columns}
+
+\begin{itemize}
+\item Laser light is divided by the beamsplitter, the partial beams are reflected by the mirrors and overlap again at the beamsplitter.
+\item The light intensity on the screen is dependent on the path length difference ($\Delta s$) between the two paths $s_1$ and $s_2$. 
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}\frametitle{Interferometer Math}
+\begin{itemize}
+\item The Electric Field ($E_i$) is given by
+\begin{equation}
+\vert E_i \vert = \sqrt{R \cdot T} \cos{(\omega t + \phi_i)}
+\end{equation}
+where $T$ is the transmission capacity of the beamsplitter, $R$ is the relection capacity, and $\phi_i$ is the phase which value is defined by the actual optical path.
+\item Intensity ($I$) on the screen is given by
+\begin{equation}
+I = c \epsilon_0 \vert E_1 + E_2 \vert^2
+\end{equation}
+\item If we assume that the transmission and reflection capacity are 0.5 then the average intensity ($\bar{I}$) is given by
+\begin{equation}
+\bar{I} = \frac{1}{4} c \epsilon_0 E_0^2 (1 + \cos{(\Delta \phi))}
+\end{equation}
+where $\Delta \phi = \frac{2 \pi}{\lambda} \Delta s$ and $\lambda$ is the wavelength
+\end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{Interferometer Math - what does it mean}
+Compare the centers:
+
+\begin{center}
+\includegraphics[width=10cm]{fig/fringe2.jpeg}
+\end{center}
+
+Why are there alternating concentric circles?
+\end{frame}
+
+
+
 \section{Light - a particle or a wave}
 
 \begin{frame}\frametitle{Corpuscular Theory of Light}
