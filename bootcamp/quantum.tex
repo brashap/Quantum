@@ -155,6 +155,29 @@ $c=2.99792458×10^8 (\frac{m}{s})$.
 \end{columns}
 \end{frame}
 
+
+\begin{frame}\frametitle{Two Mirror Walk}
+\begin{columns}
+\begin{column}{8cm}
+\begin{itemize}
+\item Center of first mirror should match incoming height of incoming beam path and the second mirror set to the height of of the target beam path.
+\item Set alignment target at height of target.
+\item Course adjust both mirrors by hand.
+\item Place the alignment target along the beampath to the target
+\item Fine tune the beampath by using the adjusters on both mirrors. Note: adjusting the first mirror affects the placement of the second mirror. 
+\item Move the alignment target along the output beampath to endure it is level
+\end{itemize}
+
+\end{column}
+\begin{column}{4cm}
+\begin{center}
+\includegraphics[width=3.8cm]{fig/twoMirror.jpg}
+\end{center}
+\end{column}
+\end{columns}
+
+\end{frame}
+
 \begin{frame}\frametitle{Refraction}
 The changing of a light ray’s direction (loosely called bending) when it passes through variations in matter is called refraction.
 
@@ -185,19 +208,91 @@ where $v$ is the speed of light in the material and $c$ is the speed of light in
 \end{columns}
 \end{frame}
 
-\begin{frame}\frametitle{Snell's Law}
-
+\begin{frame}\frametitle{Law of Refraction - Snell's Law}
+The law of refraction is also called Snell’s law after the Dutch mathematician Willebrord Snell (1591–1626).
 
 \begin{center}
 \includegraphics[width=6cm]{fig/snell.png}
 \end{center}
 
 \begin{center}
-Snell's Law: $n_1 \sin{\Theta_1} = n_2 \sin{\Theta_2}$
+Snell's Law: $n_1 \sin{\theta_1} = n_2 \sin{\theta_2}$
 \end{center}
 
 
 \end{frame}
+
+\begin{frame}\frametitle{Finding Index of Refraction}
+
+Snells Law:
+
+\begin{equation}
+n_1 \sin{\theta_1} = n_2 \sin{\theta_2}
+\end{equation}
+
+Rearranging to isolate $n_2$:
+
+\begin{equation}
+n_2 = n_1 \frac{\sin{\theta_1}}{\sin{\theta_2}}
+\end{equation}
+
+For example, if the initial medium is air, $\theta_1 = 30^\circ \textdegree$ and $\theta_2 = 22^\circ$
+
+\begin{equation}
+n_2 = (1.00) \cdot \frac{\sin{30^\circ}}{\sin{22^\circ}} = \frac{0.500}{0.375} = 1.33
+\end{equation}
+
+\end{frame}
+
+\begin{frame}\frametitle{Total Internal Reflection}
+
+\begin{columns}
+\begin{column}{9.5cm}
+Good mirrors reflect more than 90\% of the light; however, it would be useful if 100\% of the light was reflected. Total reflection can be produced via refraction.\newline
+
+If the index of refraction of the second medium is less than that of the first medium, the rays are refracted away from the perpendicular. 
+
+\begin{itemize}
+\item Since $n_1 > n_2$, the angle of refraction is greater than the angel of incidence: $\theta_2 > \theta_1$.
+\item Increasing $\theta_1$ causes $\theta_2$ to increase.
+\item The critical angle ($\theta_c$) is defined to be the incident angle ($\theta_1$) that produces a $\theta_2 = 90^\circ$ 
+\end{itemize}
+
+The critical angle is given by:
+\begin{equation}
+\theta_c = sin^{-1}(\frac{n_2}{n_1}), \hspace{3mm} \text{for} \hspace{2mm}  n_1 > n_2
+\end{equation}
+
+\end{column}
+\begin{column}{3cm}
+\begin{center}
+
+\includegraphics[width=2.5cm]{fig/tir1.png}
+
+\includegraphics[width=2.5cm]{fig/tir2.png}
+
+\includegraphics[width=2.5cm]{fig/tir3.png}
+
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+
+\begin{frame}\frametitle{Fiber Optic Cable}
+The fiber optic cable takes advantage of the core having a high index of refraction than the cladding.
+
+\begin{center}
+\includegraphics[width=6cm]{fig/cladding.jpg}
+\end{center}
+
+\vspace{3cm}
+
+More to come on fibers as we progress through the Quantum Journey
+
+
+\end{frame}
+
 
 \section{Polarization}
 
