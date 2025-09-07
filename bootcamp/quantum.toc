@@ -1,7 +1,7 @@
 \beamer@sectionintoc {1}{Geometric Optics}{2}{0}{1}
 \beamer@sectionintoc {2}{Polarization}{15}{0}{2}
-\beamer@sectionintoc {3}{Interferometry}{18}{0}{3}
-\beamer@sectionintoc {4}{Light - a particle or a wave}{22}{0}{4}
-\beamer@sectionintoc {5}{Intro to Quantum Phenomenon}{27}{0}{5}
-\beamer@sectionintoc {6}{What is a Qubit}{29}{0}{6}
-\beamer@sectionintoc {7}{Quantum Computing}{31}{0}{7}
+\beamer@sectionintoc {3}{Interferometry}{20}{0}{3}
+\beamer@sectionintoc {4}{Light - a particle or a wave}{24}{0}{4}
+\beamer@sectionintoc {5}{Intro to Quantum Phenomenon}{29}{0}{5}
+\beamer@sectionintoc {6}{What is a Qubit}{31}{0}{6}
+\beamer@sectionintoc {7}{Quantum Computing}{33}{0}{7}

@@ -381,8 +381,45 @@ An algebraic function provides a "y-value" for every "x-value"
 \end{frame}
 
 \begin{frame}\frametitle{Rate of Change}
+Given points $(x_1,y_1)$ and $(x_2,y_2)$ as points on the graph of a function $f()$, if $f()$ is defined on the interval $[x_1,x_2]$, then the average rate of change is the slope of the secant\footnote{Secante comes from the latin secare meaning "to cut."} line containing $(x_1,f(x_1))$ and $(x_2,f(x_2))$. 
+
+\begin{center}
+\includegraphics[width=6cm]{fig/roc.png}
+\end{center}
+\end{frame}
+
+
+\begin{frame}\frametitle{Difference Quotient}
+Suppose we choose a value $x$ from the domain of $f()$ and a second value $x + h$, where $h \neq 0$, but very small.
+
+\begin{center}
+\includegraphics[width=5cm]{fig/roc2.png}
+\end{center}
+
+The difference quotient\footnote{The difference quotient is important to calculus, where the exact rate of change at a point is given by $ \lim_{h \rightarrow 0}(m) $}.
+\begin{equation}
+m = \frac{f(x+h) - f(x)}{(x+h) - x} = \frac{f(x+h) - f(x)}{h}
+\end{equation}
 
 \end{frame}
+
+\begin{frame}\frametitle{Increaing, Decreaing, Constant}
+\begin{center}
+\includegraphics[height=8cm]{fig/idc.jpg}
+\end{center}
+\end{frame}
+
+\begin{frame}\frametitle{Local Minima and Maxima}
+
+\begin{itemize}
+\item $f(a)$ is a relative maximum of $f$ if there exists an open interval\footnote{An open interval is an interval in which the endpoints are not included.} containing a such that $f(a) \geq f(x)$ for all $x$ in the interval.
+\item $f(b)$ is a relative minimum of $f$ if there exists an open interval\footnote{An open interval is an interval in which the endpoints are not included.} containing a such that $f(b) \leq f(x)$ for all $x$ in the interval.
+\end{itemize}
+\begin{center}
+\includegraphics[width=8cm]{fig/minmax.png}
+\end{center}
+\end{frame}
+
 
 \begin{frame}\frametitle{Operations on Functions}
 
@@ -590,6 +627,22 @@ and t = time in seconds.
 \includegraphics[scale=0.35]{fig/desmos2.jpg}
 \end{center}
 \end{frame}
+
+\begin{frame}\frametitle{Phase Shift}
+The sine wave can be shifted relative to each other by adding in a phase shift ($\phi$), which will shift the wave to the left or right.
+
+Blue lags Red: 
+\begin{center}
+\includegraphics[height=2.6cm]{fig/sin_lag.jpg}
+\end{center}
+
+Green leads Red: 
+\begin{center}
+\includegraphics[height=2.6cm]{fig/sin_lead.jpg}
+\end{center}
+
+\end{frame}
+
 
 
 
