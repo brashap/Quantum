@@ -674,6 +674,184 @@ Vectors are quantities that are fully described by both a magnitude and a direct
 \end{center}
 \end{frame}
 
+
+\begin{frame}\frametitle{Vector Components}
+\begin{columns}
+\begin{column}{6cm}
+Finding the components of a vector involves forming a right triangle and using trigonometry's SOH-CAH-TOA
+\begin{itemize}
+\item $A_x = A cos(\theta)$
+\item $A_y = A sin(\theta)$
+\end{itemize}
+\end{column}
+\begin{column}{5cm}
+
+\begin{center}
+\includegraphics[width=4.8cm]{fig/vec5.png}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+
+\begin{frame}\frametitle{Graphical Vector Addition}
+\begin{columns}
+\begin{column}{6cm}
+Adding two vectors A and B graphically can be visualized like two successive walks, with the vector sum being the vector distance from the beginning to the end point. Representing the vectors by arrows drawn to scale, the beginning of vector B is placed at the end of vector A. The vector sum R can be drawn as the vector from the beginning to the end point.
+\end{column}
+\begin{column}{5cm}
+
+\begin{center}
+\includegraphics[width=4.8cm]{fig/vec1.png}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+
+\begin{frame}\frametitle{Vector Components}
+\begin{columns}
+\begin{column}{6cm}
+Finding the components of a vector involves forming a right triangle and using trigonometry's SOH-CAH-TOA
+\begin{itemize}
+\item Add the X components
+\begin{itemize}
+\item $A_x = 12 cos(20^\circ) = 11.3$
+\item $B_x = 25 cos(60^\circ) = 12.5$
+\item $R_x = A_x + B_x = 23.8$
+\end{itemize}
+\item Add the Y components
+\begin{itemize}
+\item $A_y = 12 sin(20^\circ) = 4.1$
+\item $B_y = 25 sin(60^\circ) = 21.7$
+\item $R_y = A_y + B_y = 25.8$
+\end{itemize}
+\end{itemize}
+\end{column}
+\begin{column}{5cm}
+
+\begin{center}
+\includegraphics[width=4.8cm]{fig/vec2a.png}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Polar Form}
+\begin{columns}
+\begin{column}{6cm}
+After finding the components, the result can be placed in Polar Form:
+\begin{itemize}
+\item $R_x = 23.8$
+\item $R_y = 25.8$
+\item $R = \sqrt{R_x^2 + R_y^2} = 35.05$
+\item $\theta_R = tan^{-1} (\frac{R-y}{R_x}) = 47.3^{\circ}$
+\end{itemize}
+\end{column}
+\begin{column}{5cm}
+
+\begin{center}
+\includegraphics[width=4.8cm]{fig/vec4a.png}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Unit Vectors in 3 Dimensions}
+\begin{columns}
+\begin{column}{6cm}
+Vectors of unit length (i.e., length equals 1) can be used to specify the direction of vector quantities in various coordinate systems.
+
+In Cartesian coordinates, it is typical to use i, j, and k to represent the unit vectors in the x, y, and z directions, respectively: 
+
+\begin{equation}
+\vec{r} = x \vec{i} + y \vec{j} + z \vec{k}
+\end{equation}
+\end{column}
+\begin{column}{5cm}
+
+\begin{center}
+\includegraphics[width=4.8cm]{fig/uvec.jpg}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Dot (Scalar) Product}
+\begin{columns}
+\begin{column}{6cm}
+The dot (or inner or scalar) product of two vectors can be constructed by taking the component of the first vector in the direction  of the second vector and by multiplying it by the second vector's magnitude.
+
+\begin{equation}
+\vec{A} \cdot \vec{B} = AB cos(\theta)
+\end{equation}
+
+or
+
+\begin{equation}
+\vec{A} \cdot \vec{B} = A_x B_x + A_y B_y + A_z B_y
+\end{equation}
+\end{column}
+\begin{column}{5cm}
+
+\begin{center}
+\includegraphics[width=4.8cm]{fig/vecdot.jpg}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Cross (Vector) Product}
+\begin{columns}
+\begin{column}{6cm}
+The magnitude of the cross (or outer or vector) product of vectors can be constructed by taking the product of the magnitude of the vectors times the sine of the angle between them.
+\begin{equation}
+\vec{A} \times \vec{B}_{magnitude} = AB sin(\theta)
+\end{equation}
+
+and the direction is given by the right hand rule.
+
+\end{column}
+\begin{column}{5cm}
+
+\begin{center}
+\includegraphics[width=4.8cm]{fig/veccross.jpg}
+
+\includegraphics[width=2.8cm]{fig/righthandrule.png}
+\end{center}
+\end{column}
+\end{columns}
+In terms of unit vectors:
+
+\begin{equation}
+\vec{A} \times \vec{B} = \vec{i}(A_yB_z-A_zB_y) + \vec{j}(A_zB_x-A_xB_z) + \vec{k}(A_xB_y-A_yB_x)
+\end{equation}
+\end{frame}
+
+
+\begin{frame}\frametitle{Bonus - Cross Product - Determinant Form}
+
+THe cross product can be compactly stated in teh form of a determinant:
+
+\[
+\vec{A} \times \vec{B} =
+\begin{vmatrix}
+\vec{i} & \vec{j} & \vec{k} \\
+A_x & A_y & A_z \\
+B_x & B_y & B_z
+\end{vmatrix}
+\]
+
+Which can be expanded to
+
+\[
+\vec{A} \times \vec{B} = \vec{i}(A_yB_z-A_zB_y) + \vec{j}(A_zB_x-A_xB_z) + \vec{k}(A_xB_y-A_yB_x)
+\]
+\end{frame}
+
+
+
+
 \begin{frame}\frametitle{Pythagorean Theorem in 3 Dimensions}
 \begin{columns}
 \begin{column}{5cm}
@@ -697,6 +875,34 @@ To add orthogonal (at right angles to each other) vectors in 3 Dimensions:
 \end{columns}
 \end{frame}
 
+\section{Probability and Statistics}
+
+\begin{frame}\frametitle{Statistics}
+\begin{columns}
+\begin{column}{5cm}
+\begin{center}
+\includegraphics[width=5cm]{fig/cartoonguidestats.jpg}
+\end{center}
+\end{column}
+\begin{column}{5cm}
+\begin{itemize}
+\item Data Analysis: The gathering, display, and summary of data
+\item Probability: The laws of chance (inside and outside of a casino)
+\item Statistical Inference: the science of drawing statistical conclusions from specific data using the laws of probability
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Summary Statistics}
+\begin{itemize}
+\item Mean
+\item Median
+\item Spread
+\item Interquartile Range (IQR)
+\item Standard Deviation
+\end{itemize}
+\end{frame}
 
 
 \end{document}
