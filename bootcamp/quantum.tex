@@ -248,7 +248,7 @@ n_2 = (1.00) \cdot \frac{\sin{30^\circ}}{\sin{22^\circ}} = \frac{0.500}{0.375} =
 
 \begin{columns}
 \begin{column}{9.5cm}
-Good mirrors reflect more than 90\% of the light; however, it would be useful if 100\% of the light was reflected. Total reflection can be produced via refraction.\newline
+Good mirrors reflect $>90$\% of the light; however, total reflection can be produced via refraction.\newline
 
 If the index of refraction of the second medium is less than that of the first medium, the rays are refracted away from the perpendicular. 
 
@@ -291,6 +291,39 @@ The fiber optic cable takes advantage of the core having a high index of refract
 More to come on fibers as we progress through the Quantum Journey
 
 
+\end{frame}
+
+
+
+\begin{frame}\frametitle{Fiber: Acceptance Angle}
+For multi-mode fibers, the numerical appeture (NA) provides  a good estimate of the maximum acceptance angle. 
+\begin{columns}
+\begin{column}{7cm}
+
+
+\begin{itemize}
+\item The cutoff angle is the maximum acceptance angle ($\theta_{max}$), which is related to NA:
+\[ NA = n_0 sin(\theta_{max}) = \sqrt{n_{core}^2 + n_{clad}^2} \]
+
+\item Rays with an angle of incidence $\leq \theta_{max}$ are totally internally reflected (TIR) at the fiber core/cladding boundary.
+
+\item Rays with an angle of incidence $> \theta_{max}$ refract at and pass through the boundary.
+
+\end{itemize}
+
+\end{column}
+\begin{column}{4cm}
+\begin{center}
+
+\includegraphics[width=3.8cm]{fig/fiber_NA.png}
+
+\vspace{0.25cm}
+
+\includegraphics[width=3.8cm]{fig/fiber_TIR.png}
+
+\end{center}
+\end{column}
+\end{columns}
 \end{frame}
 
 
@@ -393,6 +426,33 @@ With the Law of Refraction, we can explore the properties of lens and how images
 \end{center}
 \end{column}
 \end{columns}
+\end{frame}
+
+
+
+
+\begin{frame}\frametitle{Beam Expander/Reducer - Telescope}
+\begin{columns}
+\begin{column}{5.5cm}
+\begin{center}
+\includegraphics[width=5cm]{fig/beamXkepler.png}
+Galilean Design
+\end{center}
+\end{column}
+\begin{column}{5.5cm}
+\begin{center}
+\includegraphics[width=5cm]{fig/beamXgalileo.png}
+Galilean Design
+\end{center}
+\end{column}
+\end{columns}
+
+\vspace{0.25cm}
+Both the bean's waist ($2W_0$) and the divergence angle ($\theta$) are affected by by the beam expanders and reducers. If Lens 2 is the output lens, then the beam expansion ratio ($m_{12}$) is: 
+\begin{equation}
+m_{12} = \frac{f_2}{f_1}
+\end{equation}
+
 \end{frame}
 
 \section{Polarization}
