@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  14 SEP 2025 13:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  14 SEP 2025 17:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1226,7 +1226,7 @@ Package hyperref Warning: Option `pdfauthor' has already been used,
 [2
 
 ]
-<fig/rays.jpg, id=122, 271.0125pt x 187.70125pt>
+<fig/rays.jpg, id=130, 271.0125pt x 187.70125pt>
 File: fig/rays.jpg Graphic file (type jpg)
 <use fig/rays.jpg>
 Package pdftex.def Info: fig/rays.jpg  used on input line 105.
@@ -1236,7 +1236,7 @@ LaTeX Font Info:    Trying to load font information for TS1+cmss on input line
  (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-<fig/ddclogotransparent.png, id=123, 225.84375pt x 225.84375pt>
+<fig/ddclogotransparent.png, id=131, 225.84375pt x 225.84375pt>
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
 Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 105.
@@ -1244,7 +1244,7 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 105.
  [3
 
  <./fig/ddclogotransparent.png> <./fig/rays.jpg>]
-<fig/reflect.png, id=133, 466.74374pt x 410.2828pt>
+<fig/reflect.png, id=141, 466.74374pt x 410.2828pt>
 File: fig/reflect.png Graphic file (type png)
 <use fig/reflect.png>
 Package pdftex.def Info: fig/reflect.png  used on input line 115.
@@ -1256,17 +1256,17 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 115.
  [4
 
  <./fig/reflect.png>]
-<fig/reflect_rough.png, id=143, 472.01344pt x 296.60812pt>
+<fig/reflect_rough.png, id=151, 472.01344pt x 296.60812pt>
 File: fig/reflect_rough.png Graphic file (type png)
 <use fig/reflect_rough.png>
 Package pdftex.def Info: fig/reflect_rough.png  used on input line 126.
 (pdftex.def)             Requested size: 99.58464pt x 62.57466pt.
-<fig/reflect_paper.png, id=144, 462.97969pt x 339.51843pt>
+<fig/reflect_paper.png, id=152, 462.97969pt x 339.51843pt>
 File: fig/reflect_paper.png Graphic file (type png)
 <use fig/reflect_paper.png>
 Package pdftex.def Info: fig/reflect_paper.png  used on input line 126.
 (pdftex.def)             Requested size: 99.58464pt x 73.02611pt.
-<fig/reflect_mirror.png, id=145, 482.55281pt x 347.79938pt>
+<fig/reflect_mirror.png, id=153, 482.55281pt x 347.79938pt>
 File: fig/reflect_mirror.png Graphic file (type png)
 <use fig/reflect_mirror.png>
 Package pdftex.def Info: fig/reflect_mirror.png  used on input line 126.
@@ -1279,7 +1279,7 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 126.
 
  <./fig/reflect_rough.png> <./fig/reflect_paper.png> <./fig/reflect_mirror.png>
 ]
-<fig/virtual.png, id=156, 378.66469pt x 295.85532pt>
+<fig/virtual.png, id=164, 378.66469pt x 295.85532pt>
 File: fig/virtual.png Graphic file (type png)
 <use fig/virtual.png>
 Package pdftex.def Info: fig/virtual.png  used on input line 135.
@@ -1316,7 +1316,7 @@ LaTeX Warning: Command \texttimes invalid in math mode on input line 156.
 LaTeX Warning: Command \texttimes invalid in math mode on input line 156.
 
 Missing character: There is no Ö in font cmss10!
-<fig/c_meas.png, id=167, 466.74374pt x 502.12593pt>
+<fig/c_meas.png, id=175, 466.74374pt x 502.12593pt>
 File: fig/c_meas.png Graphic file (type png)
 <use fig/c_meas.png>
 Package pdftex.def Info: fig/c_meas.png  used on input line 156.
@@ -1328,7 +1328,7 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 156.
 [7
 
  <./fig/c_meas.png>]
-<fig/twoMirror.jpg, id=180, 782.925pt x 782.925pt>
+<fig/twoMirror.jpg, id=188, 782.925pt x 782.925pt>
 File: fig/twoMirror.jpg Graphic file (type jpg)
 <use fig/twoMirror.jpg>
 Package pdftex.def Info: fig/twoMirror.jpg  used on input line 179.
@@ -1340,7 +1340,7 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 179.
  [8
 
  <./fig/twoMirror.jpg>]
-<fig/fish.png, id=188, 382.42876pt x 443.40656pt>
+<fig/fish.png, id=196, 382.42876pt x 443.40656pt>
 File: fig/fish.png Graphic file (type png)
 <use fig/fish.png>
 Package pdftex.def Info: fig/fish.png  used on input line 188.
@@ -1352,7 +1352,7 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 188.
  [9
 
  <./fig/fish.png>]
-<fig/n_table.png, id=197, 411.78844pt x 431.36156pt>
+<fig/n_table.png, id=206, 411.78844pt x 431.36156pt>
 File: fig/n_table.png Graphic file (type png)
 <use fig/n_table.png>
 Package pdftex.def Info: fig/n_table.png  used on input line 209.
@@ -1364,7 +1364,7 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 209.
  [10
 
  <./fig/n_table.png>]
-<fig/snell.png, id=207, 488.57532pt x 355.3275pt>
+<fig/snell.png, id=215, 488.57532pt x 355.3275pt>
 File: fig/snell.png Graphic file (type png)
 <use fig/snell.png>
 Package pdftex.def Info: fig/snell.png  used on input line 223.
@@ -1390,17 +1390,17 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 245.
 [12
 
 ]
-<fig/tir1.png, id=225, 441.14813pt x 421.575pt>
+<fig/tir1.png, id=233, 441.14813pt x 421.575pt>
 File: fig/tir1.png Graphic file (type png)
 <use fig/tir1.png>
 Package pdftex.def Info: fig/tir1.png  used on input line 279.
 (pdftex.def)             Requested size: 71.13188pt x 67.97443pt.
-<fig/tir2.png, id=226, 443.40656pt x 271.76532pt>
+<fig/tir2.png, id=234, 443.40656pt x 271.76532pt>
 File: fig/tir2.png Graphic file (type png)
 <use fig/tir2.png>
 Package pdftex.def Info: fig/tir2.png  used on input line 279.
 (pdftex.def)             Requested size: 71.13188pt x 43.59529pt.
-<fig/tir3.png, id=227, 441.14813pt x 271.76532pt>
+<fig/tir3.png, id=235, 441.14813pt x 271.76532pt>
 File: fig/tir3.png Graphic file (type png)
 <use fig/tir3.png>
 Package pdftex.def Info: fig/tir3.png  used on input line 279.
@@ -1412,7 +1412,7 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 279.
  [13
 
  <./fig/tir1.png> <./fig/tir2.png> <./fig/tir3.png>]
-<fig/cladding.jpg, id=239, 371.3875pt x 209.78375pt>
+<fig/cladding.jpg, id=247, 371.3875pt x 209.78375pt>
 File: fig/cladding.jpg Graphic file (type jpg)
 <use fig/cladding.jpg>
 Package pdftex.def Info: fig/cladding.jpg  used on input line 294.
@@ -1428,12 +1428,12 @@ Overfull \vbox (16.84709pt too high) detected at line 294
 [14
 
  <./fig/cladding.jpg>]
-<fig/fiber_NA.png, id=247, 816.04875pt x 456.95718pt>
+<fig/fiber_NA.png, id=255, 816.04875pt x 456.95718pt>
 File: fig/fiber_NA.png Graphic file (type png)
 <use fig/fiber_NA.png>
 Package pdftex.def Info: fig/fiber_NA.png  used on input line 327.
 (pdftex.def)             Requested size: 108.12054pt x 60.54305pt.
-<fig/fiber_TIR.png, id=248, 801.74532pt x 461.47406pt>
+<fig/fiber_TIR.png, id=256, 801.74532pt x 461.47406pt>
 File: fig/fiber_TIR.png Graphic file (type png)
 <use fig/fiber_TIR.png>
 Package pdftex.def Info: fig/fiber_TIR.png  used on input line 327.
@@ -1445,7 +1445,7 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 327.
  [15
 
  <./fig/fiber_NA.png> <./fig/fiber_TIR.png>]
-<fig/rainbow.jpg, id=259, 732.7375pt x 174.6525pt>
+<fig/rainbow.jpg, id=267, 732.7375pt x 174.6525pt>
 File: fig/rainbow.jpg Graphic file (type jpg)
 <use fig/rainbow.jpg>
 Package pdftex.def Info: fig/rainbow.jpg  used on input line 344.
@@ -1458,7 +1458,7 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 344.
 [16
 
  <./fig/rainbow.jpg>]
-<fig/nbylambda.jpg, id=267, 732.7375pt x 383.4325pt>
+<fig/nbylambda.jpg, id=275, 732.7375pt x 383.4325pt>
 File: fig/nbylambda.jpg Graphic file (type jpg)
 <use fig/nbylambda.jpg>
 Package pdftex.def Info: fig/nbylambda.jpg  used on input line 352.
@@ -1470,12 +1470,12 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 352.
  [17
 
  <./fig/nbylambda.jpg>]
-<fig/gpideal.jpg, id=275, 658.46pt x 468.75125pt>
+<fig/gpideal.jpg, id=283, 658.46pt x 468.75125pt>
 File: fig/gpideal.jpg Graphic file (type jpg)
 <use fig/gpideal.jpg>
 Package pdftex.def Info: fig/gpideal.jpg  used on input line 368.
 (pdftex.def)             Requested size: 143.87701pt x 102.43008pt.
-<fig/gpreal.jpg, id=276, 658.46pt x 420.57124pt>
+<fig/gpreal.jpg, id=284, 658.46pt x 420.57124pt>
 File: fig/gpreal.jpg Graphic file (type jpg)
 <use fig/gpreal.jpg>
 Package pdftex.def Info: fig/gpreal.jpg  used on input line 368.
@@ -1492,7 +1492,7 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 368.
 [18
 
  <./fig/gpideal.jpg> <./fig/gpreal.jpg>]
-<fig/rainbow2.jpg, id=284, 850.17625pt x 617.30624pt>
+<fig/rainbow2.jpg, id=292, 850.17625pt x 617.30624pt>
 File: fig/rainbow2.jpg Graphic file (type jpg)
 <use fig/rainbow2.jpg>
 Package pdftex.def Info: fig/rainbow2.jpg  used on input line 375.
@@ -1504,12 +1504,12 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 375.
  [19
 
  <./fig/rainbow2.jpg>]
-<fig/rainbow3.jpg, id=293, 555.07375pt x 416.55624pt>
+<fig/rainbow3.jpg, id=301, 555.07375pt x 416.55624pt>
 File: fig/rainbow3.jpg Graphic file (type jpg)
 <use fig/rainbow3.jpg>
 Package pdftex.def Info: fig/rainbow3.jpg  used on input line 390.
 (pdftex.def)             Requested size: 142.26378pt x 106.76389pt.
-<fig/rainbow4.jpg, id=294, 555.07375pt x 356.33125pt>
+<fig/rainbow4.jpg, id=302, 555.07375pt x 356.33125pt>
 File: fig/rainbow4.jpg Graphic file (type jpg)
 <use fig/rainbow4.jpg>
 Package pdftex.def Info: fig/rainbow4.jpg  used on input line 390.
@@ -1523,7 +1523,7 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 390.
  <./fig/rainbow3.jpg> <./fig/rainbow4.jpg>] [21
 
 ]
-<fig/cavevex.jpg, id=322, 245.91875pt x 285.065pt>
+<fig/cavevex.jpg, id=330, 245.91875pt x 285.065pt>
 File: fig/cavevex.jpg Graphic file (type jpg)
 <use fig/cavevex.jpg>
 Package pdftex.def Info: fig/cavevex.jpg  used on input line 411.
@@ -1535,12 +1535,12 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 411.
  [22
 
  <./fig/cavevex.jpg>]
-<fig/convex1.jpg, id=330, 372.39125pt x 172.645pt>
+<fig/convex1.jpg, id=338, 372.39125pt x 172.645pt>
 File: fig/convex1.jpg Graphic file (type jpg)
 <use fig/convex1.jpg>
 Package pdftex.def Info: fig/convex1.jpg  used on input line 434.
 (pdftex.def)             Requested size: 113.81102pt x 52.76332pt.
-<fig/convex2.jpg, id=331, 474.77374pt x 328.22626pt>
+<fig/convex2.jpg, id=339, 474.77374pt x 328.22626pt>
 File: fig/convex2.jpg Graphic file (type jpg)
 <use fig/convex2.jpg>
 Package pdftex.def Info: fig/convex2.jpg  used on input line 434.
@@ -1552,12 +1552,12 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 434.
  [23
 
  <./fig/convex1.jpg> <./fig/convex2.jpg>]
-<fig/concave1.jpg, id=339, 713.66624pt x 260.975pt>
+<fig/concave1.jpg, id=347, 713.66624pt x 260.975pt>
 File: fig/concave1.jpg Graphic file (type jpg)
 <use fig/concave1.jpg>
 Package pdftex.def Info: fig/concave1.jpg  used on input line 454.
 (pdftex.def)             Requested size: 113.81102pt x 41.61748pt.
-<fig/concave2.jpg, id=340, 841.1425pt x 581.17125pt>
+<fig/concave2.jpg, id=348, 841.1425pt x 581.17125pt>
 File: fig/concave2.jpg Graphic file (type jpg)
 <use fig/concave2.jpg>
 Package pdftex.def Info: fig/concave2.jpg  used on input line 454.
@@ -1576,7 +1576,7 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 458.
  [25
 
 ]
-<fig/raytrace.jpg, id=357, 328.5876pt x 177.7842pt>
+<fig/raytrace.jpg, id=365, 328.5876pt x 177.7842pt>
 File: fig/raytrace.jpg Graphic file (type jpg)
 <use fig/raytrace.jpg>
 Package pdftex.def Info: fig/raytrace.jpg  used on input line 479.
@@ -1588,7 +1588,7 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 479.
  [26
 
  <./fig/raytrace.jpg>]
-<fig/imageform1.jpg, id=365, 684.5575pt x 354.32375pt>
+<fig/imageform1.jpg, id=373, 684.5575pt x 354.32375pt>
 File: fig/imageform1.jpg Graphic file (type jpg)
 <use fig/imageform1.jpg>
 Package pdftex.def Info: fig/imageform1.jpg  used on input line 500.
@@ -1600,12 +1600,12 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 500.
  [27
 
  <./fig/imageform1.jpg>]
-<fig/imageform2.jpg, id=373, 854.19125pt x 571.13374pt>
+<fig/imageform2.jpg, id=381, 854.19125pt x 571.13374pt>
 File: fig/imageform2.jpg Graphic file (type jpg)
 <use fig/imageform2.jpg>
 Package pdftex.def Info: fig/imageform2.jpg  used on input line 521.
 (pdftex.def)             Requested size: 142.26378pt x 95.11319pt.
-<fig/imageform3.jpg, id=374, 854.19125pt x 400.49625pt>
+<fig/imageform3.jpg, id=382, 854.19125pt x 400.49625pt>
 File: fig/imageform3.jpg Graphic file (type jpg)
 <use fig/imageform3.jpg>
 Package pdftex.def Info: fig/imageform3.jpg  used on input line 521.
@@ -1617,7 +1617,7 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 521.
  [28
 
  <./fig/imageform2.jpg> <./fig/imageform3.jpg>]
-<fig/imageform4.jpg, id=382, 854.19125pt x 400.49625pt>
+<fig/imageform4.jpg, id=390, 854.19125pt x 400.49625pt>
 File: fig/imageform4.jpg Graphic file (type jpg)
 <use fig/imageform4.jpg>
 Package pdftex.def Info: fig/imageform4.jpg  used on input line 532.
@@ -1629,7 +1629,7 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 532.
  [29
 
  <./fig/imageform4.jpg>]
-<fig/imageform5.jpg, id=390, 854.19125pt x 315.1775pt>
+<fig/imageform5.jpg, id=398, 854.19125pt x 315.1775pt>
 File: fig/imageform5.jpg Graphic file (type jpg)
 <use fig/imageform5.jpg>
 Package pdftex.def Info: fig/imageform5.jpg  used on input line 539.
@@ -1641,12 +1641,12 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 539.
  [30
 
  <./fig/imageform5.jpg>]
-<fig/beamXkepler.png, id=398, 881.54344pt x 560.8453pt>
+<fig/beamXkepler.png, id=406, 881.54344pt x 560.8453pt>
 File: fig/beamXkepler.png Graphic file (type png)
 <use fig/beamXkepler.png>
 Package pdftex.def Info: fig/beamXkepler.png  used on input line 564.
 (pdftex.def)             Requested size: 142.26378pt x 90.50728pt.
-<fig/beamXgalileo.png, id=399, 880.79062pt x 570.63188pt>
+<fig/beamXgalileo.png, id=407, 880.79062pt x 570.63188pt>
 File: fig/beamXgalileo.png Graphic file (type png)
 <use fig/beamXgalileo.png>
 Package pdftex.def Info: fig/beamXgalileo.png  used on input line 564.
@@ -1657,299 +1657,473 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 564.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
  [31
 
- <./fig/beamXkepler.png> <./fig/beamXgalileo.png>] [32
-
-]
-<fig/em_wave.png, id=427, 1927.2pt x 475.7775pt>
-File: fig/em_wave.png Graphic file (type png)
-<use fig/em_wave.png>
-Package pdftex.def Info: fig/em_wave.png  used on input line 581.
-(pdftex.def)             Requested size: 170.71652pt x 42.14296pt.
+ <./fig/beamXkepler.png> <./fig/beamXgalileo.png>]
+<fig/mirrorimage1.jpg, id=418, 803.0pt x 474.77374pt>
+File: fig/mirrorimage1.jpg Graphic file (type jpg)
+<use fig/mirrorimage1.jpg>
+Package pdftex.def Info: fig/mirrorimage1.jpg  used on input line 574.
+(pdftex.def)             Requested size: 284.52756pt x 168.23071pt.
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 581.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 574.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [32
+
+ <./fig/mirrorimage1.jpg>]
+<fig/mirrorimage2.jpg, id=427, 842.14626pt x 359.3425pt>
+File: fig/mirrorimage2.jpg Graphic file (type jpg)
+<use fig/mirrorimage2.jpg>
+Package pdftex.def Info: fig/mirrorimage2.jpg  used on input line 584.
+(pdftex.def)             Requested size: 284.52756pt x 121.4072pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 584.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
  [33
 
- <./fig/em_wave.png>]
-<fig/polarization1.png, id=436, 644.4075pt x 403.5075pt>
-File: fig/polarization1.png Graphic file (type png)
-<use fig/polarization1.png>
-Package pdftex.def Info: fig/polarization1.png  used on input line 593.
-(pdftex.def)             Requested size: 170.71652pt x 106.8982pt.
+ <./fig/mirrorimage2.jpg>]
+<fig/mirrorimage3.jpg, id=436, 430.60875pt x 490.83376pt>
+File: fig/mirrorimage3.jpg Graphic file (type jpg)
+<use fig/mirrorimage3.jpg>
+Package pdftex.def Info: fig/mirrorimage3.jpg  used on input line 592.
+(pdftex.def)             Requested size: 142.26378pt x 162.16287pt.
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 593.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 592.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
  [34
 
- <./fig/polarization1.png>]
-<fig/polarizer.jpg, id=445, 343.2825pt x 242.9075pt>
-File: fig/polarizer.jpg Graphic file (type jpg)
-<use fig/polarizer.jpg>
-Package pdftex.def Info: fig/polarizer.jpg  used on input line 603.
-(pdftex.def)             Requested size: 170.71652pt x 120.7974pt.
+ <./fig/mirrorimage3.jpg>]
+<fig/mirrorimage4.jpg, id=445, 635.37375pt x 434.62375pt>
+File: fig/mirrorimage4.jpg Graphic file (type jpg)
+<use fig/mirrorimage4.jpg>
+Package pdftex.def Info: fig/mirrorimage4.jpg  used on input line 600.
+(pdftex.def)             Requested size: 227.62204pt x 155.70177pt.
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 603.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 600.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
- [35
 
- <./fig/polarizer.jpg>]
-<fig/pol1.jpg, id=454, 1445.4pt x 583.17876pt>
-File: fig/pol1.jpg Graphic file (type jpg)
-<use fig/pol1.jpg>
-Package pdftex.def Info: fig/pol1.jpg  used on input line 618.
-(pdftex.def)             Requested size: 341.43306pt x 137.75891pt.
+[35
+
+ <./fig/mirrorimage4.jpg>]
+<fig/mirrorimage5.jpg, id=454, 635.37375pt x 322.20375pt>
+File: fig/mirrorimage5.jpg Graphic file (type jpg)
+<use fig/mirrorimage5.jpg>
+Package pdftex.def Info: fig/mirrorimage5.jpg  used on input line 608.
+(pdftex.def)             Requested size: 227.62204pt x 115.42787pt.
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 618.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 608.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [36
 
-[36
+ <./fig/mirrorimage5.jpg>]
+<fig/mirrorimage6.jpg, id=463, 635.37375pt x 450.68375pt>
+File: fig/mirrorimage6.jpg Graphic file (type jpg)
+<use fig/mirrorimage6.jpg>
+Package pdftex.def Info: fig/mirrorimage6.jpg  used on input line 616.
+(pdftex.def)             Requested size: 227.62204pt x 161.45517pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 616.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [37
 
- <./fig/pol1.jpg>]
-<fig/pol2.jpg, id=464, 1445.4pt x 583.17876pt>
-File: fig/pol2.jpg Graphic file (type jpg)
-<use fig/pol2.jpg>
-Package pdftex.def Info: fig/pol2.jpg  used on input line 634.
-(pdftex.def)             Requested size: 341.43306pt x 137.75891pt.
+ <./fig/mirrorimage6.jpg>] [38
+
+]
+<fig/theI.jpg, id=490, 635.37375pt x 708.6475pt>
+File: fig/theI.jpg Graphic file (type jpg)
+<use fig/theI.jpg>
+Package pdftex.def Info: fig/theI.jpg  used on input line 626.
+(pdftex.def)             Requested size: 170.71652pt x 190.40746pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 626.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [39
+
+ <./fig/theI.jpg>]
+<fig/rodscones.jpg, id=499, 587.19376pt x 462.72874pt>
+File: fig/rodscones.jpg Graphic file (type jpg)
+<use fig/rodscones.jpg>
+Package pdftex.def Info: fig/rodscones.jpg  used on input line 634.
+(pdftex.def)             Requested size: 170.71652pt x 134.52681pt.
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
 Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 634.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
- [37
-
- <./fig/pol2.jpg>]
-<fig/waveplate_45_2.png, id=475, 986.18437pt x 523.20468pt>
-File: fig/waveplate_45_2.png Graphic file (type png)
-<use fig/waveplate_45_2.png>
-Package pdftex.def Info: fig/waveplate_45_2.png  used on input line 643.
-(pdftex.def)             Requested size: 284.52756pt x 150.95107pt.
-File: fig/ddclogotransparent.png Graphic file (type png)
-<use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 643.
-(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
- [38
-
- <./fig/waveplate_45_2.png>]
-<fig/waveplate_45_4.png, id=485, 986.18437pt x 490.08093pt>
-File: fig/waveplate_45_4.png Graphic file (type png)
-<use fig/waveplate_45_4.png>
-Package pdftex.def Info: fig/waveplate_45_4.png  used on input line 651.
-(pdftex.def)             Requested size: 284.52756pt x 141.39445pt.
-File: fig/ddclogotransparent.png Graphic file (type png)
-<use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 651.
-(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
-
-[39
-
- <./fig/waveplate_45_4.png>]
-<fig/waveplate_37_2.png, id=495, 995.97093pt x 487.06969pt>
-File: fig/waveplate_37_2.png Graphic file (type png)
-<use fig/waveplate_37_2.png>
-Package pdftex.def Info: fig/waveplate_37_2.png  used on input line 659.
-(pdftex.def)             Requested size: 284.52756pt x 139.14331pt.
-File: fig/ddclogotransparent.png Graphic file (type png)
-<use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 659.
-(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
  [40
 
- <./fig/waveplate_37_2.png>]
-<fig/waveplate_37_4.png, id=506, 991.45406pt x 484.81125pt>
-File: fig/waveplate_37_4.png Graphic file (type png)
-<use fig/waveplate_37_4.png>
-Package pdftex.def Info: fig/waveplate_37_4.png  used on input line 667.
-(pdftex.def)             Requested size: 284.52756pt x 139.12692pt.
+ <./fig/rodscones.jpg>]
+<fig/visSpec.jpg, id=507, 638.385pt x 409.53pt>
+File: fig/visSpec.jpg Graphic file (type jpg)
+<use fig/visSpec.jpg>
+Package pdftex.def Info: fig/visSpec.jpg  used on input line 642.
+(pdftex.def)             Requested size: 284.52756pt x 182.5246pt.
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 667.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 642.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
  [41
 
- <./fig/waveplate_37_4.png>] [42
+ <./fig/visSpec.jpg>]
+<fig/lightSpec.jpg, id=515, 638.385pt x 484.81125pt>
+File: fig/lightSpec.jpg Graphic file (type jpg)
+<use fig/lightSpec.jpg>
+Package pdftex.def Info: fig/lightSpec.jpg  used on input line 650.
+(pdftex.def)             Requested size: 284.52756pt x 216.07692pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 650.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+
+Overfull \vbox (6.07294pt too high) detected at line 650
+ []
+
+[42
+
+ <./fig/lightSpec.jpg>]
+<fig/chromeAbb.jpg, id=523, 638.385pt x 363.3575pt>
+File: fig/chromeAbb.jpg Graphic file (type jpg)
+<use fig/chromeAbb.jpg>
+Package pdftex.def Info: fig/chromeAbb.jpg  used on input line 658.
+(pdftex.def)             Requested size: 284.52756pt x 161.94583pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 658.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [43
+
+ <./fig/chromeAbb.jpg>]
+<fig/chromeAbb2.jpg, id=532, 638.385pt x 397.485pt>
+File: fig/chromeAbb2.jpg Graphic file (type jpg)
+<use fig/chromeAbb2.jpg>
+Package pdftex.def Info: fig/chromeAbb2.jpg  used on input line 666.
+(pdftex.def)             Requested size: 284.52756pt x 177.15622pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 666.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [44
+
+ <./fig/chromeAbb2.jpg>]
+<fig/coma.jpg, id=540, 638.385pt x 338.26375pt>
+File: fig/coma.jpg Graphic file (type jpg)
+<use fig/coma.jpg>
+Package pdftex.def Info: fig/coma.jpg  used on input line 674.
+(pdftex.def)             Requested size: 284.52756pt x 150.76173pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 674.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [45
+
+ <./fig/coma.jpg>]
+<fig/sphereAbb.jpg, id=548, 597.23125pt x 248.93pt>
+File: fig/sphereAbb.jpg Graphic file (type jpg)
+<use fig/sphereAbb.jpg>
+Package pdftex.def Info: fig/sphereAbb.jpg  used on input line 682.
+(pdftex.def)             Requested size: 284.52756pt x 118.59242pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 682.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [46
+
+ <./fig/sphereAbb.jpg>] [47
 
 ]
-<fig/mint.jpg, id=532, 464.73625pt x 256.96pt>
+<fig/em_wave.png, id=573, 1927.2pt x 475.7775pt>
+File: fig/em_wave.png Graphic file (type png)
+<use fig/em_wave.png>
+Package pdftex.def Info: fig/em_wave.png  used on input line 699.
+(pdftex.def)             Requested size: 170.71652pt x 42.14296pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 699.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [48
+
+ <./fig/em_wave.png>]
+<fig/polarization1.png, id=582, 644.4075pt x 403.5075pt>
+File: fig/polarization1.png Graphic file (type png)
+<use fig/polarization1.png>
+Package pdftex.def Info: fig/polarization1.png  used on input line 711.
+(pdftex.def)             Requested size: 170.71652pt x 106.8982pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 711.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [49
+
+ <./fig/polarization1.png>]
+<fig/polarizer.jpg, id=592, 343.2825pt x 242.9075pt>
+File: fig/polarizer.jpg Graphic file (type jpg)
+<use fig/polarizer.jpg>
+Package pdftex.def Info: fig/polarizer.jpg  used on input line 721.
+(pdftex.def)             Requested size: 170.71652pt x 120.7974pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 721.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [50
+
+ <./fig/polarizer.jpg>]
+<fig/pol1.jpg, id=601, 1445.4pt x 583.17876pt>
+File: fig/pol1.jpg Graphic file (type jpg)
+<use fig/pol1.jpg>
+Package pdftex.def Info: fig/pol1.jpg  used on input line 736.
+(pdftex.def)             Requested size: 341.43306pt x 137.75891pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 736.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [51
+
+ <./fig/pol1.jpg>]
+<fig/pol2.jpg, id=611, 1445.4pt x 583.17876pt>
+File: fig/pol2.jpg Graphic file (type jpg)
+<use fig/pol2.jpg>
+Package pdftex.def Info: fig/pol2.jpg  used on input line 752.
+(pdftex.def)             Requested size: 341.43306pt x 137.75891pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 752.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [52
+
+ <./fig/pol2.jpg>]
+<fig/waveplate_45_2.png, id=621, 986.18437pt x 523.20468pt>
+File: fig/waveplate_45_2.png Graphic file (type png)
+<use fig/waveplate_45_2.png>
+Package pdftex.def Info: fig/waveplate_45_2.png  used on input line 761.
+(pdftex.def)             Requested size: 284.52756pt x 150.95107pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 761.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [53
+
+ <./fig/waveplate_45_2.png>]
+<fig/waveplate_45_4.png, id=631, 986.18437pt x 490.08093pt>
+File: fig/waveplate_45_4.png Graphic file (type png)
+<use fig/waveplate_45_4.png>
+Package pdftex.def Info: fig/waveplate_45_4.png  used on input line 769.
+(pdftex.def)             Requested size: 284.52756pt x 141.39445pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 769.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [54
+
+ <./fig/waveplate_45_4.png>]
+<fig/waveplate_37_2.png, id=642, 995.97093pt x 487.06969pt>
+File: fig/waveplate_37_2.png Graphic file (type png)
+<use fig/waveplate_37_2.png>
+Package pdftex.def Info: fig/waveplate_37_2.png  used on input line 777.
+(pdftex.def)             Requested size: 284.52756pt x 139.14331pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 777.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [55
+
+ <./fig/waveplate_37_2.png>]
+<fig/waveplate_37_4.png, id=653, 991.45406pt x 484.81125pt>
+File: fig/waveplate_37_4.png Graphic file (type png)
+<use fig/waveplate_37_4.png>
+Package pdftex.def Info: fig/waveplate_37_4.png  used on input line 785.
+(pdftex.def)             Requested size: 284.52756pt x 139.12692pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 785.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [56
+
+ <./fig/waveplate_37_4.png>]
+[57
+
+]
+<fig/mint.jpg, id=679, 464.73625pt x 256.96pt>
 File: fig/mint.jpg Graphic file (type jpg)
 <use fig/mint.jpg>
-Package pdftex.def Info: fig/mint.jpg  used on input line 695.
+Package pdftex.def Info: fig/mint.jpg  used on input line 813.
 (pdftex.def)             Requested size: 199.16928pt x 110.12207pt.
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 695.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 813.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
- [43
+ [58
 
  <./fig/mint.jpg>]
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 715.
-(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
- [44
-
-]
-<fig/fringe2.jpeg, id=548, 687.56876pt x 307.1475pt>
-File: fig/fringe2.jpeg Graphic file (type jpg)
-<use fig/fringe2.jpeg>
-Package pdftex.def Info: fig/fringe2.jpeg  used on input line 725.
-(pdftex.def)             Requested size: 284.52756pt x 127.10295pt.
-File: fig/ddclogotransparent.png Graphic file (type png)
-<use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 725.
-(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
- [45
-
- <./fig/fringe2.jpeg>]
-[46
-
-]
-<fig/corpReflect.png, id=573, 504.88625pt x 454.69875pt>
-File: fig/corpReflect.png Graphic file (type png)
-<use fig/corpReflect.png>
-Package pdftex.def Info: fig/corpReflect.png  used on input line 754.
-(pdftex.def)             Requested size: 85.35826pt x 76.8676pt.
-<fig/corpRefract.png, id=574, 397.485pt x 397.485pt>
-File: fig/corpRefract.png Graphic file (type png)
-<use fig/corpRefract.png>
-Package pdftex.def Info: fig/corpRefract.png  used on input line 754.
-(pdftex.def)             Requested size: 85.35826pt x 85.35449pt.
-<fig/corpDoubleSlit.png, id=575, 250.9375pt x 179.67125pt>
-File: fig/corpDoubleSlit.png Graphic file (type png)
-<use fig/corpDoubleSlit.png>
-Package pdftex.def Info: fig/corpDoubleSlit.png  used on input line 754.
-(pdftex.def)             Requested size: 85.35826pt x 61.11755pt.
-File: fig/ddclogotransparent.png Graphic file (type png)
-<use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 754.
-(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
- [47
-
- <./fig/corpReflect.png> <./fig/corpRefract.png> <./fig/corpDoubleSlit.png>]
-<fig/grimaldi.png, id=586, 402.50375pt x 460.72125pt>
-File: fig/grimaldi.png Graphic file (type png)
-<use fig/grimaldi.png>
-Package pdftex.def Info: fig/grimaldi.png  used on input line 780.
-(pdftex.def)             Requested size: 56.9055pt x 65.13322pt.
-<fig/huygens.png, id=587, 342.27875pt x 424.58624pt>
-File: fig/huygens.png Graphic file (type png)
-<use fig/huygens.png>
-Package pdftex.def Info: fig/huygens.png  used on input line 780.
-(pdftex.def)             Requested size: 56.9055pt x 70.58495pt.
-File: fig/ddclogotransparent.png Graphic file (type png)
-<use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 780.
-(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
- [48
-
- <./fig/grimaldi.png> <./fig/huygens.png (PNG copy)>]
-<fig/fresnel.png, id=596, 254.9525pt x 144.54pt>
-File: fig/fresnel.png Graphic file (type png)
-<use fig/fresnel.png>
-Package pdftex.def Info: fig/fresnel.png  used on input line 807.
-(pdftex.def)             Requested size: 85.35826pt x 48.39307pt.
-<fig/youngDoubleSlit.jpg, id=597, 572.1375pt x 462.72874pt>
-File: fig/youngDoubleSlit.jpg Graphic file (type jpg)
-<use fig/youngDoubleSlit.jpg>
-Package pdftex.def Info: fig/youngDoubleSlit.jpg  used on input line 807.
-(pdftex.def)             Requested size: 85.35826pt x 69.03209pt.
-File: fig/ddclogotransparent.png Graphic file (type png)
-<use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 807.
-(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
- [49
-
- <./fig/fresnel.png> <./fig/youngDoubleSlit.jpg>]
-File: fig/ddclogotransparent.png Graphic file (type png)
-<use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 826.
-(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
- [50
-
-] [51
-
-]
-File: fig/ddclogotransparent.png Graphic file (type png)
-<use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 832.
-(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
- [52
-
-] [53
-
-]
-<fig/bitQubit.png, id=661, 875.52094pt x 432.86719pt>
-File: fig/bitQubit.png Graphic file (type png)
-<use fig/bitQubit.png>
-Package pdftex.def Info: fig/bitQubit.png  used on input line 841.
-(pdftex.def)             Requested size: 312.9803pt x 154.74223pt.
-File: fig/ddclogotransparent.png Graphic file (type png)
-<use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 841.
-(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
- [54
-
- <./fig/bitQubit.png>] [55
-
-]
-File: fig/ddclogotransparent.png Graphic file (type png)
-<use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 854.
-(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
- [56
-
-]
-File: fig/ddclogotransparent.png Graphic file (type png)
-<use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 860.
-(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
- [57
-
-]
-File: fig/ddclogotransparent.png Graphic file (type png)
-<use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 865.
-(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
- [58
-
-]
-File: fig/ddclogotransparent.png Graphic file (type png)
-<use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 870.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 833.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
  [59
 
 ]
-<fig/qscoutTrappedIon.jpg, id=716, 803.0pt x 446.66875pt>
-File: fig/qscoutTrappedIon.jpg Graphic file (type jpg)
-<use fig/qscoutTrappedIon.jpg>
-Package pdftex.def Info: fig/qscoutTrappedIon.jpg  used on input line 882.
-(pdftex.def)             Requested size: 142.26378pt x 79.1292pt.
+<fig/fringe2.jpeg, id=694, 687.56876pt x 307.1475pt>
+File: fig/fringe2.jpeg Graphic file (type jpg)
+<use fig/fringe2.jpeg>
+Package pdftex.def Info: fig/fringe2.jpeg  used on input line 843.
+(pdftex.def)             Requested size: 284.52756pt x 127.10295pt.
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 882.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 843.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [60
 
-Overfull \vbox (34.45445pt too high) detected at line 882
- []
+ <./fig/fringe2.jpeg>] [61
 
-[60
-
- <./fig/qscoutTrappedIon.jpg>]
+]
+<fig/corpReflect.png, id=720, 504.88625pt x 454.69875pt>
+File: fig/corpReflect.png Graphic file (type png)
+<use fig/corpReflect.png>
+Package pdftex.def Info: fig/corpReflect.png  used on input line 872.
+(pdftex.def)             Requested size: 85.35826pt x 76.8676pt.
+<fig/corpRefract.png, id=721, 397.485pt x 397.485pt>
+File: fig/corpRefract.png Graphic file (type png)
+<use fig/corpRefract.png>
+Package pdftex.def Info: fig/corpRefract.png  used on input line 872.
+(pdftex.def)             Requested size: 85.35826pt x 85.35449pt.
+<fig/corpDoubleSlit.png, id=722, 250.9375pt x 179.67125pt>
+File: fig/corpDoubleSlit.png Graphic file (type png)
+<use fig/corpDoubleSlit.png>
+Package pdftex.def Info: fig/corpDoubleSlit.png  used on input line 872.
+(pdftex.def)             Requested size: 85.35826pt x 61.11755pt.
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 889.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 872.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
- [61
+ [62
+
+ <./fig/corpReflect.png> <./fig/corpRefract.png> <./fig/corpDoubleSlit.png>]
+<fig/grimaldi.png, id=733, 402.50375pt x 460.72125pt>
+File: fig/grimaldi.png Graphic file (type png)
+<use fig/grimaldi.png>
+Package pdftex.def Info: fig/grimaldi.png  used on input line 898.
+(pdftex.def)             Requested size: 56.9055pt x 65.13322pt.
+<fig/huygens.png, id=734, 342.27875pt x 424.58624pt>
+File: fig/huygens.png Graphic file (type png)
+<use fig/huygens.png>
+Package pdftex.def Info: fig/huygens.png  used on input line 898.
+(pdftex.def)             Requested size: 56.9055pt x 70.58495pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 898.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [63
+
+ <./fig/grimaldi.png> <./fig/huygens.png (PNG copy)>]
+<fig/fresnel.png, id=743, 254.9525pt x 144.54pt>
+File: fig/fresnel.png Graphic file (type png)
+<use fig/fresnel.png>
+Package pdftex.def Info: fig/fresnel.png  used on input line 925.
+(pdftex.def)             Requested size: 85.35826pt x 48.39307pt.
+<fig/youngDoubleSlit.jpg, id=744, 572.1375pt x 462.72874pt>
+File: fig/youngDoubleSlit.jpg Graphic file (type jpg)
+<use fig/youngDoubleSlit.jpg>
+Package pdftex.def Info: fig/youngDoubleSlit.jpg  used on input line 925.
+(pdftex.def)             Requested size: 85.35826pt x 69.03209pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 925.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [64
+
+ <./fig/fresnel.png> <./fig/youngDoubleSlit.jpg>]
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 944.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [65
+
+] [66
 
 ]
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 893.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 950.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
- [62
+ [67
+
+] [68
+
+]
+<fig/bitQubit.png, id=808, 875.52094pt x 432.86719pt>
+File: fig/bitQubit.png Graphic file (type png)
+<use fig/bitQubit.png>
+Package pdftex.def Info: fig/bitQubit.png  used on input line 959.
+(pdftex.def)             Requested size: 312.9803pt x 154.74223pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 959.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [69
+
+ <./fig/bitQubit.png>] [70
+
+]
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 972.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [71
+
+]
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 978.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+
+[72
+
+]
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 983.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [73
+
+]
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 988.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [74
+
+]
+<fig/qscoutTrappedIon.jpg, id=863, 803.0pt x 446.66875pt>
+File: fig/qscoutTrappedIon.jpg Graphic file (type jpg)
+<use fig/qscoutTrappedIon.jpg>
+Package pdftex.def Info: fig/qscoutTrappedIon.jpg  used on input line 1000.
+(pdftex.def)             Requested size: 142.26378pt x 79.1292pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1000.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+
+Overfull \vbox (34.45445pt too high) detected at line 1000
+ []
+
+[75
+
+ <./fig/qscoutTrappedIon.jpg>]
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1007.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [76
+
+]
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1011.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [77
 
 ]
 \tf@nav=\write7
@@ -1970,13 +2144,13 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 (./quantum.aux)
 Package rerunfilecheck Info: File `quantum.out' has not changed.
-(rerunfilecheck)             Checksum: 26A81A7274F084FC1C41BBCBD2490E17;1051.
+(rerunfilecheck)             Checksum: 3C277160F080406B1D49EACF74C04887;1218.
  ) 
 Here is how much of TeX's memory you used:
- 34749 strings out of 478268
- 729191 string characters out of 5846346
- 1030366 words of memory out of 5000000
- 52104 multiletter control sequences out of 15000+600000
+ 34916 strings out of 478268
+ 731938 string characters out of 5846346
+ 1031369 words of memory out of 5000000
+ 52225 multiletter control sequences out of 15000+600000
  480970 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,504b,836s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1996,10 +2170,10 @@ l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/
 texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/te
 xlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/tex
 live/2022/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb>
-Output written on quantum.pdf (62 pages, 5768275 bytes).
+Output written on quantum.pdf (77 pages, 6477146 bytes).
 PDF statistics:
- 835 PDF objects out of 1000 (max. 8388607)
- 569 compressed objects within 6 object streams
- 133 named destinations out of 1000 (max. 500000)
- 835 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 988 PDF objects out of 1000 (max. 8388607)
+ 687 compressed objects within 7 object streams
+ 165 named destinations out of 1000 (max. 500000)
+ 951 words of extra memory for PDF output out of 10000 (max. 10000000)
 
