@@ -1,8 +1,8 @@
 \beamer@sectionintoc {1}{Geometric Optics}{2}{0}{1}
 \beamer@sectionintoc {2}{Lens}{21}{0}{2}
-\beamer@sectionintoc {3}{Polarization}{25}{0}{3}
-\beamer@sectionintoc {4}{Interferometry}{35}{0}{4}
-\beamer@sectionintoc {5}{Light - a particle or a wave}{39}{0}{5}
-\beamer@sectionintoc {6}{Intro to Quantum Phenomenon}{44}{0}{6}
-\beamer@sectionintoc {7}{What is a Qubit}{46}{0}{7}
-\beamer@sectionintoc {8}{Quantum Computing}{48}{0}{8}
+\beamer@sectionintoc {3}{Polarization}{32}{0}{3}
+\beamer@sectionintoc {4}{Interferometry}{42}{0}{4}
+\beamer@sectionintoc {5}{Light - a particle or a wave}{46}{0}{5}
+\beamer@sectionintoc {6}{Intro to Quantum Phenomenon}{51}{0}{6}
+\beamer@sectionintoc {7}{What is a Qubit}{53}{0}{7}
+\beamer@sectionintoc {8}{Quantum Computing}{55}{0}{8}
