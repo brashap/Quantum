@@ -2,9 +2,10 @@
 \beamer@sectionintoc {2}{Lens}{21}{0}{2}
 \beamer@subsectionintoc {2}{1}{mirrors}{32}{0}{2}
 \beamer@sectionintoc {3}{Vision}{38}{0}{3}
-\beamer@sectionintoc {4}{Polarization}{47}{0}{4}
-\beamer@sectionintoc {5}{Interferometry}{57}{0}{5}
-\beamer@sectionintoc {6}{Light - a particle or a wave}{61}{0}{6}
-\beamer@sectionintoc {7}{Intro to Quantum Phenomenon}{66}{0}{7}
-\beamer@sectionintoc {8}{What is a Qubit}{68}{0}{8}
-\beamer@sectionintoc {9}{Quantum Computing}{70}{0}{9}
+\beamer@sectionintoc {4}{Interlude: Light - a particle or a wave?}{47}{0}{4}
+\beamer@sectionintoc {5}{Wave Optics}{52}{0}{5}
+\beamer@sectionintoc {6}{Polarization}{64}{0}{6}
+\beamer@sectionintoc {7}{Interferometry}{74}{0}{7}
+\beamer@sectionintoc {8}{Intro to Quantum Phenomenon}{78}{0}{8}
+\beamer@sectionintoc {9}{What is a Qubit}{80}{0}{9}
+\beamer@sectionintoc {10}{Quantum Computing}{82}{0}{10}

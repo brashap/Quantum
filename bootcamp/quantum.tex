@@ -681,6 +681,235 @@ For a mirror that is large compared to the radius of curvature, the reflected ra
 
 \end{frame}
 
+
+
+\section{Interlude: Light - a particle or a wave?}
+
+\begin{frame}\frametitle{Corpuscular Theory of Light}
+
+In 1675, Sir Isaac Newton hypothesized that light was made up corpuscules (small particles) with the size/mass of the corresponding to different colors. 
+
+\begin{columns}
+\begin{column}{3.5cm}
+\begin{center}
+\includegraphics[width=3cm]{fig/corpReflect.png}
+\end{center}
+\end{column}
+
+\begin{column}{3.5cm}
+\begin{center}
+\includegraphics[width=3cm]{fig/corpRefract.png}
+\end{center}
+\end{column}
+
+\begin{column}{3.5cm}
+\begin{center}
+\includegraphics[width=3cm]{fig/corpDoubleSlit.png}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Huygens Principle}
+\begin{columns}
+\begin{column}{3cm}
+\begin{center}
+\includegraphics[width=2cm]{fig/grimaldi.png}
+
+\vspace{0.5cm}
+
+\includegraphics[width=2cm]{fig/huygens.png}
+
+\end{center}
+\end{column}
+
+\begin{column}{8cm}
+\begin{itemize}
+\item Francesco Maria Grimaldi (mid-1600's) made accurate observations of the diffraction of light.
+
+\vspace{0.5cm}
+
+\item In 1678, Christian Huygens, in order to explain the diffraction of light, proposed that every point on a wavefront (of light) is a wavelet that spreads.
+\end{itemize}
+\end{column}
+\end{columns}
+
+\end{frame}
+
+
+\begin{frame}\frametitle{Fresnel and Young}
+\begin{columns}
+\begin{column}{3cm}
+\begin{center}
+\includegraphics[width=3cm]{fig/fresnel.png}
+
+\vspace{0.5cm}
+
+\includegraphics[width=3cm]{fig/youngDoubleSlit.jpg}
+
+\end{center}
+\end{column}
+
+\begin{column}{8cm}
+\begin{itemize}
+\item In 1815, Augistine Jean Fresnel devleoped the laws of reflection and refraction.
+
+\vspace{0.5cm}
+
+\item And, in 1817, Thomas Young calculated the wavelength of light
+\end{itemize}
+\end{column}
+\end{columns}
+
+\end{frame}
+
+\begin{frame}\frametitle{Maxwell's Equations: Electric $\vec{E}$ and Magnetic $\vec{B}$ Fields}
+In 1864, James Clerk Maxwell predicted electromagnetic waves
+\begin{itemize}
+\item Gauss's Law: $\nabla \cdot \vec{E} = \frac{\rho}{\epsilon_0}$, where ${\rho}$ is enclosed charge
+\item Guass's Law for Magnets: $\nabla \cdot \vec{B} = 0$
+\item Farday's Law: $\nabla \times \vec{E} = -\frac{\partial \vec{B}}{\partial t}$
+\item Ampere's Law: $\nabla \times \vec{B} = \mu_0 \vec{J} + \mu_0 \epsilon_0 \frac{\partial \vec{E}}{\partial t}$
+\end{itemize}
+
+where \newline
+$\mu_0 = 4 \pi*10^{-7} \frac{F}{m}$ and 
+$\epsilon_0 = 8.85*10^{-12} \frac{N m^2}{C}$ \newline
+
+Maxwell noted that the speed of the electromagnetic wave is equal to the speed of light:
+
+
+$\frac{1}{\sqrt{\mu_0 \epsilon_0}}= \frac{1}{\sqrt{4 \pi*10^{-7} \cdot 8.85*10^{-12}}} = 2.99*10^{8} \frac{m}{s} = c$
+\end{frame}
+
+\section{Wave Optics}
+
+\begin{frame}\frametitle{Speed of Light in a Medium}
+The speed of a wave is the frequency ($\frac{1}{s}$) times the wavelength ($m$):
+\begin{equation}
+c = f \lambda
+\end{equation}
+where in a vacuum, $c = 2.99 * 10^8 (\frac{m}{s})$. \newline
+
+Light has wave characteristics in a medium other than a vacuum, as well. In this case, the speed and wavelength change, but the frequency stays the same. The speed of light in a medium is governed by its index of refraction ($n$), where $v = \frac{c}{n}$. \newline
+
+Divide both sides of the above equation by $n$ yields:
+\begin{equation}
+v = \frac{c}{n} = \frac{f \lambda}{n} = f \lambda_n
+\end{equation}
+where $\lambda_n$ is the wavelength in the medium.
+\end{frame}
+
+\begin{frame}\frametitle{Huygens's Principle: Diffraction}
+\begin{columns}
+\begin{column}{7cm}
+Every point on a wavefront is a source of wavelets that spread out in the forward direction at the same speed as the wave itself. The new wavefront is a line tangent to all of the wavelets.
+\end{column}
+\begin{column}{4cm}
+\begin{center}
+\includegraphics[width=3cm]{fig/huygens.jpg}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Huygens's Mirror}
+\begin{columns}
+\begin{column}{6cm}
+A mirror reflects an incoming wave at an angle equal to the incident angle, verifying the law of reflection. As the wavefront strikes the mirror, wavelets are first emitted from the left part of the mirror and then the right. The wavelets closer to the left have had time to travel farther, producing a wavefront traveling in the direction shown.
+\end{column}
+\begin{column}{5cm}
+\begin{center}
+\includegraphics[width=5cm]{fig/huyMirror.jpg}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Huygens's Refraction}
+\begin{columns}
+\begin{column}{6cm}
+Each wavelet to the right was emitted when the wavefront crossed the interface between the media. Since the speed of light is slower in the second medium, the waves do not travel as far in a given time, and the new wavefront changes direction as shown. This explains why a ray changes direction to become closer to the perpendicular when light slows down and can be used to derive Snell's Law.
+\end{column}
+\begin{column}{5cm}
+\begin{center}
+\includegraphics[width=5cm]{fig/huyRefract.jpg}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Diffraction}
+\begin{columns}
+\begin{column}{6cm}
+While the ray optics method is useful, if light indeed traveled in straight rays then there would be a pitch black shadow where the light is blocked by the wall.
+\end{column}
+\begin{column}{5cm}
+\begin{center}
+\includegraphics[width=5cm]{fig/doorway.jpg}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Diffraction}
+\begin{center}
+\includegraphics[width=8cm]{fig/diffraction.jpg}
+\end{center}
+
+If we pass light through smaller openings, often called slits, we can use Huygens’s principle to see that light bends. The bending of a wave around the edges of an opening or an obstacle is called diffraction. Diffraction is a wave characteristic and occurs for all types of waves.
+\end{frame}
+
+\begin{frame}\frametitle{Constructive Interference}
+\begin{center}
+\includegraphics[width=8cm]{fig/constructive.jpg}
+\end{center}
+
+
+\end{frame}
+
+
+\begin{frame}\frametitle{Destructive Interference}
+\begin{center}
+\includegraphics[width=8cm]{fig/destructive.jpg}
+\end{center}
+\end{frame}
+
+\begin{frame}\frametitle{Double Slit}
+\begin{center}
+\includegraphics[width=6cm]{fig/ds1.jpg}
+\includegraphics[width=6cm]{fig/ds2.jpg}
+\end{center}
+
+\end{frame}
+
+
+\begin{frame}\frametitle{Path Length Difference}
+\begin{columns}
+\begin{column}{7cm}
+\begin{itemize}
+\item Constructive Interference
+\[d \sin{(\theta}) = m \lambda, m = 0,1,-1,2,-2,....\]
+\item Destructive Interference
+\[d \sin{(\theta}) = (m+\frac{1}{2})  \lambda, m = 0,1,-1,2,-2,....\]
+\end{itemize}
+\end{column}
+\begin{column}{4cm}
+\begin{center}
+\includegraphics[width=4cm]{fig/ds3.jpg}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Double Slit - Constructive Interference}
+\begin{center}
+\includegraphics[width=8cm]{fig/ds4.jpg}
+\end{center}
+
+\end{frame}
+
+
 \section{Polarization}
 
 \begin{frame}\frametitle{Electromagnetic Wave}
@@ -842,106 +1071,6 @@ Compare the centers:
 Why are there alternating concentric circles?
 \end{frame}
 
-
-
-\section{Light - a particle or a wave}
-
-\begin{frame}\frametitle{Corpuscular Theory of Light}
-
-In 1675, Sir Isaac Newton hypothesized that light was made up corpuscules (small particles) with the size/mass of the corresponding to different colors. 
-
-\begin{columns}
-\begin{column}{3.5cm}
-\begin{center}
-\includegraphics[width=3cm]{fig/corpReflect.png}
-\end{center}
-\end{column}
-
-\begin{column}{3.5cm}
-\begin{center}
-\includegraphics[width=3cm]{fig/corpRefract.png}
-\end{center}
-\end{column}
-
-\begin{column}{3.5cm}
-\begin{center}
-\includegraphics[width=3cm]{fig/corpDoubleSlit.png}
-\end{center}
-\end{column}
-\end{columns}
-\end{frame}
-
-\begin{frame}\frametitle{Huygens Principle}
-\begin{columns}
-\begin{column}{3cm}
-\begin{center}
-\includegraphics[width=2cm]{fig/grimaldi.png}
-
-\vspace{0.5cm}
-
-\includegraphics[width=2cm]{fig/huygens.png}
-
-\end{center}
-\end{column}
-
-\begin{column}{8cm}
-\begin{itemize}
-\item Francesco Maria Grimaldi (mid-1600's) made accurate observations of the diffraction of light.
-
-\vspace{0.5cm}
-
-\item In 1678, Christian Huygens, in order to explain the diffraction of light, proposed that every point on a wavefront (of light) is a wavelet that spreads.
-\end{itemize}
-\end{column}
-\end{columns}
-
-\end{frame}
-
-
-\begin{frame}\frametitle{Fresnel and Young}
-\begin{columns}
-\begin{column}{3cm}
-\begin{center}
-\includegraphics[width=3cm]{fig/fresnel.png}
-
-\vspace{0.5cm}
-
-\includegraphics[width=3cm]{fig/youngDoubleSlit.jpg}
-
-\end{center}
-\end{column}
-
-\begin{column}{8cm}
-\begin{itemize}
-\item In 1815, Augistine Jean Fresnel devleoped the laws of reflection and refraction.
-
-\vspace{0.5cm}
-
-\item And, in 1817, Thomas Young calculated the wavelength of light
-\end{itemize}
-\end{column}
-\end{columns}
-
-\end{frame}
-
-\begin{frame}\frametitle{Maxwell's Equations: Electric $\vec{E}$ and Magnetic $\vec{B}$ Fields}
-In 1864, James Clerk Maxwell predicted electromagnetic waves
-\begin{itemize}
-\item Gauss's Law: $\nabla \cdot \vec{E} = \frac{\rho}{\epsilon_0}$, where ${\rho}$ is enclosed charge
-\item Guass's Law for Magnets: $\nabla \cdot \vec{B} = 0$
-\item Farday's Law: $\nabla \times \vec{E} = -\frac{\partial \vec{B}}{\partial t}$
-\item Ampere's Law: $\nabla \times \vec{B} = \mu_0 \vec{J} + \mu_0 \epsilon_0 \frac{\partial \vec{E}}{\partial t}$
-\end{itemize}
-
-where \newline
-$\mu_0 = 4 \pi*10^{-7} \frac{F}{m}$ and 
-$\epsilon_0 = 8.85*10^{-12} \frac{N m^2}{C}$ \newline
-
-Maxwell noted that the speed of the electromagnetic wave is equal to the speed of light:
-
-
-$\frac{1}{\sqrt{\mu_0 \epsilon_0}}= \frac{1}{\sqrt{4 \pi*10^{-7} \cdot 8.85*10^{-12}}} = 2.99*10^{8} \frac{m}{s} = c$
-\end{frame}
 
 \section{Intro to Quantum Phenomenon}
 
