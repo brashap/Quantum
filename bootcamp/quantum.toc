@@ -8,6 +8,8 @@
 \beamer@sectionintoc {7}{Wave Optics}{75}{0}{7}
 \beamer@sectionintoc {8}{Polarization}{96}{0}{8}
 \beamer@sectionintoc {9}{Interferometry}{106}{0}{9}
-\beamer@sectionintoc {10}{Intro to Quantum Phenomenon}{110}{0}{10}
-\beamer@sectionintoc {11}{What is a Qubit}{112}{0}{11}
-\beamer@sectionintoc {12}{Quantum Computing}{114}{0}{12}
+\beamer@sectionintoc {10}{The Atom}{110}{0}{10}
+\beamer@sectionintoc {11}{The Laser}{118}{0}{11}
+\beamer@sectionintoc {12}{Intro to Quantum Phenomenon}{119}{0}{12}
+\beamer@sectionintoc {13}{What is a Qubit}{121}{0}{13}
+\beamer@sectionintoc {14}{Quantum Computing}{123}{0}{14}

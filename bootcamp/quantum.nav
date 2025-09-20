@@ -247,39 +247,63 @@
 \headcommand {\beamer@framepages {109}{109}}
 \headcommand {\beamer@sectionpages {106}{109}}
 \headcommand {\beamer@subsectionpages {106}{109}}
-\headcommand {\sectionentry {10}{Intro to Quantum Phenomenon}{110}{Intro to Quantum Phenomenon}{0}}
+\headcommand {\sectionentry {10}{The Atom}{110}{The Atom}{0}}
 \headcommand {\slideentry {10}{0}{1}{110/110}{}{0}}
 \headcommand {\beamer@framepages {110}{110}}
 \headcommand {\slideentry {10}{0}{2}{111/111}{}{0}}
 \headcommand {\beamer@framepages {111}{111}}
-\headcommand {\beamer@sectionpages {110}{111}}
-\headcommand {\beamer@subsectionpages {110}{111}}
-\headcommand {\sectionentry {11}{What is a Qubit}{112}{What is a Qubit}{0}}
-\headcommand {\slideentry {11}{0}{1}{112/112}{}{0}}
+\headcommand {\slideentry {10}{0}{3}{112/112}{}{0}}
 \headcommand {\beamer@framepages {112}{112}}
-\headcommand {\slideentry {11}{0}{2}{113/113}{}{0}}
+\headcommand {\slideentry {10}{0}{4}{113/113}{}{0}}
 \headcommand {\beamer@framepages {113}{113}}
-\headcommand {\beamer@sectionpages {112}{113}}
-\headcommand {\beamer@subsectionpages {112}{113}}
-\headcommand {\sectionentry {12}{Quantum Computing}{114}{Quantum Computing}{0}}
-\headcommand {\slideentry {12}{0}{1}{114/114}{}{0}}
+\headcommand {\slideentry {10}{0}{5}{114/114}{}{0}}
 \headcommand {\beamer@framepages {114}{114}}
-\headcommand {\slideentry {12}{0}{2}{115/115}{}{0}}
+\headcommand {\slideentry {10}{0}{6}{115/115}{}{0}}
 \headcommand {\beamer@framepages {115}{115}}
-\headcommand {\slideentry {12}{0}{3}{116/116}{}{0}}
+\headcommand {\slideentry {10}{0}{7}{116/116}{}{0}}
 \headcommand {\beamer@framepages {116}{116}}
-\headcommand {\slideentry {12}{0}{4}{117/117}{}{0}}
+\headcommand {\slideentry {10}{0}{8}{117/117}{}{0}}
 \headcommand {\beamer@framepages {117}{117}}
-\headcommand {\slideentry {12}{0}{5}{118/118}{}{0}}
+\headcommand {\beamer@sectionpages {110}{117}}
+\headcommand {\beamer@subsectionpages {110}{117}}
+\headcommand {\sectionentry {11}{The Laser}{118}{The Laser}{0}}
+\headcommand {\slideentry {11}{0}{1}{118/118}{}{0}}
 \headcommand {\beamer@framepages {118}{118}}
-\headcommand {\slideentry {12}{0}{6}{119/119}{}{0}}
+\headcommand {\beamer@sectionpages {118}{118}}
+\headcommand {\beamer@subsectionpages {118}{118}}
+\headcommand {\sectionentry {12}{Intro to Quantum Phenomenon}{119}{Intro to Quantum Phenomenon}{0}}
+\headcommand {\slideentry {12}{0}{1}{119/119}{}{0}}
 \headcommand {\beamer@framepages {119}{119}}
-\headcommand {\slideentry {12}{0}{7}{120/120}{}{0}}
+\headcommand {\slideentry {12}{0}{2}{120/120}{}{0}}
 \headcommand {\beamer@framepages {120}{120}}
-\headcommand {\slideentry {12}{0}{8}{121/121}{}{0}}
+\headcommand {\beamer@sectionpages {119}{120}}
+\headcommand {\beamer@subsectionpages {119}{120}}
+\headcommand {\sectionentry {13}{What is a Qubit}{121}{What is a Qubit}{0}}
+\headcommand {\slideentry {13}{0}{1}{121/121}{}{0}}
 \headcommand {\beamer@framepages {121}{121}}
-\headcommand {\beamer@partpages {1}{121}}
-\headcommand {\beamer@subsectionpages {114}{121}}
-\headcommand {\beamer@sectionpages {114}{121}}
-\headcommand {\beamer@documentpages {121}}
-\headcommand {\gdef \inserttotalframenumber {121}}
+\headcommand {\slideentry {13}{0}{2}{122/122}{}{0}}
+\headcommand {\beamer@framepages {122}{122}}
+\headcommand {\beamer@sectionpages {121}{122}}
+\headcommand {\beamer@subsectionpages {121}{122}}
+\headcommand {\sectionentry {14}{Quantum Computing}{123}{Quantum Computing}{0}}
+\headcommand {\slideentry {14}{0}{1}{123/123}{}{0}}
+\headcommand {\beamer@framepages {123}{123}}
+\headcommand {\slideentry {14}{0}{2}{124/124}{}{0}}
+\headcommand {\beamer@framepages {124}{124}}
+\headcommand {\slideentry {14}{0}{3}{125/125}{}{0}}
+\headcommand {\beamer@framepages {125}{125}}
+\headcommand {\slideentry {14}{0}{4}{126/126}{}{0}}
+\headcommand {\beamer@framepages {126}{126}}
+\headcommand {\slideentry {14}{0}{5}{127/127}{}{0}}
+\headcommand {\beamer@framepages {127}{127}}
+\headcommand {\slideentry {14}{0}{6}{128/128}{}{0}}
+\headcommand {\beamer@framepages {128}{128}}
+\headcommand {\slideentry {14}{0}{7}{129/129}{}{0}}
+\headcommand {\beamer@framepages {129}{129}}
+\headcommand {\slideentry {14}{0}{8}{130/130}{}{0}}
+\headcommand {\beamer@framepages {130}{130}}
+\headcommand {\beamer@partpages {1}{130}}
+\headcommand {\beamer@subsectionpages {123}{130}}
+\headcommand {\beamer@sectionpages {123}{130}}
+\headcommand {\beamer@documentpages {130}}
+\headcommand {\gdef \inserttotalframenumber {130}}
