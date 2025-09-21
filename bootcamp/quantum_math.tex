@@ -1104,6 +1104,116 @@ To add orthogonal (at right angles to each other) vectors in 3 Dimensions:
 
 \begin{frame}\frametitle{Probability}
 
+
+\begin{columns}
+\begin{column}{5cm}
+The probability of an event expresses the likelihood of the event outcome
+
+\[P(event) = \frac{\text{\# of favorable outcomes}}{\text{\# of all possibly outcomes}}\]
+\end{column}
+\begin{column}{5cm}
+\begin{center}
+\includegraphics[width=3cm]{fig/coinflip.jpg}
+\end{center}
+\end{column}
+\end{columns}
 \end{frame}
+
+\begin{frame}\frametitle{Frequency Tables and Histograms}
+
+\begin{center}
+
+Roll two dice and add them together, repeat. \newline
+
+\includegraphics[width=10cm]{fig/stat1.jpg}
+\end{center}
+
+\end{frame}
+
+\begin{frame}\frametitle{Summary Statistics}
+
+
+\begin{columns}
+\begin{column}{7cm}
+\begin{itemize}
+\item Mean (or average): add the totals and divide by number of samples
+\[ \bar{x} = \frac{x_1 + x_2 + x_3 + ... + x_n}{n} \]
+or
+\[ \bar{x} = \frac{\sum_{i=1}^{n} (x_i)}{n}\]
+\item Median: middle sample in the ordered distribution
+\begin{itemize}
+\item Odd: median is the value of middle sample
+\item Even: median is the average of the two middle samples
+\end{itemize}
+\item Mode: the value the appears most often
+\end{itemize}
+\end{column}
+\begin{column}{4cm}
+\begin{center}
+\includegraphics[width=4cm]{fig/stat2.jpg}
+
+
+average = $\bar{x} = 7$
+
+median $= 6$
+
+mode $ = 6$
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+
+\begin{frame}\frametitle{Summary Statistics: Variation}
+\begin{center}
+\includegraphics[width=11cm]{fig/stat3.jpg}
+\end{center}
+\begin{itemize}
+\item Interquartile Range (IRQ): Spread of the middle $50\%$ of the data
+\begin{itemize}
+\item Find the median
+\item Find the first quartile (Q1): median of the lower half.
+\item Find the third quartile (Q3): median of the upper half.
+\item IRQ = Q3 - Q1 = 6
+\end{itemize}
+
+
+\item Standard Deviations ($\sigma$):
+\[ \sigma = \sqrt{ \frac{ \sum_{i=0}^n (x_i - \bar{x})^2}{n}} = 3.06\]
+
+\end{itemize}
+
+\end{frame}
+
+
+\begin{frame}\frametitle{Gaussian Distribution}
+
+\begin{center}
+\includegraphics[width=6cm]{fig/stat4.png}
+\end{center}
+
+Probability Distribution Function $f(x)$:
+
+\[ f(x) = \frac{1}{\sqrt{2 \pi \sigma^2}} e^{\frac{-(x-\bar{x})^2}{2 \sigma^2}} \]
+
+\end{frame}
+
+\begin{frame}\frametitle{Gaussian Distribution: $3 \sigma$}
+\begin{columns}
+\begin{column}{6cm}
+\begin{center}
+\includegraphics[width=6cm]{fig/stat5.png}
+\end{center}
+\end{column}
+\begin{column}{4cm}
+
+\begin{center}
+Galton Baord
+\includegraphics[width=4cm]{fig/stat7.png}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
 
 \end{document}
