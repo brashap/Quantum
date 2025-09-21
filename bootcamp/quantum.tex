@@ -148,11 +148,7 @@
 \end{center}
 \end{frame}
 
-\begin{frame}\frametitle{Introduction}
-\begin{center}
-\includegraphics[width=12cm]{fig/Slide11.jpeg}
-\end{center}
-\end{frame}
+
 
 \begin{frame}\frametitle{Introduction}
 \begin{center}
@@ -172,11 +168,7 @@
 \end{center}
 \end{frame}
 
-\begin{frame}\frametitle{Introduction}
-\begin{center}
-\includegraphics[width=12cm]{fig/Slide14.jpeg}
-\end{center}
-\end{frame}
+
 
 \begin{frame}\frametitle{Introduction}
 \begin{center}
@@ -1407,7 +1399,7 @@ Why are there alternating concentric circles?
 \end{frame}
 
 
-\section{The Atom}
+\section{The Atom and Quantum Mechanics}
 
 \begin{frame}\frametitle{The Electron}
 The English physicist, J.J. Thompson experimented with Cathode-Ray Tubes passing the "ray" through both electric and magnetic fields.
@@ -1481,27 +1473,161 @@ And, the mass the proton:
 \end{frame}
 
 \begin{frame}\frametitle{The Nucleus}
+Australian physicist, Lord Ernest Rutherford conducted scattering experiments where a thin gold foil was placed in a beam of alpha particles (a double charged helium atom) and the resulting scattering was observed. Based on scattering angles, Rutherford estimated the size of the nucleus to be $10^{-15} (m),$ or 100,000 smaller than the radius of an atom.
 \begin{center}
-\includegraphics[width=6cm]{fig/nucleus.jpg}
+\includegraphics[width=8cm]{fig/nucleus.jpg}
+\end{center}
+\end{frame}
+
+\begin{frame}\frametitle{Models of the Atom}
+\begin{center}
+\includegraphics[width=10cm]{fig/atom1.jpg}
 \end{center}
 \end{frame}
 
 
 \begin{frame}\frametitle{Black Body Radiation}
+\begin{columns}
+\begin{column}{7cm}
+The EM spectrum radiated by a hot solid is linked directly to the solid’s temperature. An ideal radiator is one that has an emissivity of 1 at all wavelengths and, thus, is jet black. Ideal radiators are therefore called blackbodies, and their EM radiation is called blackbody radiation.
+\end{column}
+\begin{column}{4.5cm}
+\begin{center}
+\includegraphics[width=3cm]{fig/hephaestus.jpg}
+\end{center}
+\end{column}
+\end{columns}
+
+\begin{center}
+\includegraphics[width=10cm]{fig/blacksmith.png}
+\end{center}
+\end{frame}
+
+
+\begin{frame}\frametitle{Ultraviolet Catastrophe}
+\begin{columns}
+\begin{column}{7.2cm}
+
+The ultraviolet catastrophe was the prediction of classical physics that an ideal black body at thermal equilibrium would emit an unbounded quantity of energy as wavelength decreased into the ultraviolet range.
+
+\[ B_{\nu}(T) = \frac{2 \nu^2 k_B T}{c^2}, \nu = \frac{c}{\lambda}\]
+
+\[B_{\nu}(T) \rightarrow \infty, \text{ as } \nu \rightarrow \infty\]
+
+\end{column}
+\begin{column}{4cm}
+\begin{center}
+\includegraphics[width=4cm]{fig/blackbody.jpg}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Quanta}
+
+Max Planck assumed that electromagnetic radiation can be emitted or absorbed only in discrete packets, call quanta\footnote{Planck considered this a mathematical trick, not reality}, of energy:
+
+\[ E_{quanta} = h \nu = h \frac{c}{\lambda}\]
+where
+\begin{itemize}
+\item $h$ is Planck's Constant
+\item $\nu$ is the frequency of light
+\item $c$ is the speed of light
+\item $\lambda$ is the wavelength of light
+\end{itemize}
+
+Applying the quantification to statistical mechanics:
+
+\[ B_{\lambda}(\lambda,T) = \frac{2hc^2}{\lambda^5}\frac{1}{e^{(\frac{hc}{\lambda k_B T})}-1}   \]
 
 \end{frame}
 
-\begin{frame}\frametitle{Photoelectric Effect}
 
+\begin{frame}\frametitle{Photoelectric Effect}
+\begin{columns}
+\begin{column}{7.5cm}
+Albert Einstein realized the photoelectric effect could be explained only if EM radiation is itself quantized $E = hf$
+\begin{itemize}
+\item There is a minimum energy ($f_0$) before any electrons are ejected.
+\item Electrons are ejected without delay.
+\item The number of electrons ejected is proportional to intensity of EM.
+\item The maximum kinetic energy of the electrons is independent of intensity.
+\item The maximum kinetic energy is given by $KE_e = hf - BE$. 
+\end{itemize}
+A quantum of light is called a photon.
+\end{column}
+\begin{column}{4cm}
+\begin{center}
+\includegraphics[width=3.5cm]{fig/photoelectric.png}
+\includegraphics[width=3.5cm]{fig/photoelectric2.jpg}
+\end{center}
+\end{column}
+\end{columns}
 \end{frame}
 
 \begin{frame}\frametitle{Bohr's Atom}
+\begin{center}
+\includegraphics[width=7cm]{fig/hydrogenspectrum.png}
+\end{center}
 
+The observed hydrogen-spectrum wavelengths can be calculated using the following formula:
+
+\[\frac{1}{\lambda} = R (\frac{1}{n_f^2} - \frac{1}{n_i^2})\]
+where the Rydberg constant (R): $R = 1.097 \times 10^7 (m^{-1})$.
+
+\begin{itemize}
+\item Lyman Series: $n_f = 1$.
+\item Balmer Series: $n_f = 2$.
+\item Paschen Series: $n_f = 3$.
+\end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{Bohr's Atom}
+\begin{center}
+\includegraphics[width=8cm]{fig/lyman.png}
+\end{center}
 \end{frame}
 
 
+\begin{frame}\frametitle{Bohr's Atom}
+\begin{columns}
+\begin{column}{7cm}
+Neils Bohr, Dutch physicist, derived the spectrum from the planetary model and:
+\begin{itemize}
+\item Only certain orbits area allowed (orbits of electrons in atoms are quantized)
+\item Each orbit has different energy: absorb to move to a higher orbit, drop to lower orbit by emitting.
+\item Energy absorbed/emitted is also quantized, producing discrete spectra.
+\item Energy to move from one orbit to another
+\[ \Delta E = hf = E_i - E_f\]
+\end{itemize}
+\end{column}
+\begin{column}{4.5cm}
+\begin{center}
+\includegraphics[width=4cm]{fig/bohr.jpg}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
 \section{The Laser}
 
+\begin{frame}\frametitle{Stimulated Emission}
+\begin{center}
+\includegraphics[width=10cm]{fig/laser1.png}
+\end{center}
+\end{frame}
+
+\begin{frame}\frametitle{Light Amplification $\rightarrow$ LASER}
+\begin{center}
+\includegraphics[width=10cm]{fig/laser2.png}
+\end{center}
+\end{frame}
+
+\begin{frame}\frametitle{Coherence}
+\begin{center}
+\includegraphics[width=8cm]{fig/laser3.jpg}
+\end{center}
+\end{frame}
 
 
 \section{Intro to Quantum Phenomenon}

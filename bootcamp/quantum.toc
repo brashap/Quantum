@@ -1,15 +1,15 @@
 \beamer@sectionintoc {1}{Overview: QIS in NM}{2}{0}{1}
-\beamer@sectionintoc {2}{Course Overview}{18}{0}{2}
-\beamer@sectionintoc {3}{Geometric Optics}{25}{0}{3}
-\beamer@sectionintoc {4}{Lens}{44}{0}{4}
-\beamer@subsectionintoc {4}{1}{mirrors}{55}{0}{4}
-\beamer@sectionintoc {5}{Vision}{61}{0}{5}
-\beamer@sectionintoc {6}{Interlude: Light - a particle or a wave?}{70}{0}{6}
-\beamer@sectionintoc {7}{Wave Optics}{75}{0}{7}
-\beamer@sectionintoc {8}{Polarization}{96}{0}{8}
-\beamer@sectionintoc {9}{Interferometry}{106}{0}{9}
-\beamer@sectionintoc {10}{The Atom}{110}{0}{10}
-\beamer@sectionintoc {11}{The Laser}{118}{0}{11}
-\beamer@sectionintoc {12}{Intro to Quantum Phenomenon}{119}{0}{12}
-\beamer@sectionintoc {13}{What is a Qubit}{121}{0}{13}
-\beamer@sectionintoc {14}{Quantum Computing}{123}{0}{14}
+\beamer@sectionintoc {2}{Course Overview}{16}{0}{2}
+\beamer@sectionintoc {3}{Geometric Optics}{23}{0}{3}
+\beamer@sectionintoc {4}{Lens}{42}{0}{4}
+\beamer@subsectionintoc {4}{1}{mirrors}{53}{0}{4}
+\beamer@sectionintoc {5}{Vision}{59}{0}{5}
+\beamer@sectionintoc {6}{Interlude: Light - a particle or a wave?}{68}{0}{6}
+\beamer@sectionintoc {7}{Wave Optics}{73}{0}{7}
+\beamer@sectionintoc {8}{Polarization}{94}{0}{8}
+\beamer@sectionintoc {9}{Interferometry}{104}{0}{9}
+\beamer@sectionintoc {10}{The Atom and Quantum Mechanics}{108}{0}{10}
+\beamer@sectionintoc {11}{The Laser}{121}{0}{11}
+\beamer@sectionintoc {12}{Intro to Quantum Phenomenon}{125}{0}{12}
+\beamer@sectionintoc {13}{What is a Qubit}{127}{0}{13}
+\beamer@sectionintoc {14}{Quantum Computing}{129}{0}{14}
