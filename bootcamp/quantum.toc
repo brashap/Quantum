@@ -1,20 +1,21 @@
 \beamer@sectionintoc {1}{Introduction}{2}{0}{1}
-\beamer@sectionintoc {2}{Overview: QIS in NM}{10}{0}{2}
-\beamer@sectionintoc {3}{Atomic Quantum Systems}{26}{0}{3}
-\beamer@sectionintoc {4}{Safety}{27}{0}{4}
-\beamer@sectionintoc {5}{Geometric Optics}{34}{0}{5}
-\beamer@sectionintoc {6}{Trigonometry}{43}{0}{6}
-\beamer@sectionintoc {7}{Return to Geometric Optics}{54}{0}{7}
-\beamer@sectionintoc {8}{Lens}{68}{0}{8}
-\beamer@sectionintoc {9}{Math Interlude: Probability}{80}{0}{9}
-\beamer@sectionintoc {10}{Mirrors}{92}{0}{10}
-\beamer@sectionintoc {11}{Vision}{99}{0}{11}
-\beamer@sectionintoc {12}{Interlude: Light - a particle or a wave?}{108}{0}{12}
-\beamer@sectionintoc {13}{Wave Optics}{113}{0}{13}
-\beamer@sectionintoc {14}{Polarization}{134}{0}{14}
-\beamer@sectionintoc {15}{Interferometry}{144}{0}{15}
-\beamer@sectionintoc {16}{The Atom and Quantum Mechanics}{148}{0}{16}
-\beamer@sectionintoc {17}{The Laser}{161}{0}{17}
-\beamer@sectionintoc {18}{Schrodenger's Atom}{165}{0}{18}
-\beamer@sectionintoc {19}{What is a Qubit}{169}{0}{19}
-\beamer@sectionintoc {20}{Quantum Computing}{171}{0}{20}
+\beamer@sectionintoc {2}{Overview: QIS in NM}{14}{0}{2}
+\beamer@sectionintoc {3}{Safety}{34}{0}{3}
+\beamer@sectionintoc {4}{Atomic Quantum Systems}{41}{0}{4}
+\beamer@sectionintoc {5}{Vacuum Systems}{42}{0}{5}
+\beamer@sectionintoc {6}{Geometric Optics}{43}{0}{6}
+\beamer@sectionintoc {7}{Math Interlude: Trigonometry}{52}{0}{7}
+\beamer@sectionintoc {8}{Return to Geometric Optics}{63}{0}{8}
+\beamer@sectionintoc {9}{Lens}{78}{0}{9}
+\beamer@sectionintoc {10}{Math Interlude: Probability}{90}{0}{10}
+\beamer@sectionintoc {11}{Mirrors}{103}{0}{11}
+\beamer@sectionintoc {12}{Vision}{110}{0}{12}
+\beamer@sectionintoc {13}{Interlude: Light - a particle or a wave?}{119}{0}{13}
+\beamer@sectionintoc {14}{Wave Optics}{124}{0}{14}
+\beamer@sectionintoc {15}{Polarization}{145}{0}{15}
+\beamer@sectionintoc {16}{Interferometry}{155}{0}{16}
+\beamer@sectionintoc {17}{The Atom and Quantum Mechanics}{159}{0}{17}
+\beamer@sectionintoc {18}{The Laser}{172}{0}{18}
+\beamer@sectionintoc {19}{Schrodenger's Atom}{176}{0}{19}
+\beamer@sectionintoc {20}{What is a Qubit}{180}{0}{20}
+\beamer@sectionintoc {21}{Quantum Computing}{182}{0}{21}
