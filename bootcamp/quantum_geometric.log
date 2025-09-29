@@ -1,0 +1,2347 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  28 SEP 2025 18:34
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**quantum_geometric.tex
+(./quantum_geometric.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24>
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamer.cls
+Document Class: beamer 2022/02/08 v3.66 A class for typesetting presentations
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count185
+)
+\beamer@tempbox=\box50
+\beamer@tempcount=\count186
+\c@beamerpauses=\count187
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
+\beamer@slideinframe=\count188
+\beamer@minimum=\count189
+\beamer@decode@box=\box51
+)
+\beamer@commentbox=\box52
+\beamer@modecount=\count190
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+\headdp=\dimen138
+\footheight=\dimen139
+\sidebarheight=\dimen140
+\beamer@tempdim=\dimen141
+\beamer@finalheight=\dimen142
+\beamer@animht=\dimen143
+\beamer@animdp=\dimen144
+\beamer@animwd=\dimen145
+\beamer@leftmargin=\dimen146
+\beamer@rightmargin=\dimen147
+\beamer@leftsidebar=\dimen148
+\beamer@rightsidebar=\dimen149
+\beamer@boxsize=\dimen150
+\beamer@vboxoffset=\dimen151
+\beamer@descdefault=\dimen152
+\beamer@descriptionwidth=\dimen153
+\beamer@lastskip=\skip47
+\beamer@areabox=\box53
+\beamer@animcurrent=\box54
+\beamer@animshowbox=\box55
+\beamer@sectionbox=\box56
+\beamer@logobox=\box57
+\beamer@linebox=\box58
+\beamer@sectioncount=\count191
+\beamer@subsubsectionmax=\count192
+\beamer@subsectionmax=\count193
+\beamer@sectionmax=\count194
+\beamer@totalheads=\count195
+\beamer@headcounter=\count196
+\beamer@partstartpage=\count197
+\beamer@sectionstartpage=\count198
+\beamer@subsectionstartpage=\count199
+\beamer@animationtempa=\count266
+\beamer@animationtempb=\count267
+\beamer@xpos=\count268
+\beamer@ypos=\count269
+\beamer@ypos@offset=\count270
+\beamer@showpartnumber=\count271
+\beamer@currentsubsection=\count272
+\beamer@coveringdepth=\count273
+\beamer@sectionadjust=\count274
+\beamer@toclastsection=\count275
+\beamer@tocsectionnumber=\count276
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+))
+\beamer@paperwidth=\skip48
+\beamer@paperheight=\skip49
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count277
+\Gm@cntv=\count278
+\c@Gm@tempcnt=\count279
+\Gm@bindingoffset=\dimen154
+\Gm@wd@mp=\dimen155
+\Gm@odd@mp=\dimen156
+\Gm@even@mp=\dimen157
+\Gm@layoutwidth=\dimen158
+\Gm@layoutheight=\dimen159
+\Gm@layouthoffset=\dimen160
+\Gm@layoutvoffset=\dimen161
+\Gm@dimlist=\toks17
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks18
+\pgfutil@tempdima=\dimen162
+\pgfutil@tempdimb=\dimen163
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box59
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks19
+\pgfkeys@temptoks=\toks20
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks21
+)))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex
+\pgf@x=\dimen164
+\pgf@xa=\dimen165
+\pgf@xb=\dimen166
+\pgf@xc=\dimen167
+\pgf@y=\dimen168
+\pgf@ya=\dimen169
+\pgf@yb=\dimen170
+\pgf@yc=\dimen171
+\c@pgf@counta=\count280
+\c@pgf@countb=\count281
+\c@pgf@countc=\count282
+\c@pgf@countd=\count283
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen172
+\pgfmath@count=\count284
+\pgfmath@box=\box60
+\pgfmath@toks=\toks22
+\pgfmath@stack@operand=\toks23
+\pgfmath@stack@operation=\toks24
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count285
+))) (/usr/local/texlive/2022/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen173
+\Gin@req@width=\dimen174
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+\pgf@x=\dimen175
+\pgf@y=\dimen176
+\pgf@xa=\dimen177
+\pgf@ya=\dimen178
+\pgf@xb=\dimen179
+\pgf@yb=\dimen180
+\pgf@xc=\dimen181
+\pgf@yc=\dimen182
+\pgf@xd=\dimen183
+\pgf@yd=\dimen184
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count286
+\c@pgf@countb=\count287
+\c@pgf@countc=\count288
+\c@pgf@countd=\count289
+\t@pgf@toka=\toks25
+\t@pgf@tokb=\toks26
+\t@pgf@tokc=\toks27
+\pgf@sys@id@count=\count290
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count291
+\pgfsyssoftpath@bigbuffer@items=\count292
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen185
+\pgf@picmaxx=\dimen186
+\pgf@picminy=\dimen187
+\pgf@picmaxy=\dimen188
+\pgf@pathminx=\dimen189
+\pgf@pathmaxx=\dimen190
+\pgf@pathminy=\dimen191
+\pgf@pathmaxy=\dimen192
+\pgf@xx=\dimen193
+\pgf@xy=\dimen194
+\pgf@yx=\dimen195
+\pgf@yy=\dimen196
+\pgf@zx=\dimen197
+\pgf@zy=\dimen198
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen199
+\pgf@path@lasty=\dimen256
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen257
+\pgf@shorten@start@additional=\dimen258
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box61
+\pgf@hbox=\box62
+\pgf@layerbox@main=\box63
+\pgf@picture@serial@count=\count293
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen259
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen260
+\pgf@pt@y=\dimen261
+\pgf@pt@temp=\dimen262
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen263
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen264
+\pgf@sys@shading@range@num=\count294
+\pgf@shadingcount=\count295
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box64
+))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))) (/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
+Package: xxcolor 2003/10/24 ver 0.1
+\XC@nummixins=\count296
+\XC@countmixins=\count297
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen265
+\Hy@linkcounter=\count298
+\Hy@pagecounter=\count299
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count300
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 4018.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4018.
+Package hyperref Info: Option `implicit' set `false' on input line 4018.
+Package hyperref Info: Hyper figures OFF on input line 4137.
+Package hyperref Info: Link nesting OFF on input line 4142.
+Package hyperref Info: Hyper index ON on input line 4145.
+Package hyperref Info: Plain pages OFF on input line 4152.
+Package hyperref Info: Backreferencing OFF on input line 4157.
+Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
+Package hyperref Info: Bookmarks ON on input line 4390.
+\c@Hy@tempcnt=\count301
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4749.
+\XeTeXLinkMargin=\dimen266
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count302
+\Field@Width=\dimen267
+\Fld@charsize=\dimen268
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+LaTeX Info: Redefining \ref on input line 6097.
+LaTeX Info: Redefining \pageref on input line 6101.
+\Hy@abspage=\count303
+
+
+Package hyperref Message: Stopped early.
+
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count304
+\c@bookmark@seq@number=\count305
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaserequires.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasecompatibility.st
+y) (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasefont.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks28
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
+Package: sansmathaccent 2020/01/31
+(/usr/local/texlive/2022/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2021/11/13 v3.35 KOMA-Script package (file load hooks)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2021/11/13 v3.35 KOMA-Script package (using LaTeX hooks)
+
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2021/11/13 v3.35 KOMA-Script package (logo)
+)))))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/translator/translator.sty
+Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasemisc.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
+\beamer@argscount=\count306
+\beamer@lastskipcover=\skip50
+\beamer@trivlistdepth=\count307
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasetitle.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasesection.sty
+\c@lecture=\count308
+\c@part=\count309
+\c@section=\count310
+\c@subsection=\count311
+\c@subsubsection=\count312
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
+\beamer@framebox=\box65
+\beamer@frametitlebox=\box66
+\beamer@zoombox=\box67
+\beamer@zoomcount=\count313
+\beamer@zoomframecount=\count314
+\beamer@frametextheight=\dimen269
+\c@subsectionslide=\count315
+\beamer@frametopskip=\skip51
+\beamer@framebottomskip=\skip52
+\beamer@frametopskipautobreak=\skip53
+\beamer@framebottomskipautobreak=\skip54
+\beamer@envbody=\toks29
+\framewidth=\dimen270
+\c@framenumber=\count316
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
+\beamer@verbatimfileout=\write4
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
+\beamer@splitbox=\box68
+\beamer@autobreakcount=\count317
+\beamer@autobreaklastheight=\dimen271
+\beamer@frametitletoks=\toks30
+\beamer@framesubtitletoks=\toks31
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.
+sty
+\beamer@footins=\box69
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasecolor.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
+\beamer@frameboxcopy=\box70
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasetoc.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
+\beamer@sbttoks=\toks32
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
+\bmb@box=\box71
+\bmb@colorbox=\box72
+\bmb@boxwidth=\dimen272
+\bmb@boxheight=\dimen273
+\bmb@prevheight=\dimen274
+\bmb@temp=\dimen275
+\bmb@dima=\dimen276
+\bmb@dimb=\dimen277
+\bmb@prevheight=\dimen278
+)
+\beamer@blockheadheight=\dimen279
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.s
+ty (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks33
+)
+\beamer@bibiconwidth=\skip55
+\c@figure=\count318
+\c@table=\count319
+\abovecaptionskip=\skip56
+\belowcaptionskip=\skip57
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
+\beamer@section@min@dim=\dimen280
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip58
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks34
+\ex@=\dimen281
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen282
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count320
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count321
+\leftroot@=\count322
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count323
+\DOTSCASE@=\count324
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box73
+\strutbox@=\box74
+\big@size=\dimen283
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count325
+\c@MaxMatrixCols=\count326
+\dotsspace@=\muskip17
+\c@parentequation=\count327
+\dspbrk@lvl=\count328
+\tag@help=\toks35
+\row@=\count329
+\column@=\count330
+\maxfields@=\count331
+\andhelp@=\toks36
+\eqnshift@=\dimen284
+\alignsep@=\dimen285
+\tagshift@=\dimen286
+\tagwidth@=\dimen287
+\totwidth@=\dimen288
+\lineht@=\dimen289
+\@envbody=\toks37
+\multlinegap=\skip59
+\multlinetaggap=\skip60
+\mathdisplay@stack=\toks38
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks39
+\thm@bodyfont=\toks40
+\thm@headfont=\toks41
+\thm@notefont=\toks42
+\thm@headpunct=\toks43
+\thm@preskip=\skip61
+\thm@postskip=\skip62
+\thm@headsep=\skip63
+\dth@everypar=\toks44
+)
+\c@theorem=\count332
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasethemes.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerthemedefault.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamercolorthemedefault.st
+y)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.st
+y
+\beamer@dima=\dimen290
+\beamer@dimb=\dimen291
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerouterthemedefault.st
+y))) (/usr/local/texlive/2022/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write5
+
+Excluding comment 'comment')
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerthemeAnnArbor.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.st
+y)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.
+sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamercolorthemewolverine.
+sty)) (/usr/local/texlive/2022/texmf-dist/tex/latex/textpos/textpos.sty
+Package: textpos 2020/09/26 v1.10
+
+Package: textpos 2020/09/26 1.10, absolute positioning of text on the page
+Package textpos Info: choosing support for LaTeX3 on input line 61.
+\TP@textbox=\box75
+\TPHorizModule=\dimen292
+\TPVertModule=\dimen293
+\TP@margin=\dimen294
+\TP@absmargin=\dimen295
+Grid set 16 x 16 = 22.7622pt x 17.07166pt
+\TPboxrulesize=\dimen296
+\TP@tbargs=\toks45
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count333
+\lst@gtempboxa=\box76
+\lst@token=\toks46
+\lst@length=\count334
+\lst@currlwidth=\dimen297
+\lst@column=\count335
+\lst@pos=\count336
+\lst@lostspace=\dimen298
+\lst@width=\dimen299
+\lst@newlines=\count337
+\lst@lineno=\count338
+\lst@maxwidth=\dimen300
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count339
+\lst@skipnumbers=\count340
+\lst@framebox=\box77
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2022/01/07 version 5.0.2 text color boxes
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box78
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen301
+\pgf@nodesepend=\dimen302
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks47
+\verbatim@line=\toks48
+\verbatim@in@stream=\read3
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box79
+\tcb@upperbox=\box80
+\tcb@lowerbox=\box81
+\tcb@phantombox=\box82
+\c@tcbbreakpart=\count341
+\c@tcblayer=\count342
+\c@tcolorbox@number=\count343
+\tcb@temp=\box83
+\tcb@temp=\box84
+\tcb@temp=\box85
+\tcb@temp=\box86
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '5.0.2'
+\c@tcbrastercolumn=\count344
+\c@tcbrasterrow=\count345
+\c@tcbrasternum=\count346
+\c@tcbraster=\count347
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '5.0.2'
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen303
+\pgffor@skip=\dimen304
+\pgffor@stack=\toks49
+\pgffor@toks=\toks50
+))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count348
+\pgfplotmarksize=\dimen305
+)
+\tikz@lastx=\dimen306
+\tikz@lasty=\dimen307
+\tikz@lastxsaved=\dimen308
+\tikz@lastysaved=\dimen309
+\tikz@lastmovetox=\dimen310
+\tikz@lastmovetoy=\dimen311
+\tikzleveldistance=\dimen312
+\tikzsiblingdistance=\dimen313
+\tikz@figbox=\box87
+\tikz@figbox@bg=\box88
+\tikz@tempbox=\box89
+\tikz@tempbox@bg=\box90
+\tikztreelevel=\count349
+\tikznumberofchildren=\count350
+\tikznumberofcurrentchild=\count351
+\tikz@fig@count=\count352
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count353
+\pgfmatrixcurrentcolumn=\count354
+\pgf@matrix@numberofcolumns=\count355
+)
+\tikz@expandcount=\count356
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+\tcb@waterbox=\box91
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '5.0.2'
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '5.0.2'
+(/usr/local/texlive/2022/texmf-dist/tex/generic/oberdiek/pdfcol.sty
+Package: pdfcol 2019/12/29 v1.6 Handle new color stacks for pdfTeX (HO)
+)
+Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
+\tcb@testbox=\box92
+\tcb@totalupperbox=\box93
+\tcb@totallowerbox=\box94
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '5.0.2'
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '5.0.2'
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '5.0.2'
+\tcbfitdim=\dimen314
+\tcb@lowerfitdim=\dimen315
+\tcb@upperfitdim=\dimen316
+\tcb@cur@hbadness=\count357
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbxparse.code.tex
+Library (tcolorbox): 'tcbxparse.code.tex' version '5.0.2'
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-02-24 L3 programming layer (loader) 
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count358
+\l__pdf_internal_box=\box95
+))
+Package: xparse 2022-01-12 L3 Experimental document command parser
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.te
+x
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '5.0.2'
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '5.0.2'
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.te
+x
+Library (tcolorbox): 'tcblistingscore.code.tex' version '5.0.2'
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '5.0.2'
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+))
+\c@tcblisting=\count359
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty
+Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '5.0.2'
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '5.0.2'
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbvignette.code.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '5.0.2'
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings
+.code.tex
+File: pgflibraryfadings.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
+Library (tcolorbox): 'tcbposter.code.tex' version '5.0.2'
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2022/02/07 v1.28a mathematical typesetting tools
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count360
+\calc@Bcount=\count361
+\calc@Adimen=\dimen317
+\calc@Bdimen=\dimen318
+\calc@Askip=\skip64
+\calc@Bskip=\skip65
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count362
+\calc@Cskip=\skip66
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count363
+\l_MT_multwidth_dim=\dimen319
+\origjot=\skip67
+\l_MT_shortvdotswithinadjustabove_dim=\dimen320
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen321
+\l_MT_above_intertext_sep=\dimen322
+\l_MT_below_intertext_sep=\dimen323
+\l_MT_above_shortintertext_sep=\dimen324
+\l_MT_below_shortintertext_sep=\dimen325
+\xmathstrut@box=\box96
+\xmathstrut@dim=\dimen326
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphbox/graphbox.sty
+Package: graphbox 2018/01/17 v1.1 extension for graphicx to adjust containing b
+ox
+\Gin@box@box=\box97
+\Gin@box@width=\skip68
+\Gin@box@height=\skip69
+\Gin@box@raise=\skip70
+\Gin@box@hspace=\skip71
+\Gin@box@bwidth=\skip72
+\Gin@box@bheight=\skip73
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/movie15/movie15.sty
+Package: movie15 2012/05/16
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/oberdiek/ifdraft.sty
+Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/everyshi/everyshi.sty
+Package: everyshi 2020/11/18 v4.00 EveryShipout Package
+)
+\@MXV@page=\count364
+\@MXV@adict=\count365
+\@MXV@aadict=\count366
+\@MXV@includes=\count367
+\@MXV@players=\count368
+\@MXV@links=\count369
+\@MXV@width=\dimen327
+\@MXV@height=\dimen328
+\@MXV@depth=\dimen329
+\@MXV@totalheight=\dimen330
+\@MXV@@boxdepth=\dimen331
+\@MXV@traiselen=\dimen332
+\@MXV@braiselen=\dimen333
+\@MXV@start=\dimen334
+\@MXV@end=\dimen335
+\@MXV@textbox=\box98
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen336
+\captionmargin=\dimen337
+\caption@leftmargin=\dimen338
+\caption@rightmargin=\dimen339
+\caption@width=\dimen340
+\caption@indent=\dimen341
+\caption@parindent=\dimen342
+\caption@hangindent=\dimen343
+Package caption Info: beamer document class detected.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption-beamer.sto
+File: caption-beamer.sto 2022/01/06 v2.0c Adaption of the caption package to th
+e beamer document classes (AR)
+))
+\c@caption@flags=\count370
+\c@continuedfloat=\count371
+Package caption Info: hyperref package is loaded.
+Package caption Info: Hyperref support is turned off
+(caption)             because hyperref has stopped early.
+Package caption Info: listings package is loaded.
+)
+Package caption Info: Option `declare type' requires the `newfloat' package on 
+input line 18.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/newfloat/newfloat.sty
+Package: newfloat 2019/09/02 v1.1l Defining new floating environments (AR)
+)
+Package newfloat Info: New float `code' with options `' on input line 18.
+\c@code=\count372
+\newfloat@ftype=\count373
+Package newfloat Info: float type `code'=8 on input line 18.
+
+(./quantum_geometric.aux)
+\openout1 = `quantum_geometric.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(10.95003pt, 342.2953pt, 10.95003pt)
+* v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
+* \paperwidth=364.19536pt
+* \paperheight=273.14662pt
+* \textwidth=342.2953pt
+* \textheight=244.6939pt
+* \oddsidemargin=-61.31996pt
+* \evensidemargin=-61.31996pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=11.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count374
+\scratchdimen=\dimen344
+\scratchbox=\box99
+\nofMPsegments=\count375
+\nofMParguments=\count376
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count377
+\MPscratchDim=\dimen345
+\MPnumerator=\count378
+\makeMPintoPDFobject=\count379
+\everyMPtoPDFconversion=\toks52
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package hyperref Info: Link coloring OFF on input line 84.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count380
+)
+LaTeX Info: Redefining \ref on input line 84.
+LaTeX Info: Redefining \pageref on input line 84.
+LaTeX Info: Redefining \nameref on input line 84.
+ (./quantum_geometric.out) (./quantum_geometric.out)
+\@outlinefile=\write6
+\openout6 = `quantum_geometric.out'.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 84.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 84.
+\symnumbers=\mathgroup6
+\sympureletters=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 84.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 84.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 84.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 84.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 84.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 84.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 84.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 84.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 84.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 84.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 84.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 84.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 84.
+LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 84.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 84.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 84.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 84.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 84.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 84.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 84.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 84.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 8
+4.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 8
+4.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
+ut line 84.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/translator/translator-basic-dicti
+onary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/translator/translator-bibliograph
+y-dictionary-English.dict
+Dictionary: translator-bibliography-dictionary, Language: English 
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/translator/translator-environment
+-dictionary-English.dict
+Dictionary: translator-environment-dictionary, Language: English 
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/translator/translator-months-dict
+ionary-English.dict
+Dictionary: translator-months-dictionary, Language: English 
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/translator/translator-numbers-dic
+tionary-English.dict
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/translator/translator-theorem-dic
+tionary-English.dict
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+\c@lstlisting=\count381
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks53
+\inpenc@posthook=\toks54
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+(./quantum_geometric.nav)
+
+Package hyperref Warning: Option `pdfauthor' has already been used,
+(hyperref)                setting the option has no effect on input line 86.
+
+[1
+
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2
+
+]
+<fig/rays.jpg, id=170, 271.0125pt x 187.70125pt>
+File: fig/rays.jpg Graphic file (type jpg)
+<use fig/rays.jpg>
+Package pdftex.def Info: fig/rays.jpg  used on input line 104.
+(pdftex.def)             Requested size: 170.71652pt x 118.24095pt.
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
+104.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmss.fd
+File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+<fig/ddclogotransparent.png, id=171, 225.84375pt x 225.84375pt>
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 104.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [3
+
+ <./fig/ddclogotransparent.png> <./fig/rays.jpg>]
+<fig/reflect.png, id=181, 466.74374pt x 410.2828pt>
+File: fig/reflect.png Graphic file (type png)
+<use fig/reflect.png>
+Package pdftex.def Info: fig/reflect.png  used on input line 114.
+(pdftex.def)             Requested size: 170.71652pt x 150.06186pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 114.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [4
+
+ <./fig/reflect.png>]
+<fig/opticscleaning.jpg, id=191, 782.925pt x 782.925pt>
+File: fig/opticscleaning.jpg Graphic file (type jpg)
+<use fig/opticscleaning.jpg>
+Package pdftex.def Info: fig/opticscleaning.jpg  used on input line 120.
+(pdftex.def)             Requested size: 170.71652pt x 170.71489pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 120.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [5
+
+ <./fig/opticscleaning.jpg>]
+<fig/lasertag.jpg, id=199, 234.38919pt x 223.64635pt>
+File: fig/lasertag.jpg Graphic file (type jpg)
+<use fig/lasertag.jpg>
+Package pdftex.def Info: fig/lasertag.jpg  used on input line 137.
+(pdftex.def)             Requested size: 128.0374pt x 122.17319pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 137
+.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 137
+.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
+ut line 137.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+)
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 137.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [6
+
+ <./fig/lasertag.jpg>]
+<fig/reflect_rough.png, id=210, 472.01344pt x 296.60812pt>
+File: fig/reflect_rough.png Graphic file (type png)
+<use fig/reflect_rough.png>
+Package pdftex.def Info: fig/reflect_rough.png  used on input line 150.
+(pdftex.def)             Requested size: 99.58464pt x 62.57466pt.
+<fig/reflect_paper.png, id=211, 462.97969pt x 339.51843pt>
+File: fig/reflect_paper.png Graphic file (type png)
+<use fig/reflect_paper.png>
+Package pdftex.def Info: fig/reflect_paper.png  used on input line 150.
+(pdftex.def)             Requested size: 99.58464pt x 73.02611pt.
+<fig/reflect_mirror.png, id=212, 482.55281pt x 347.79938pt>
+File: fig/reflect_mirror.png Graphic file (type png)
+<use fig/reflect_mirror.png>
+Package pdftex.def Info: fig/reflect_mirror.png  used on input line 150.
+(pdftex.def)             Requested size: 99.58464pt x 71.77165pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 150.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [7
+
+ <./fig/reflect_rough.png> <./fig/reflect_paper.png> <./fig/reflect_mirror.png>
+]
+<fig/virtual.png, id=224, 378.66469pt x 295.85532pt>
+File: fig/virtual.png Graphic file (type png)
+<use fig/virtual.png>
+Package pdftex.def Info: fig/virtual.png  used on input line 159.
+(pdftex.def)             Requested size: 170.71652pt x 133.38194pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 159.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [8
+
+ <./fig/virtual.png>]
+
+LaTeX Warning: Command \texttimes invalid in math mode on input line 180.
+
+
+LaTeX Warning: Command \texttimes invalid in math mode on input line 180.
+
+Missing character: There is no Ö in font cmss10!
+<fig/c_meas.png, id=233, 466.74374pt x 502.12593pt>
+File: fig/c_meas.png Graphic file (type png)
+<use fig/c_meas.png>
+Package pdftex.def Info: fig/c_meas.png  used on input line 180.
+(pdftex.def)             Requested size: 128.0374pt x 137.74411pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 180.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+[9
+
+ <./fig/c_meas.png>]
+<fig/twoMirror.jpg, id=245, 782.925pt x 782.925pt>
+File: fig/twoMirror.jpg Graphic file (type jpg)
+<use fig/twoMirror.jpg>
+Package pdftex.def Info: fig/twoMirror.jpg  used on input line 203.
+(pdftex.def)             Requested size: 85.35826pt x 85.35744pt.
+<fig/twoMirror2.jpg, id=246, 689.57625pt x 409.53pt>
+File: fig/twoMirror2.jpg Graphic file (type jpg)
+<use fig/twoMirror2.jpg>
+Package pdftex.def Info: fig/twoMirror2.jpg  used on input line 203.
+(pdftex.def)             Requested size: 113.81102pt x 67.58827pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 203.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [10
+
+ <./fig/twoMirror.jpg> <./fig/twoMirror2.jpg>]
+[11
+
+]
+<fig/basicfun.jpg, id=272, 147.4308pt x 132.0132pt>
+File: fig/basicfun.jpg Graphic file (type jpg)
+<use fig/basicfun.jpg>
+Package pdftex.def Info: fig/basicfun.jpg  used on input line 223.
+(pdftex.def)             Requested size: 199.16928pt x 178.3511pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 223.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [12
+
+ <./fig/basicfun.jpg>]
+<fig/desmosfun.jpg, id=280, 1170.3725pt x 763.85374pt>
+File: fig/desmosfun.jpg Graphic file (type jpg)
+<use fig/desmosfun.jpg>
+Package pdftex.def Info: fig/desmosfun.jpg  used on input line 230.
+(pdftex.def)             Requested size: 341.43306pt x 222.84062pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 230.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+
+Overfull \vbox (12.83664pt too high) detected at line 230
+ []
+
+[13
+
+ <./fig/desmosfun.jpg>]
+<fig/pi.png, id=289, 259.7203pt x 200.24812pt>
+File: fig/pi.png Graphic file (type png)
+<use fig/pi.png>
+Package pdftex.def Info: fig/pi.png  used on input line 239.
+(pdftex.def)             Requested size: 227.62204pt x 175.49779pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 239.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [14
+
+ <./fig/pi.png>]
+<fig/unitcircle.png, id=299, 185.19188pt x 184.43906pt>
+File: fig/unitcircle.png Graphic file (type png)
+<use fig/unitcircle.png>
+Package pdftex.def Info: fig/unitcircle.png  used on input line 257.
+(pdftex.def)             Requested size: 138.89355pt x 138.32895pt.
+<fig/unitcircle_cst.png, id=300, 216.81pt x 172.39406pt>
+File: fig/unitcircle_cst.png Graphic file (type png)
+<use fig/unitcircle_cst.png>
+Package pdftex.def Info: fig/unitcircle_cst.png  used on input line 257.
+(pdftex.def)             Requested size: 162.60709pt x 129.29521pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 257.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [15
+
+ <./fig/unitcircle.png> <./fig/unitcircle_cst.png>]
+<fig/unitcircle_sin.png, id=310, 518.93875pt x 595.22375pt>
+File: fig/unitcircle_sin.png Graphic file (type png)
+<use fig/unitcircle_sin.png>
+Package pdftex.def Info: fig/unitcircle_sin.png  used on input line 281.
+(pdftex.def)             Requested size: 129.73436pt x 148.80557pt.
+<fig/unitcircle_rad.png, id=311, 185.19188pt x 150.5625pt>
+File: fig/unitcircle_rad.png Graphic file (type png)
+<use fig/unitcircle_rad.png>
+Package pdftex.def Info: fig/unitcircle_rad.png  used on input line 281.
+(pdftex.def)             Requested size: 138.89355pt x 112.92159pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 281.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [16
+
+ <./fig/unitcircle_sin.png> <./fig/unitcircle_rad.png>]
+<fig/sin.jpg, id=321, 635.37375pt x 538.26094pt>
+File: fig/sin.jpg Graphic file (type jpg)
+<use fig/sin.jpg>
+Package pdftex.def Info: fig/sin.jpg  used on input line 297.
+(pdftex.def)             Requested size: 158.84305pt x 134.5649pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 297.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [17
+
+ <./fig/sin.jpg>]
+<fig/desmos1.jpg, id=330, 828.09375pt x 247.67531pt>
+File: fig/desmos1.jpg Graphic file (type jpg)
+<use fig/desmos1.jpg>
+Package pdftex.def Info: fig/desmos1.jpg  used on input line 310.
+(pdftex.def)             Requested size: 289.83716pt x 86.68765pt.
+<fig/desmos2.jpg, id=331, 825.83531pt x 216.81pt>
+File: fig/desmos2.jpg Graphic file (type jpg)
+<use fig/desmos2.jpg>
+Package pdftex.def Info: fig/desmos2.jpg  used on input line 310.
+(pdftex.def)             Requested size: 289.04669pt x 75.88463pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 310.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [18
+
+ <./fig/desmos1.jpg> <./fig/desmos2.jpg>]
+<fig/sin_lag.jpg, id=339, 1518.67375pt x 583.17876pt>
+File: fig/sin_lag.jpg Graphic file (type jpg)
+<use fig/sin_lag.jpg>
+Package pdftex.def Info: fig/sin_lag.jpg  used on input line 325.
+(pdftex.def)             Requested size: 192.6377pt x 73.97733pt.
+<fig/sin_lead.jpg, id=340, 1518.67375pt x 583.17876pt>
+File: fig/sin_lead.jpg Graphic file (type jpg)
+<use fig/sin_lead.jpg>
+Package pdftex.def Info: fig/sin_lead.jpg  used on input line 325.
+(pdftex.def)             Requested size: 192.6377pt x 73.97733pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 325.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+
+Overfull \vbox (3.47986pt too high) detected at line 325
+ []
+
+[19
+
+ <./fig/sin_lag.jpg> <./fig/sin_lead.jpg>]
+<fig/sohcahtoa.jpg, id=349, 679.78969pt x 347.79938pt>
+File: fig/sohcahtoa.jpg Graphic file (type jpg)
+<use fig/sohcahtoa.jpg>
+Package pdftex.def Info: fig/sohcahtoa.jpg  used on input line 343.
+(pdftex.def)             Requested size: 237.92995pt x 121.7316pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 343.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [20
+
+ <./fig/sohcahtoa.jpg>]
+<fig/billards.jpg, id=357, 421.575pt x 735.74875pt>
+File: fig/billards.jpg Graphic file (type jpg)
+<use fig/billards.jpg>
+Package pdftex.def Info: fig/billards.jpg  used on input line 362.
+(pdftex.def)             Requested size: 113.81102pt x 198.62114pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 362.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+
+[21
+
+ <./fig/billards.jpg>] [22
+
+]
+<fig/fish.png, id=383, 382.42876pt x 443.40656pt>
+File: fig/fish.png Graphic file (type png)
+<use fig/fish.png>
+Package pdftex.def Info: fig/fish.png  used on input line 374.
+(pdftex.def)             Requested size: 142.26378pt x 164.94417pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 374.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [23
+
+ <./fig/fish.png>]
+<fig/n_table.png, id=392, 411.78844pt x 431.36156pt>
+File: fig/n_table.png Graphic file (type png)
+<use fig/n_table.png>
+Package pdftex.def Info: fig/n_table.png  used on input line 395.
+(pdftex.def)             Requested size: 142.26378pt x 149.02394pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 395.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [24
+
+ <./fig/n_table.png>]
+<fig/snell.png, id=401, 488.57532pt x 355.3275pt>
+File: fig/snell.png Graphic file (type png)
+<use fig/snell.png>
+Package pdftex.def Info: fig/snell.png  used on input line 409.
+(pdftex.def)             Requested size: 170.71652pt x 124.15503pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 409.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+
+[25
+
+ <./fig/snell.png>]
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 431.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 431.
+
+Missing character: There is no ° in font cmss10!
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 431.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+[26
+
+]
+<fig/refract9.jpg, id=418, 481.8pt x 495.2904pt>
+File: fig/refract9.jpg Graphic file (type jpg)
+<use fig/refract9.jpg>
+Package pdftex.def Info: fig/refract9.jpg  used on input line 448.
+(pdftex.def)             Requested size: 113.81102pt x 116.99785pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 448.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [27
+
+ <./fig/refract9.jpg>]
+<fig/tir1.png, id=426, 441.14813pt x 421.575pt>
+File: fig/tir1.png Graphic file (type png)
+<use fig/tir1.png>
+Package pdftex.def Info: fig/tir1.png  used on input line 483.
+(pdftex.def)             Requested size: 71.13188pt x 67.97443pt.
+<fig/tir2.png, id=427, 443.40656pt x 271.76532pt>
+File: fig/tir2.png Graphic file (type png)
+<use fig/tir2.png>
+Package pdftex.def Info: fig/tir2.png  used on input line 483.
+(pdftex.def)             Requested size: 71.13188pt x 43.59529pt.
+<fig/tir3.png, id=428, 441.14813pt x 271.76532pt>
+File: fig/tir3.png Graphic file (type png)
+<use fig/tir3.png>
+Package pdftex.def Info: fig/tir3.png  used on input line 483.
+(pdftex.def)             Requested size: 71.13188pt x 43.81923pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 483.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [28
+
+ <./fig/tir1.png> <./fig/tir2.png> <./fig/tir3.png>]
+<fig/cladding.jpg, id=439, 371.3875pt x 209.78375pt>
+File: fig/cladding.jpg Graphic file (type jpg)
+<use fig/cladding.jpg>
+Package pdftex.def Info: fig/cladding.jpg  used on input line 496.
+(pdftex.def)             Requested size: 170.71652pt x 96.43446pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 496.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+
+Overfull \vbox (16.84709pt too high) detected at line 496
+ []
+
+[29
+
+ <./fig/cladding.jpg>]
+<fig/fiber_NA.png, id=447, 816.04875pt x 456.95718pt>
+File: fig/fiber_NA.png Graphic file (type png)
+<use fig/fiber_NA.png>
+Package pdftex.def Info: fig/fiber_NA.png  used on input line 527.
+(pdftex.def)             Requested size: 108.12054pt x 60.54305pt.
+<fig/fiber_TIR.png, id=448, 801.74532pt x 461.47406pt>
+File: fig/fiber_TIR.png Graphic file (type png)
+<use fig/fiber_TIR.png>
+Package pdftex.def Info: fig/fiber_TIR.png  used on input line 527.
+(pdftex.def)             Requested size: 108.12054pt x 62.22589pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 527.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [30
+
+ <./fig/fiber_NA.png> <./fig/fiber_TIR.png>]
+<fig/coupling.jpg, id=459, 436.63126pt x 205.76875pt>
+File: fig/coupling.jpg Graphic file (type jpg)
+<use fig/coupling.jpg>
+Package pdftex.def Info: fig/coupling.jpg  used on input line 553.
+(pdftex.def)             Requested size: 128.0374pt x 60.33704pt.
+<fig/pm100d.jpg, id=460, 150.5625pt x 150.5625pt>
+File: fig/pm100d.jpg Graphic file (type jpg)
+<use fig/pm100d.jpg>
+Package pdftex.def Info: fig/pm100d.jpg  used on input line 553.
+(pdftex.def)             Requested size: 85.35826pt x 85.36203pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 553.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+
+[31
+
+ <./fig/coupling.jpg> <./fig/pm100d.jpg>]
+<fig/rainbow.jpg, id=469, 732.7375pt x 174.6525pt>
+File: fig/rainbow.jpg Graphic file (type jpg)
+<use fig/rainbow.jpg>
+Package pdftex.def Info: fig/rainbow.jpg  used on input line 571.
+(pdftex.def)             Requested size: 284.52756pt x 67.81837pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 571.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [32
+
+ <./fig/rainbow.jpg>]
+<fig/nbylambda.jpg, id=477, 732.7375pt x 383.4325pt>
+File: fig/nbylambda.jpg Graphic file (type jpg)
+<use fig/nbylambda.jpg>
+Package pdftex.def Info: fig/nbylambda.jpg  used on input line 579.
+(pdftex.def)             Requested size: 284.52756pt x 148.88864pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 579.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [33
+
+ <./fig/nbylambda.jpg>]
+<fig/gpideal.jpg, id=485, 658.46pt x 468.75125pt>
+File: fig/gpideal.jpg Graphic file (type jpg)
+<use fig/gpideal.jpg>
+Package pdftex.def Info: fig/gpideal.jpg  used on input line 595.
+(pdftex.def)             Requested size: 143.87701pt x 102.43008pt.
+<fig/gpreal.jpg, id=486, 658.46pt x 420.57124pt>
+File: fig/gpreal.jpg Graphic file (type jpg)
+<use fig/gpreal.jpg>
+Package pdftex.def Info: fig/gpreal.jpg  used on input line 595.
+(pdftex.def)             Requested size: 164.81554pt x 105.2751pt.
+
+Overfull \hbox (8.3254pt too wide) in paragraph at lines 595--595
+ [] 
+ []
+
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 595.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+[34
+
+ <./fig/gpideal.jpg> <./fig/gpreal.jpg>]
+<fig/rainbow2.jpg, id=494, 850.17625pt x 617.30624pt>
+File: fig/rainbow2.jpg Graphic file (type jpg)
+<use fig/rainbow2.jpg>
+Package pdftex.def Info: fig/rainbow2.jpg  used on input line 602.
+(pdftex.def)             Requested size: 170.71652pt x 123.94885pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 602.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [35
+
+ <./fig/rainbow2.jpg>]
+<fig/rainbow3.jpg, id=502, 555.07375pt x 416.55624pt>
+File: fig/rainbow3.jpg Graphic file (type jpg)
+<use fig/rainbow3.jpg>
+Package pdftex.def Info: fig/rainbow3.jpg  used on input line 617.
+(pdftex.def)             Requested size: 142.26378pt x 106.76389pt.
+<fig/rainbow4.jpg, id=503, 555.07375pt x 356.33125pt>
+File: fig/rainbow4.jpg Graphic file (type jpg)
+<use fig/rainbow4.jpg>
+Package pdftex.def Info: fig/rainbow4.jpg  used on input line 617.
+(pdftex.def)             Requested size: 142.26378pt x 91.32814pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 617.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [36
+
+ <./fig/rainbow3.jpg> <./fig/rainbow4.jpg>] [37
+
+]
+<fig/cavevex.jpg, id=533, 245.91875pt x 285.065pt>
+File: fig/cavevex.jpg Graphic file (type jpg)
+<use fig/cavevex.jpg>
+Package pdftex.def Info: fig/cavevex.jpg  used on input line 638.
+(pdftex.def)             Requested size: 113.81102pt x 131.92749pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 638.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [38
+
+ <./fig/cavevex.jpg>]
+<fig/convex1.jpg, id=541, 372.39125pt x 172.645pt>
+File: fig/convex1.jpg Graphic file (type jpg)
+<use fig/convex1.jpg>
+Package pdftex.def Info: fig/convex1.jpg  used on input line 661.
+(pdftex.def)             Requested size: 113.81102pt x 52.76332pt.
+<fig/convex2.jpg, id=542, 474.77374pt x 328.22626pt>
+File: fig/convex2.jpg Graphic file (type jpg)
+<use fig/convex2.jpg>
+Package pdftex.def Info: fig/convex2.jpg  used on input line 661.
+(pdftex.def)             Requested size: 113.81102pt x 78.68074pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 661.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [39
+
+ <./fig/convex1.jpg> <./fig/convex2.jpg>]
+<fig/concave1.jpg, id=550, 713.66624pt x 260.975pt>
+File: fig/concave1.jpg Graphic file (type jpg)
+<use fig/concave1.jpg>
+Package pdftex.def Info: fig/concave1.jpg  used on input line 681.
+(pdftex.def)             Requested size: 113.81102pt x 41.61748pt.
+<fig/concave2.jpg, id=551, 841.1425pt x 581.17125pt>
+File: fig/concave2.jpg Graphic file (type jpg)
+<use fig/concave2.jpg>
+Package pdftex.def Info: fig/concave2.jpg  used on input line 681.
+(pdftex.def)             Requested size: 113.81102pt x 78.63208pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 681.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [40
+
+ <./fig/concave1.jpg> <./fig/concave2.jpg>]
+<fig/sunfire.jpg, id=559, 1003.75pt x 669.50125pt>
+File: fig/sunfire.jpg Graphic file (type jpg)
+<use fig/sunfire.jpg>
+Package pdftex.def Info: fig/sunfire.jpg  used on input line 699.
+(pdftex.def)             Requested size: 128.0374pt x 85.39348pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 699.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [41
+
+ <./fig/sunfire.jpg>]
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 703.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [42
+
+]
+<fig/raytrace.jpg, id=574, 328.5876pt x 177.7842pt>
+File: fig/raytrace.jpg Graphic file (type jpg)
+<use fig/raytrace.jpg>
+Package pdftex.def Info: fig/raytrace.jpg  used on input line 724.
+(pdftex.def)             Requested size: 128.0374pt x 69.27586pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 724.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [43
+
+ <./fig/raytrace.jpg>]
+<fig/imageform1.jpg, id=583, 684.5575pt x 354.32375pt>
+File: fig/imageform1.jpg Graphic file (type jpg)
+<use fig/imageform1.jpg>
+Package pdftex.def Info: fig/imageform1.jpg  used on input line 745.
+(pdftex.def)             Requested size: 227.62204pt x 117.81386pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 745.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [44
+
+ <./fig/imageform1.jpg>]
+<fig/imageform2.jpg, id=591, 854.19125pt x 571.13374pt>
+File: fig/imageform2.jpg Graphic file (type jpg)
+<use fig/imageform2.jpg>
+Package pdftex.def Info: fig/imageform2.jpg  used on input line 766.
+(pdftex.def)             Requested size: 142.26378pt x 95.11319pt.
+<fig/imageform3.jpg, id=592, 854.19125pt x 400.49625pt>
+File: fig/imageform3.jpg Graphic file (type jpg)
+<use fig/imageform3.jpg>
+Package pdftex.def Info: fig/imageform3.jpg  used on input line 766.
+(pdftex.def)             Requested size: 142.26378pt x 66.69624pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 766.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [45
+
+ <./fig/imageform2.jpg> <./fig/imageform3.jpg>]
+<fig/thorCCD.jpg, id=600, 602.25pt x 602.25pt>
+File: fig/thorCCD.jpg Graphic file (type jpg)
+<use fig/thorCCD.jpg>
+Package pdftex.def Info: fig/thorCCD.jpg  used on input line 782.
+(pdftex.def)             Requested size: 113.81102pt x 113.80379pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 782.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [46
+
+ <./fig/thorCCD.jpg>]
+<fig/imageform4.jpg, id=608, 854.19125pt x 400.49625pt>
+File: fig/imageform4.jpg Graphic file (type jpg)
+<use fig/imageform4.jpg>
+Package pdftex.def Info: fig/imageform4.jpg  used on input line 794.
+(pdftex.def)             Requested size: 227.62204pt x 106.71765pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 794.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [47
+
+ <./fig/imageform4.jpg>]
+<fig/imageform5.jpg, id=616, 854.19125pt x 315.1775pt>
+File: fig/imageform5.jpg Graphic file (type jpg)
+<use fig/imageform5.jpg>
+Package pdftex.def Info: fig/imageform5.jpg  used on input line 801.
+(pdftex.def)             Requested size: 227.62204pt x 83.98332pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 801.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [48
+
+ <./fig/imageform5.jpg>]
+<fig/beamXkepler.png, id=624, 881.54344pt x 560.8453pt>
+File: fig/beamXkepler.png Graphic file (type png)
+<use fig/beamXkepler.png>
+Package pdftex.def Info: fig/beamXkepler.png  used on input line 826.
+(pdftex.def)             Requested size: 142.26378pt x 90.50728pt.
+<fig/beamXgalileo.png, id=625, 880.79062pt x 570.63188pt>
+File: fig/beamXgalileo.png Graphic file (type png)
+<use fig/beamXgalileo.png>
+Package pdftex.def Info: fig/beamXgalileo.png  used on input line 826.
+(pdftex.def)             Requested size: 142.26378pt x 92.16496pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 826.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [49
+
+ <./fig/beamXkepler.png> <./fig/beamXgalileo.png>] [50
+
+]
+<fig/cartoonguidestats.jpg, id=653, 800.9925pt x 1003.75pt>
+File: fig/cartoonguidestats.jpg Graphic file (type jpg)
+<use fig/cartoonguidestats.jpg>
+Package pdftex.def Info: fig/cartoonguidestats.jpg  used on input line 847.
+(pdftex.def)             Requested size: 142.26378pt x 178.26259pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 847.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [51
+
+ <./fig/cartoonguidestats.jpg>]
+<fig/vegas.jpg, id=661, 1405.25pt x 896.34875pt>
+File: fig/vegas.jpg Graphic file (type jpg)
+<use fig/vegas.jpg>
+Package pdftex.def Info: fig/vegas.jpg  used on input line 856.
+(pdftex.def)             Requested size: 170.71652pt x 108.8839pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 856.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+
+[52
+
+ <./fig/vegas.jpg>]
+<fig/cardano.jpg, id=670, 285.065pt x 439.6425pt>
+File: fig/cardano.jpg Graphic file (type jpg)
+<use fig/cardano.jpg>
+Package pdftex.def Info: fig/cardano.jpg  used on input line 871.
+(pdftex.def)             Requested size: 85.35826pt x 131.63884pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 871.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [53
+
+ <./fig/cardano.jpg>]
+Overfull \hbox (38.34335pt too wide) detected at line 888
+\OT1/mathkerncmss/m/sl/10.95 P\OT1/cmss/m/n/10.95 (\OT1/mathkerncmss/m/sl/10.95
+ event\OT1/cmss/m/n/10.95 ) = []
+ []
+
+<fig/coinflip.jpg, id=678, 224.84pt x 225.84375pt>
+File: fig/coinflip.jpg Graphic file (type jpg)
+<use fig/coinflip.jpg>
+Package pdftex.def Info: fig/coinflip.jpg  used on input line 888.
+(pdftex.def)             Requested size: 85.35826pt x 85.7388pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 888.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+[54
+
+ <./fig/coinflip.jpg>]
+<fig/stat1.jpg, id=686, 924.45375pt x 397.485pt>
+File: fig/stat1.jpg Graphic file (type jpg)
+<use fig/stat1.jpg>
+Package pdftex.def Info: fig/stat1.jpg  used on input line 899.
+(pdftex.def)             Requested size: 284.52756pt x 122.33356pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 899.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [55
+
+ <./fig/stat1.jpg>]
+<fig/dice.jpg, id=695, 501.875pt x 501.875pt>
+File: fig/dice.jpg Graphic file (type jpg)
+<use fig/dice.jpg>
+Package pdftex.def Info: fig/dice.jpg  used on input line 922.
+(pdftex.def)             Requested size: 113.81102pt x 113.80533pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 922.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [56
+
+ <./fig/dice.jpg>]
+<fig/stat2.jpg, id=705, 399.4925pt x 427.5975pt>
+File: fig/stat2.jpg Graphic file (type jpg)
+<use fig/stat2.jpg>
+Package pdftex.def Info: fig/stat2.jpg  used on input line 956.
+(pdftex.def)             Requested size: 113.81102pt x 121.81435pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 956.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [57
+
+ <./fig/stat2.jpg>]
+<fig/stat3.jpg, id=713, 799.98875pt x 77.28876pt>
+File: fig/stat3.jpg Graphic file (type jpg)
+<use fig/stat3.jpg>
+Package pdftex.def Info: fig/stat3.jpg  used on input line 978.
+(pdftex.def)             Requested size: 312.9803pt x 30.238pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 978.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [58
+
+ <./fig/stat3.jpg>]
+<fig/stat4.png, id=721, 501.875pt x 321.2pt>
+File: fig/stat4.png Graphic file (type png)
+<use fig/stat4.png>
+Package pdftex.def Info: fig/stat4.png  used on input line 991.
+(pdftex.def)             Requested size: 170.71652pt x 109.26047pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 991.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [59
+
+ <./fig/stat4.png>]
+<fig/stat5.png, id=732, 263.48438pt x 191.21437pt>
+File: fig/stat5.png Graphic file (type png)
+<use fig/stat5.png>
+Package pdftex.def Info: fig/stat5.png  used on input line 1008.
+(pdftex.def)             Requested size: 170.71652pt x 123.89688pt.
+<fig/stat7.png, id=733, 125.46875pt x 198.24063pt>
+File: fig/stat7.png Graphic file (type png)
+<use fig/stat7.png>
+Package pdftex.def Info: fig/stat7.png  used on input line 1008.
+(pdftex.def)             Requested size: 113.81102pt x 179.83057pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1008.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [60
+
+ <./fig/stat5.png> <./fig/stat7.png>]
+<fig/profile1.jpg, id=742, 427.5975pt x 517.935pt>
+File: fig/profile1.jpg Graphic file (type jpg)
+<use fig/profile1.jpg>
+Package pdftex.def Info: fig/profile1.jpg  used on input line 1029.
+(pdftex.def)             Requested size: 85.35826pt x 103.38757pt.
+<fig/profile2.jpg, id=743, 356.33125pt x 345.29pt>
+File: fig/profile2.jpg Graphic file (type jpg)
+<use fig/profile2.jpg>
+Package pdftex.def Info: fig/profile2.jpg  used on input line 1029.
+(pdftex.def)             Requested size: 85.35826pt x 82.71323pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1029.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [61
+
+ <./fig/profile1.jpg> <./fig/profile2.jpg>]
+<fig/python1.png, id=752, 1027.84pt x 1027.84pt>
+File: fig/python1.png Graphic file (type png)
+<use fig/python1.png>
+Package pdftex.def Info: fig/python1.png  used on input line 1037.
+(pdftex.def)             Requested size: 170.71652pt x 170.7155pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1037.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [62
+
+ <./fig/python1.png>] [63
+
+]
+<fig/mirrorimage1.jpg, id=778, 803.0pt x 474.77374pt>
+File: fig/mirrorimage1.jpg Graphic file (type jpg)
+<use fig/mirrorimage1.jpg>
+Package pdftex.def Info: fig/mirrorimage1.jpg  used on input line 1048.
+(pdftex.def)             Requested size: 284.52756pt x 168.23071pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1048.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [64
+
+ <./fig/mirrorimage1.jpg>]
+<fig/mirrorimage2.jpg, id=786, 842.14626pt x 359.3425pt>
+File: fig/mirrorimage2.jpg Graphic file (type jpg)
+<use fig/mirrorimage2.jpg>
+Package pdftex.def Info: fig/mirrorimage2.jpg  used on input line 1058.
+(pdftex.def)             Requested size: 284.52756pt x 121.4072pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1058.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [65
+
+ <./fig/mirrorimage2.jpg>]
+<fig/mirrorimage3.jpg, id=794, 430.60875pt x 490.83376pt>
+File: fig/mirrorimage3.jpg Graphic file (type jpg)
+<use fig/mirrorimage3.jpg>
+Package pdftex.def Info: fig/mirrorimage3.jpg  used on input line 1066.
+(pdftex.def)             Requested size: 142.26378pt x 162.16287pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1066.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [66
+
+ <./fig/mirrorimage3.jpg>]
+<fig/mirrorimage4.jpg, id=802, 635.37375pt x 434.62375pt>
+File: fig/mirrorimage4.jpg Graphic file (type jpg)
+<use fig/mirrorimage4.jpg>
+Package pdftex.def Info: fig/mirrorimage4.jpg  used on input line 1074.
+(pdftex.def)             Requested size: 227.62204pt x 155.70177pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1074.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [67
+
+ <./fig/mirrorimage4.jpg>]
+<fig/mirrorimage5.jpg, id=812, 635.37375pt x 322.20375pt>
+File: fig/mirrorimage5.jpg Graphic file (type jpg)
+<use fig/mirrorimage5.jpg>
+Package pdftex.def Info: fig/mirrorimage5.jpg  used on input line 1082.
+(pdftex.def)             Requested size: 227.62204pt x 115.42787pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1082.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [68
+
+ <./fig/mirrorimage5.jpg>]
+<fig/mirrorimage6.jpg, id=820, 635.37375pt x 450.68375pt>
+File: fig/mirrorimage6.jpg Graphic file (type jpg)
+<use fig/mirrorimage6.jpg>
+Package pdftex.def Info: fig/mirrorimage6.jpg  used on input line 1090.
+(pdftex.def)             Requested size: 227.62204pt x 161.45517pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1090.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [69
+
+ <./fig/mirrorimage6.jpg>] [70
+
+]
+<fig/theI.jpg, id=845, 635.37375pt x 708.6475pt>
+File: fig/theI.jpg Graphic file (type jpg)
+<use fig/theI.jpg>
+Package pdftex.def Info: fig/theI.jpg  used on input line 1100.
+(pdftex.def)             Requested size: 170.71652pt x 190.40746pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1100.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [71
+
+ <./fig/theI.jpg>]
+<fig/rodscones.jpg, id=853, 587.19376pt x 462.72874pt>
+File: fig/rodscones.jpg Graphic file (type jpg)
+<use fig/rodscones.jpg>
+Package pdftex.def Info: fig/rodscones.jpg  used on input line 1108.
+(pdftex.def)             Requested size: 170.71652pt x 134.52681pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1108.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [72
+
+ <./fig/rodscones.jpg>]
+<fig/visSpec.jpg, id=861, 638.385pt x 409.53pt>
+File: fig/visSpec.jpg Graphic file (type jpg)
+<use fig/visSpec.jpg>
+Package pdftex.def Info: fig/visSpec.jpg  used on input line 1116.
+(pdftex.def)             Requested size: 284.52756pt x 182.5246pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1116.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [73
+
+ <./fig/visSpec.jpg>]
+<fig/lightSpec.jpg, id=870, 638.385pt x 484.81125pt>
+File: fig/lightSpec.jpg Graphic file (type jpg)
+<use fig/lightSpec.jpg>
+Package pdftex.def Info: fig/lightSpec.jpg  used on input line 1124.
+(pdftex.def)             Requested size: 284.52756pt x 216.07692pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1124.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+
+Overfull \vbox (6.07294pt too high) detected at line 1124
+ []
+
+[74
+
+ <./fig/lightSpec.jpg>]
+<fig/chromeAbb.jpg, id=878, 638.385pt x 363.3575pt>
+File: fig/chromeAbb.jpg Graphic file (type jpg)
+<use fig/chromeAbb.jpg>
+Package pdftex.def Info: fig/chromeAbb.jpg  used on input line 1132.
+(pdftex.def)             Requested size: 284.52756pt x 161.94583pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1132.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [75
+
+ <./fig/chromeAbb.jpg>]
+<fig/chromeAbb2.jpg, id=886, 638.385pt x 397.485pt>
+File: fig/chromeAbb2.jpg Graphic file (type jpg)
+<use fig/chromeAbb2.jpg>
+Package pdftex.def Info: fig/chromeAbb2.jpg  used on input line 1140.
+(pdftex.def)             Requested size: 284.52756pt x 177.15622pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1140.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [76
+
+ <./fig/chromeAbb2.jpg>]
+<fig/coma.jpg, id=894, 638.385pt x 338.26375pt>
+File: fig/coma.jpg Graphic file (type jpg)
+<use fig/coma.jpg>
+Package pdftex.def Info: fig/coma.jpg  used on input line 1148.
+(pdftex.def)             Requested size: 284.52756pt x 150.76173pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1148.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [77
+
+ <./fig/coma.jpg>]
+<fig/sphereAbb.jpg, id=902, 597.23125pt x 248.93pt>
+File: fig/sphereAbb.jpg Graphic file (type jpg)
+<use fig/sphereAbb.jpg>
+Package pdftex.def Info: fig/sphereAbb.jpg  used on input line 1156.
+(pdftex.def)             Requested size: 284.52756pt x 118.59242pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1156.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [78
+
+ <./fig/sphereAbb.jpg>]
+\tf@nav=\write7
+\openout7 = `quantum_geometric.nav'.
+
+\tf@toc=\write8
+\openout8 = `quantum_geometric.toc'.
+
+\tf@snm=\write9
+\openout9 = `quantum_geometric.snm'.
+
+
+
+Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+(movie15)                @@ Package `movie15' is obsolete and @@
+(movie15)                @@ superseded by `media9'.           @@
+(movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
+
+(./quantum_geometric.aux)
+
+Package rerunfilecheck Warning: File `quantum_geometric.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `quantum_geometric.out':
+(rerunfilecheck)             Before: 8BD266727074B88CC7DCCA9176C7FE36;2522
+(rerunfilecheck)             After:  B0D792A65F76E8D38ABB6378EA574ED8;895.
+ ) 
+Here is how much of TeX's memory you used:
+ 35339 strings out of 478268
+ 737429 string characters out of 5846346
+ 1031439 words of memory out of 5000000
+ 52623 multiletter control sequences out of 15000+600000
+ 480802 words of font info for 69 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 128i,15n,122p,520b,878s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{Navigation195} has been referenced but does not exi
+st, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Outline0.20} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Outline0.19} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Outline0.18} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Outline0.17} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Outline0.16} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Outline0.15} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Outline0.14} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Outline0.13} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Outline0.12} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Outline0.11} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Outline0.10} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Outline0.9} has been referenced but does not exist,
+ replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Outline0.8} has been referenced but does not exist,
+ replaced by a fixed one
+
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
+/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
+usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
+r/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
+local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/l
+ocal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/lo
+cal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/loca
+l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/loca
+l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/loca
+l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local
+/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
+texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/te
+xlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
+ive/2022/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb>
+Output written on quantum_geometric.pdf (78 pages, 8354486 bytes).
+PDF statistics:
+ 1013 PDF objects out of 1200 (max. 8388607)
+ 710 compressed objects within 8 object streams
+ 178 named destinations out of 1000 (max. 500000)
+ 1051 words of extra memory for PDF output out of 10000 (max. 10000000)
+

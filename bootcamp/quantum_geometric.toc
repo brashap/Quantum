@@ -1,0 +1,7 @@
+\beamer@sectionintoc {1}{Geometric Optics}{2}{0}{1}
+\beamer@sectionintoc {2}{Math Interlude: Trigonometry}{11}{0}{2}
+\beamer@sectionintoc {3}{Return to Geometric Optics}{22}{0}{3}
+\beamer@sectionintoc {4}{Lens}{37}{0}{4}
+\beamer@sectionintoc {5}{Math Interlude: Probability}{50}{0}{5}
+\beamer@sectionintoc {6}{Mirrors}{63}{0}{6}
+\beamer@sectionintoc {7}{Vision}{70}{0}{7}
