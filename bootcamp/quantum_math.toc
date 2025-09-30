@@ -3,3 +3,4 @@
 \beamer@sectionintoc {2}{Trigonometry}{44}{0}{2}
 \beamer@sectionintoc {3}{Vectors}{54}{0}{3}
 \beamer@sectionintoc {4}{Probability and Statistics}{65}{0}{4}
+\beamer@sectionintoc {5}{Some Physics}{77}{0}{5}

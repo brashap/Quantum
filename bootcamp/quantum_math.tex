@@ -105,11 +105,11 @@
 \begin{frame}\frametitle{Cartesian Coordinates}
 \begin{columns}
 \begin{column}{4cm}
-Some text
+Cartesian coordinates is a system of describing the position of points in space using perpendicular axis lines that meet at a point called the origin. Any given point’s position can be described based on its distance from the origin along each axis.
 \end{column}
 \begin{column}{6cm}
 \begin{center}
-\includegraphics[height=7.5cm]{fig/plotting.jpg}
+\includegraphics[height=7cm]{fig/plotting.jpg}
 \end{center}
 \end{column}
 \end{columns}
@@ -1269,6 +1269,233 @@ The laser beam has a Gaussian profile.
 \item Repeat the knife edge process.
 \item Plot the results of both sets of measurements on paper and in excel.
 \end{enumerate}
+\end{column}
+\end{columns}
+\end{frame}
+
+
+\section{Some Physics}
+
+\begin{frame}
+\frametitle{Introduction to Electrical Circuits}
+\begin{figure}
+\includegraphics[scale=0.15]{fig/circuits2.png} 
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Energy}
+\begin{figure}
+\includegraphics[scale=0.15]{fig/EnergyAlien.jpg} 
+\end{figure}
+\begin{itemize} 
+\item Kinetic Energy - energy of motion
+\item Potential Energy - energy stored in an object
+\end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{Electrical Circuit Terms}
+\begin{figure}
+\includegraphics[scale=0.50]{fig/terms.png} 
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Measuring Voltage, Current, and Resistance}
+\begin{figure}
+\includegraphics[scale=0.65]{fig/multi1.jpg} 
+\includegraphics[scale=0.38]{fig/multi2.jpg} 
+\end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{Ohm's Law}
+Georg  Ohm (16 March 1789 – 6 July 1854) was a German physicist and mathematician. As a school teacher, Ohm began his research with the new electrochemical cell, invented by Italian scientist Alessandro Volta. Ohm found that there is a direct proportionality between the potential difference (voltage) applied across a conductor and the resultant electric current. This relationship is known as Ohm's law:
+\vspace{0.5cm}
+\begin{columns}
+\begin{column}{5.5cm}
+\includegraphics[scale=0.33]{fig/ol2.jpg}
+\end{column}
+\begin{column}{5.5cm}
+\includegraphics[scale=.1]{fig/Volt_Amp_Ohm.png}
+\end{column}
+\end{columns}
+\end{frame}
+
+
+\begin{frame}\frametitle{A word about circuit notation}
+\begin{columns}
+\begin{column}{2.5cm}
+\begin{center}
+\includegraphics[width=1.5cm]{fig/notation.png}
+\end{center}
+\end{column}
+\begin{column}{8.5cm}
+Subscripts will be used to denote quanties (voltage, currect, etc) for different elements:
+\begin{itemize}
+\item i1 or $i_1$ is the current through Resistor 1 ($R_1$) 
+\item i2 or $i_2$ is the current through Resistor 2 ($R_2$) 
+\item v2 or $v_2$ is the votage across Resistor 2 ($R_2$) 
+\item $I$ is the current delivered by the power supply
+\item $V_{cc}$ (common collector \footnote{Common Collector is a term for certain parts of transistor circuits. We will learn about Transistors in Lesson 11} voltage) is the notation will will use for $3.3V$ from the Particle
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Kirchhoff's First Law}
+Gustav Robert Kirchhoff (12 March 1824 – 17 October 1887) was a German physicist who contributed to the fundamental understanding of electrical circuits. His first law:
+\begin{columns}
+\begin{column}{5cm}
+In an electrical circuit, the sum of currents flowing into that node is equal to the sum of currents flowing out of that node
+\end{column}
+\begin{column}{4cm}
+\begin{overprint}
+\includegraphics[scale=0.25]{fig/KFL2.png}
+\end{overprint}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Kirchhoff's Second Law}
+\begin{columns}
+\begin{column}{4cm}
+The directed sum of the potential differences (voltages) around any closed loop is zero.
+\end{column}
+\begin{column}{6cm}
+\begin{overprint}
+\includegraphics[scale=0.25]{fig/KSL2.png}
+\end{overprint}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Kirchhoff's Second Law}
+\begin{figure}
+\includegraphics[scale=0.40]{fig/klooplaw.jpg} 
+\end{figure}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Resistors in Series and Parallel}
+\begin{figure}
+\includegraphics[scale=0.40]{fig/SP.png} 
+\end{figure}
+
+\vspace{0.25cm}
+
+How many nodes? How many loops?
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Resistors in Series and Parallel}
+\begin{columns}
+\begin{column}{5cm}
+\begin{center}
+\includegraphics[scale=0.25]{fig/series.png}
+
+\vspace{0.5cm}
+
+$R_{eq} = R_1+R_2+R_3$
+\end{center}
+\end{column}
+\begin{column}{5cm}
+\begin{center}
+\includegraphics[scale=0.25]{fig/parallel.png}
+
+\vspace{0.5cm}
+
+$\frac{1}{R_{eq}} = \frac{1}{R_1}+\frac{1}{R_2}$
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Resistors in Series}
+\begin{columns}
+\begin{column}{5cm}
+\begin{center}
+\includegraphics[scale=0.25]{fig/series.png}
+
+\vspace{0.5cm}
+
+Node Law: $I = I_1 = I_2 = I_3$
+
+\vspace{0.2cm}
+
+Loop Law: $V_{cc} - (V_1 + V_2 + V_3) = 0$
+
+\end{center}
+\end{column}
+\begin{column}{5cm}
+
+Rearranging the Loop Law:
+\begin{equation}
+V_{cc} = V_1 + V_2 + V_3
+\end{equation}
+
+Using Ohm's Law:
+\begin{equation}
+V_{cc} = I R_1 + I R_2 + I R_3
+\end{equation}
+
+Using the Distributive Property:
+\begin{equation}
+V_{cc} = I (R_1 + R_2 + R_3)
+\end{equation}
+
+Gives the Equivalent Resistance:
+\begin{equation}
+\boxed{R_{eq} = R_1 + R_2 + R_3}
+\end{equation}
+
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Resistors in Parallel}
+\begin{columns}
+\begin{column}{5cm}
+\begin{center}
+\includegraphics[scale=0.25]{fig/parallel.png}
+
+\vspace{0.5cm}
+
+Node Law: $I = I_1 + I_2$
+
+\vspace{0.2cm}
+
+
+Loop Law: $V_{cc} = V_1 = V_2$
+
+\end{center}
+\end{column}
+\begin{column}{5cm}
+
+\begin{equation}
+I = I_1 + I_2
+\end{equation}
+
+\begin{equation}
+I = \frac{V_1}{R_1} + \frac{V_2}{R_2}
+\end{equation}
+
+\begin{equation}
+I = \frac{V_{cc}}{R_1} + \frac{V_{cc}}{R_2}
+\end{equation}
+
+\begin{equation}
+\frac{V_{cc}}{R_{eq}} = V_{cc} (\frac{1}{R_1} + \frac{1}{R_2})
+\end{equation}
+
+\begin{equation}
+\boxed{\frac{1}{R_{eq}} = (\frac{1}{R_1} + \frac{1}{R_2})}
+\end{equation}
 \end{column}
 \end{columns}
 \end{frame}
