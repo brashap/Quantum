@@ -1280,6 +1280,35 @@ The image in which light rays from one point on the object actually cross at the
 \end{columns}
 \end{frame}
 
+\begin{frame}\frametitle{Optical System Parameters}
+\begin{columns}
+\begin{column}{4.5cm}
+\begin{center}
+\includegraphics[width=4cm]{fig/na.jpg}
+\includegraphics[width=4cm]{fig/dof.jpg}
+\end{center}
+\end{column}
+\begin{column}{7cm}
+\begin{itemize}
+\item Numerical Aperture (NA):
+\[NA = n \cdot sin(\alpha) \text{ where } \alpha = \frac{\theta}{2}\]
+\item \textit{f}-number - light per unit area reaching image plane:
+\[ \textit{f} / \# = \frac{f}{D} \approx \frac{1}{2 NA} \]
+\item Resolution and Depth of Focus:
+\[ R = \frac{1.22 \lambda}{2 NA}  \text{ and } DOF = \frac{ \lambda n}{NA^2} \]
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Aside: Camera \textit{f}-step}
+\begin{center}
+\includegraphics[width=10cm]{fig/aperture.jpg}
+\end{center}
+\[ \textit{f}/1 = \frac{f}{(\sqrt{2})^0}, \textit{f}/1.4 = \frac{f}{(\sqrt{2})^1}, \textit{f}/2 = \frac{f}{(\sqrt{2})^2}, \textit{f}/2.8 = \frac{f}{(\sqrt{2})^3},...\] 
+\end{frame}
+
+
 
 \begin{frame}\frametitle{Image Formation - Virtual Image}
 
@@ -1535,6 +1564,83 @@ The laser beam has a Gaussian profile.
 
 \end{frame}
 
+\section{Optical Tweezers}
+
+\begin{frame}\frametitle{Microscope}
+\begin{center}
+\includegraphics[width=8cm]{fig/microscope1.jpg}
+\end{center}
+
+\[ m = m_o \cdot m_e = (-\frac{d_i}{d_o}) \cdot (-\frac{d_i^\prime}{d_o^\prime}) \]
+
+\end{frame}
+
+\begin{frame}\frametitle{Optical Tweezers -  Collimated Laser}
+\begin{columns}
+\begin{column}{7cm}
+\begin{itemize}
+\item Ashkin's award was being given for his ability to "realize an old dream of science fiction – using the radiation pressure of light to move physical objects" aka the Tractor Beam.
+\item In 1987 Ashkin and his team were able to send a laser through a microscope's objective lens and trapping particles varying in size from a tens of nanometres up to tens of micrometres
+\end{itemize}
+\end{column}
+\begin{column}{4cm}
+\begin{center}
+\includegraphics[width=4cm]{fig/nobel2018.jpg}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Optical Tweezers -  Collimated Laser}
+\begin{columns}
+\begin{column}{5cm}
+\begin{center}
+\includegraphics[width=4cm]{fig/otg1.png}
+\end{center}
+\end{column}
+\begin{column}{6cm}
+When the bead is displaced from the beam center (right image), the larger momentum change of the more intense rays cause a net force to be applied back toward the center of the laser. When the bead is laterally centered on the beam (left image), the resulting lateral force is zero. But an unfocused laser still causes a force pointing away from the laser.
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Optical Tweezers - Focused Laser}
+\begin{columns}
+\begin{column}{5cm}
+\begin{center}
+\includegraphics[width=4cm]{fig/otg2.png}
+\end{center}
+\end{column}
+\begin{column}{6cm}
+In addition to keeping the bead in the center of the laser, a focused laser also keeps the bead in a fixed axial position: The momentum change of the focused rays causes a force towards the laser focus, both when the bead is in front (left image) or behind (right image) the laser focus. So, the bead will stay slightly behind the focus, where this force compensates the scattering force.
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Assignment: Optical Tweezers}
+\begin{columns}
+\begin{column}{4cm}
+\begin{center}
+\includegraphics[width=4cm]{fig/ot3.jpg}
+\end{center}
+\end{column}
+\begin{column}{7cm}
+Over the next few days, we will take a few hours at a time to work on EDU-OT3
+\begin{itemize}
+\item Carefully get the parts for the Optical Tweezers from the cabinets
+\item Please don't write in the lab manuals, document progress in your notebooks.
+\item Follow assembly instructions
+\begin{itemize}
+\item Take your time, alignment is critical
+\item Take notes on the handouts on any documentation changes you feel are needed
+\end{itemize}
+\item Once constructed, follow the experiment instructions.
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+
 
 \section{Mirrors}
 
@@ -1653,6 +1759,9 @@ For a mirror that is large compared to the radius of curvature, the reflected ra
 \end{center}
 
 \end{frame}
+
+
+
 
 \section{Wave Optics}
 
