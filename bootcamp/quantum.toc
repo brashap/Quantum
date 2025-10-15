@@ -13,11 +13,11 @@
 \beamer@sectionintoc {13}{Mirrors}{120}{0}{13}
 \beamer@sectionintoc {14}{Vision}{127}{0}{14}
 \beamer@sectionintoc {15}{Wave Optics}{136}{0}{15}
-\beamer@sectionintoc {16}{Interferometry}{166}{0}{16}
-\beamer@sectionintoc {17}{Polarization}{174}{0}{17}
-\beamer@sectionintoc {18}{Quantum Crytography - Quantum Key Distribution}{184}{0}{18}
-\beamer@sectionintoc {19}{The Atom and Quantum Mechanics}{186}{0}{19}
-\beamer@sectionintoc {20}{The Laser}{199}{0}{20}
-\beamer@sectionintoc {21}{Schrodenger's Atom}{203}{0}{21}
-\beamer@sectionintoc {22}{What is a Qubit}{207}{0}{22}
-\beamer@sectionintoc {23}{Quantum Computing}{209}{0}{23}
+\beamer@sectionintoc {16}{Interferometry}{164}{0}{16}
+\beamer@sectionintoc {17}{Polarization}{172}{0}{17}
+\beamer@sectionintoc {18}{Quantum Crytography - Quantum Key Distribution}{182}{0}{18}
+\beamer@sectionintoc {19}{The Atom and Quantum Mechanics}{184}{0}{19}
+\beamer@sectionintoc {20}{The Laser}{197}{0}{20}
+\beamer@sectionintoc {21}{Schrodenger's Atom}{201}{0}{21}
+\beamer@sectionintoc {22}{What is a Qubit}{205}{0}{22}
+\beamer@sectionintoc {23}{Quantum Computing}{207}{0}{23}
