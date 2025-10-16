@@ -2226,20 +2226,123 @@ for, $m = 1$.
 \end{frame}
 
 
-
-
-
-\begin{frame}\frametitle{Limits of Resolution}
-
-Diffraction affects the detail that can be observed when light passes through an aperture.
-
-\vspace{0.5cm}
+\begin{frame}\frametitle{Black Body Radiation}
+\begin{columns}
+\begin{column}{7cm}
+The EM spectrum radiated by a hot solid is linked directly to the solid’s temperature. An ideal radiator is one that has an emissivity of 1 at all wavelengths and, thus, is jet black. Ideal radiators are therefore called blackbodies, and their EM radiation is called blackbody radiation.
+\end{column}
+\begin{column}{4.5cm}
+\begin{center}
+\includegraphics[width=3cm]{fig/hephaestus.jpg}
+\end{center}
+\end{column}
+\end{columns}
 
 \begin{center}
-\includegraphics[width=10cm]{fig/rayleigh1.jpg}
+\includegraphics[width=10cm]{fig/blacksmith.png}
 \end{center}
+\end{frame}
+
+
+\begin{frame}\frametitle{Ultraviolet Catastrophe}
+\begin{columns}
+\begin{column}{7.2cm}
+
+The ultraviolet catastrophe was the prediction of classical physics that an ideal black body at thermal equilibrium would emit an unbounded quantity of energy as wavelength decreased into the ultraviolet range.
+
+\[ B_{f}(T) = \frac{2 f^2 k_B T}{c^2}, f = \frac{c}{\lambda}\]
+
+where $B_f(T)$ is radiance or intensity at a given frequency
+
+\[B_{f}(T) \rightarrow \infty, \text{ as } f \rightarrow \infty\]
+
+\end{column}
+\begin{column}{4cm}
+\begin{center}
+\includegraphics[width=4cm]{fig/blackbody.jpg}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Quanta}
+
+Max Planck assumed that electromagnetic radiation can be emitted or absorbed only in discrete packets, call quanta\footnote{Planck considered this a mathematical trick, not reality}, of energy:
+
+\[ E_{quanta} = h f = h \frac{c}{\lambda}\]
+where
+\begin{itemize}
+\item $h$ is Planck's Constant
+\item $f$ is the frequency of light
+\item $c$ is the speed of light
+\item $\lambda$ is the wavelength of light
+\end{itemize}
+
+Applying the quantification to statistical mechanics:
+
+\[ B_{\lambda}(\lambda,T) = \frac{2hc^2}{\lambda^5}\frac{1}{e^{(\frac{hc}{\lambda k_B T})}-1}   \]
 
 \end{frame}
+
+
+
+\begin{frame}\frametitle{Electron Energy}
+\begin{columns}
+\begin{column}{4cm}
+\begin{center}
+\includegraphics[width=4cm]{fig/vjc.jpg}
+\end{center}
+
+\vspace{.25cm}
+
+\[ E_{quanta} = h f = h \frac{c}{\lambda}\]
+
+\end{column}
+\begin{column}{7cm}
+\begin{itemize}
+\item Charge of an electron ($-q$):
+\[ q = 1.602 \cdot 10^{-19}\]
+\item Energy of light or energy loss of electron that has passed through the LED potential
+\[ E_{quanta} = V \cdot q\] 
+\item Plank's constant
+\[ h = E_{quanta}(\frac{\lambda}{c}) = \frac{V q \lambda}{c} \]
+where $c = 3 \cdot 10^{8} (m/s)$
+\end{itemize}
+
+\end{column}
+\end{columns}
+\end{frame}
+
+
+
+
+\begin{frame}\frametitle{Assignment: Plank and Colors}
+\begin{columns}
+\begin{column}{5cm}
+\begin{center}
+\includegraphics[width=5cm]{fig/plank.png}
+\end{center}
+\end{column}
+\begin{column}{6cm}
+Using "Determine the Wavelength of an LED" lab sheet:
+\begin{itemize}
+\item Build the circuit to measure voltage across Red LED
+\item Also use Diffraction slide and ruler to calculate wavelength
+\item Repeat for Yellow, Green, and Blue LEDs
+\item Plot voltage vs wavelength in your notebook,excel, or python
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+
+\begin{frame}\frametitle{The story of the Blue LED}
+\begin{center}
+\includegraphics[width=8cm]{fig/blueLED.jpg}
+\url{https://youtu.be/AF8d72mA41M?si=dGNIvEEUrIV7rAS0}
+\end{center}
+\end{frame}
+
 
 \begin{frame}\frametitle{Limits of Resolution}
 
