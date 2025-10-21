@@ -2344,6 +2344,34 @@ Using "Determine the Wavelength of an LED" lab sheet:
 \end{frame}
 
 
+\begin{frame}\frametitle{Assignment: Spectrometer}
+\begin{center}
+\includegraphics[width=9cm]{fig/spectrometer.jpg}
+\end{center}
+\begin{columns}
+\begin{column}{5cm}
+A spectrometer:
+\begin{itemize}
+\item Fiber input and aperture
+\item Columnating mirror
+\item Diffraction grating
+\item Focusing mirror
+\item CCD detector
+\end{itemize}
+
+\end{column}
+\begin{column}{6cm}
+Assignment:
+\begin{itemize}
+\item Measure RED LED wavelength with spectrometer
+\item Compare to your values from Plank assignment
+\item Repeat for other colors.
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+
 \begin{frame}\frametitle{Limits of Resolution}
 
 Diffraction affects the detail that can be observed when light passes through an aperture.
@@ -2511,8 +2539,23 @@ Invented by the American physicist Albert Abraham Michelson in 1887.
 \end{itemize}
 \end{frame}
 
-
 \begin{frame}\frametitle{Interferometer Math}
+
+\begin{center}
+\includegraphics[width=6cm]{fig/interferometer2.jpg}
+\end{center}
+
+
+\begin{itemize}
+\item Path 1 ($s_1$): Laser reflects off of Beamsplitter to Mirror 1 through Beamsplitter to Detector
+\item Path 2 ($s_2$): Laser through of Beamsplitter to Mirror 2 reflects off Beamsplitter to Detector
+\item $\Delta s = s_1 - s_2$: Constructive:$\Delta s = m \lambda$, Destructive:$\Delta s = (m+\frac{1}{2}) \lambda$
+\end{itemize}
+\end{frame}
+
+
+
+\begin{frame}\frametitle{Interferometer Math - More Detailed}
 \begin{itemize}
 \item The Electric Field ($E_i$) is given by
 \begin{equation}
@@ -2649,35 +2692,39 @@ Natural light has polarizations in random directions, it is unpolarized.
 \end{frame}
 
 
-\begin{frame}\frametitle{Linear Polarization - Off Axis}
+\begin{frame}\frametitle{Assignment: Malus' Polarization}
+\begin{columns}
+\begin{column}{4cm}
+\begin{center}
+\includegraphics[width=3cm]{fig/rsp1.jpg}
+\end{center}
+\end{column}
+\begin{column}{7cm}
+Documenting your work with the Labnotes worksheet:
+\begin{itemize}
+\item Mount a linear polarizer slide horizontally
+\item Mount a cutout of the linear polarizer film to a RSP1 mount
+\item Shine a laser through both polarizers on a power meter, setting the maximum power to a rotation of $0^{\circ}$
+\item Take power measurements at every $15^{\circ}$ of rotation
+\item Plot the results
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
 
-\url{https://www.mathsisfun.com/algebra/vector-calculator.html}
+\begin{frame}\frametitle{Malus's Law}
+In 1810, French engineer Étienne-Louis Malus studied polarization after casually examining a doubly refracting prism of quartz the sunlight reflected from the windows of the Luxembourg palace.
+
 
 \begin{center}
-\includegraphics[width=12cm]{fig/pol1.jpg}
+\includegraphics[width=8cm]{fig/malus.jpg}
 \end{center}
 
-\begin{equation}
-\vec{E} = 3 \sin{(t)} \vec{i} + 4 \sin{(t)} \vec{j}
-\end{equation}
+\[ I = I_0 cos^2(\phi)\]
 
 \end{frame}
 
-\begin{frame}\frametitle{Circular Polarization}
 
-\url{https://www.mathsisfun.com/algebra/vector-calculator.html}
-
-
-\begin{center}
-\includegraphics[width=12cm]{fig/pol2.jpg}
-\end{center}
-
-X lags Y by $\frac{\pi}{2}$:
-\begin{equation}
-\vec{E} = 4 \sin{(t + \frac{\pi}{2})} \vec{i} + 4 \sin{(t)} \vec{j}
-\end{equation}
-
-\end{frame}
 
 
 \begin{frame}\frametitle{Incoming $45^\circ$ with Half-Wave Plate}
@@ -2710,6 +2757,39 @@ From \url{https://emanim.szialab.org/}
 \begin{center}
 \includegraphics[width=10cm]{fig/waveplate_37_4.png}
 \end{center}
+\end{frame}
+
+\begin{frame}\frametitle{Linear Polarization - Off Axis}
+
+\url{https://www.mathsisfun.com/algebra/vector-calculator.html}
+
+\begin{center}
+\includegraphics[width=12cm]{fig/pol1.jpg}
+\end{center}
+
+\begin{equation}
+\vec{E} = 3 \sin{(t)} \vec{i} + 4 \sin{(t)} \vec{j}
+\end{equation}
+
+\end{frame}
+
+
+
+
+\begin{frame}\frametitle{Circular Polarization}
+
+\url{https://www.mathsisfun.com/algebra/vector-calculator.html}
+
+
+\begin{center}
+\includegraphics[width=12cm]{fig/pol2.jpg}
+\end{center}
+
+X lags Y by $\frac{\pi}{2}$:
+\begin{equation}
+\vec{E} = 4 \sin{(t + \frac{\pi}{2})} \vec{i} + 4 \sin{(t)} \vec{j}
+\end{equation}
+
 \end{frame}
 
 \section{Quantum Crytography - Quantum Key Distribution}
