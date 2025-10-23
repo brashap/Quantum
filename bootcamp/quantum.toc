@@ -15,9 +15,9 @@
 \beamer@sectionintoc {15}{Wave Optics}{136}{0}{15}
 \beamer@sectionintoc {16}{Interferometry}{170}{0}{16}
 \beamer@sectionintoc {17}{Polarization}{179}{0}{17}
-\beamer@sectionintoc {18}{Quantum Crytography - Quantum Key Distribution}{191}{0}{18}
-\beamer@sectionintoc {19}{The Atom and Quantum Mechanics}{193}{0}{19}
-\beamer@sectionintoc {20}{The Laser}{206}{0}{20}
-\beamer@sectionintoc {21}{Schrodenger's Atom}{210}{0}{21}
-\beamer@sectionintoc {22}{What is a Qubit}{214}{0}{22}
-\beamer@sectionintoc {23}{Quantum Computing}{216}{0}{23}
+\beamer@sectionintoc {18}{Quantum Crytography - Quantum Key Distribution}{195}{0}{18}
+\beamer@sectionintoc {19}{The Atom and Quantum Mechanics}{197}{0}{19}
+\beamer@sectionintoc {20}{The Laser}{210}{0}{20}
+\beamer@sectionintoc {21}{Schrodenger's Atom}{214}{0}{21}
+\beamer@sectionintoc {22}{What is a Qubit}{218}{0}{22}
+\beamer@sectionintoc {23}{Quantum Computing}{220}{0}{23}
