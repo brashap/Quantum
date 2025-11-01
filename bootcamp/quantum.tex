@@ -2873,14 +2873,23 @@ X lags Y by $\frac{\pi}{2}$:
 
 \section{Quantum Cryptography - Quantum Key Distribution}
 
-\begin{frame}\frametitle{Crypt}
+\begin{frame}\frametitle{Cryptography}
+
+Cryptography is the process of encoding information so that only intended recipient can read it. 
+
+\vspace{0.25cm}
+
 \begin{center}
 \includegraphics[width=12cm]{fig/crypt1.png}
 \end{center}
+
+\vspace{0.25cm}
+
+The art of cryptography has been used to code messages for thousands of years and continues to be used in bank cards, computer passwords, and ecommerce.
 \end{frame}
 
 
-\begin{frame}\frametitle{Cesear Cypher}
+\begin{frame}\frametitle{Cesear Cipher}
 \begin{columns}
 \begin{column}{4.5cm}
 \begin{center}
@@ -2893,63 +2902,168 @@ Caesar cipher or the shift cipher is one of the simplest and most widely known e
 \end{columns}
 \end{frame}
 
-\begin{frame}\frametitle{Vernam Cypher}
 
+\begin{frame}\frametitle{Vernam Cipher}
+\begin{columns}
+\begin{column}{7cm}
+\begin{center}
+\includegraphics[width=7cm]{fig/crypt5a.jpg}
+
+\vspace{1cm}
+
+\includegraphics[width=7cm]{fig/crypt5b.jpg}
+\end{center}
+\end{column}
+\begin{column}{4.5cm}
 Encrypt:
-\begin{center}
-\includegraphics[width=10cm]{fig/crypt5a.jpg}
-\end{center}
+\begin{enumerate}
+\item Take numerical value of each letter
+\item Add numerical value of key
+\item Subtract 26 if needed
+\item Convert to letters
+\end{enumerate}
 
-Decrypt:
-\begin{center}
-\includegraphics[width=10cm]{fig/crypt5b.jpg}
-\end{center}
+\vspace{1cm}
 
-
+Decrypt: Reverse process
+\end{column}
+\end{columns}
 \end{frame}
 
 
-
-
-\begin{frame}\frametitle{Crypt}
+\begin{frame}\frametitle{Symmetric Key Encryption}
 \begin{center}
 \includegraphics[width=6cm]{fig/crypt2.png}
 \end{center}
 \end{frame}
 
-
-\begin{frame}\frametitle{Advanced Encryption Standard (AES)}
-
-AES is a symmetric key encryption method developed by a pair of Belgian cryptographers named Joan Daemen and Vincent Rijmen. The AES was published by NIST in 2001. Rijndael protects the critical information of communication networks, financial dealings, and file storage. AES supports 128-bit data blocks using 128, 192, or 256-bit keys. Substitutions, permutations, and mixing are used to secure encryption. The transmitter and receiver share a key for symmetric encryption. Alice and Bob must securely exchange a secret key before sending an AES-encrypted message. Bob can decrypt the message using the same secret key.
+\begin{frame}\frametitle{Block Cipher (i.e., DES)}
+\begin{columns}
+\begin{column}{5cm}
+\begin{center}
+\includegraphics[width=5cm]{fig/crypt6.png}
+\end{center}
+\end{column}
+\begin{column}{6.5cm}
+\begin{itemize}
+\item A block cipher takes a block of plaintext bits and generates a block of ciphertext bits, generally of same size. 
+\item Data Encryption Standard (developed at IBM) was the standard from 1974 to 2005. 
+\item DES uses a 56-bit key and found it is susceptible to decryption attacks.
+\end{itemize}
+\end{column}
+\end{columns}
 \end{frame}
 
 
-\begin{frame}\frametitle{Crypt}
+\begin{frame}\frametitle{Advanced Encryption Standard}
+AES is a symmetric key encryption method developed by a pair of Belgian cryptographers named Joan Daemen and Vincent Rijmen.
+
+\vspace{1cm}
+
+\begin{columns}
+\begin{column}{5cm}
+\begin{center}
+\includegraphics[width=5cm]{fig/crypt7.jpg}
+\end{center}
+\end{column}
+\begin{column}{7cm}
+\begin{itemize}
+\item AES supports 128-bit data blocks using 128, 192, or 256-bit keys. 
+\item Substitutions, permutations, and mixing are used to secure encryption. 
+\item The transmitter and receiver share a key for symmetric encryption. 
+\end{itemize} 
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Asymmetric Key Encryption}
 \begin{center}
 \includegraphics[width=6cm]{fig/crypt3.png}
 \end{center}
 \end{frame}
 
 
+\begin{frame}\frametitle{RSA Algorithm}
+The RSA algorithm is named after Ron Rivest, Adi Shamir, and Len Adleman, who invented it in 1977
 
-
-
-\begin{frame}\frametitle{Rivest-Shamir-Adleman (RSA)}
-
-Ron Rivest, Adi Shamir, and Leonard Adleman invented RSA in 1977. This encryption uses huge prime numbers and the difficulty of factoring large composite numbers. RSA encrypts and decrypts using public and private keys. The public key is disclosed, but the secret key is concealed. This enables keyless secure communication. Bob's public key lets Alice send Bob an RSA-encrypted message. Bob's private key decrypts the message. Digital signatures and key exchange use RSA. RSA is slower than AES and unsuitable for big data encryption owing to its computational complexity.
-\end{frame}
-
-\begin{frame}\frametitle{Assignmet: Quantum Key Distribution}
 \begin{columns}
-\begin{column}{4.5cm}
+\begin{column}{5cm}
 \begin{center}
-\includegraphics[width=4.5cm]{fig/ThorQKD.jpg}
+\includegraphics[width=5cm]{fig/crypt8.jpg}
 \end{center}
 \end{column}
 \begin{column}{7cm}
 \begin{itemize}
-\item Some Items
-\item Another Item
+\item RSA cryptosystem is the most wildly-used public key
+\item It can encrypt messages with the need to exchange a secret key separately
+\item The RSA algorithm can be used in both public key encryption and digital signatures
+\item Its security is based on the difficulty of factoring large integers.
+\end{itemize} 
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Shor's Algorithm}
+Shor's algorithm is a quantum algorithm for finding the prime factors of an integer. It was developed in 1994 by the American mathematician Peter Shor.
+
+\begin{center}
+\includegraphics[width=6cm]{fig/crypt9.png}
+\end{center}
+
+\begin{itemize}
+\item Classical Computer - factoring prime number is an exponential problem
+\item Shor's Algorithm is a polynomial problem.
+\end{itemize}
+\end{frame}
+
+
+
+
+\begin{frame}\frametitle{BB84 - Alice and Bob}
+\begin{center}
+\includegraphics[width=10cm]{fig/crypt10.png}
+\end{center}
+
+\end{frame}
+
+\begin{frame}\frametitle{No Cloning Theorem}
+\begin{columns}
+\begin{column}{5cm}
+\begin{center}
+\includegraphics[width=4cm]{fig/crypt13.jpg}
+\end{center}
+\end{column}
+\begin{column}{5cm}
+The no-cloning theorem states that it is impossible to create an independent and identical copy of an arbitrary unknown quantum state
+\end{column}
+\end{columns}
+\end{frame}
+
+
+
+\begin{frame}\frametitle{BB84 - What About Eve}
+\begin{center}
+\includegraphics[width=10cm]{fig/crypt11.jpg}
+\end{center}
+
+\end{frame}
+
+
+
+\begin{frame}\frametitle{Assignmet: Quantum Key Distribution}
+\begin{columns}
+\begin{column}{5cm}
+\begin{center}
+\includegraphics[width=5cm]{fig/ThorQKD.jpg}
+\end{center}
+\end{column}
+\begin{column}{6.5cm}
+\begin{itemize}
+\item Assemble the Alice, Bob, and Eve units. Notice how Half-Wave Plates are used to select basis.
+\item Using the Alice and Bob lesson sheets, create and send a code between Alice and Bob
+\item Validate the same bits are received when the same basis are chosen.
+\item Repeat using a new message, Eve eavesdropping and the Alice, Bob, and Eve worksheets
+\item Compare basis and bits to see that Eve is detected
 \end{itemize}
 \end{column}
 \end{columns}
