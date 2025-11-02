@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  30 SEP 2025 06:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  2 NOV 2025 06:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2388,6 +2388,151 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1501.
  [90
 
 ]
+<fig/switchstate2.png, id=970, 649.16211pt x 315.07184pt>
+File: fig/switchstate2.png Graphic file (type png)
+<use fig/switchstate2.png>
+Package pdftex.def Info: fig/switchstate2.png  used on input line 1508.
+(pdftex.def)             Requested size: 259.66023pt x 126.02649pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1508.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [91
+
+ <./fig/switchstate2.png>]
+<fig/st2.jpg, id=979, 1020.06094pt x 524.71031pt>
+File: fig/st2.jpg Graphic file (type jpg)
+<use fig/st2.jpg>
+Package pdftex.def Info: fig/st2.jpg  used on input line 1518.
+(pdftex.def)             Requested size: 255.0146pt x 131.17725pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1518.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [92
+
+ <./fig/st2.jpg>]
+<fig/SPST2.png, id=987, 965.0454pt x 450.9648pt>
+File: fig/SPST2.png Graphic file (type png)
+<use fig/SPST2.png>
+Package pdftex.def Info: fig/SPST2.png  used on input line 1525.
+(pdftex.def)             Requested size: 193.00565pt x 90.19136pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1525.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [93
+
+ <./fig/SPST2.png>]
+<fig/bsav3.png, id=996, 144.54pt x 90.8193pt>
+File: fig/bsav3.png Graphic file (type png)
+<use fig/bsav3.png>
+Package pdftex.def Info: fig/bsav3.png  used on input line 1552.
+(pdftex.def)             Requested size: 101.17729pt x 63.57307pt.
+<fig/sol3.png, id=997, 145.0218pt x 80.2197pt>
+File: fig/sol3.png Graphic file (type png)
+<use fig/sol3.png>
+Package pdftex.def Info: fig/sol3.png  used on input line 1552.
+(pdftex.def)             Requested size: 101.51456pt x 56.1534pt.
+<fig/ind.png, id=998, 84.7968pt x 63.1158pt>
+File: fig/ind.png Graphic file (type png)
+<use fig/ind.png>
+Package pdftex.def Info: fig/ind.png  used on input line 1552.
+(pdftex.def)             Requested size: 84.79657pt x 63.11563pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1552.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [94
+
+ <./fig/bsav3.png> <./fig/sol3.png> <./fig/ind.png>]
+<fig/relayschem.jpg, id=1009, 470.50781pt x 263.48438pt>
+File: fig/relayschem.jpg Graphic file (type jpg)
+<use fig/relayschem.jpg>
+Package pdftex.def Info: fig/relayschem.jpg  used on input line 1576.
+(pdftex.def)             Requested size: 117.62666pt x 65.87093pt.
+<fig/emitterfollower.png, id=1010, 342.61333pt x 469.08583pt>
+File: fig/emitterfollower.png Graphic file (type png)
+<use fig/emitterfollower.png>
+Package pdftex.def Info: fig/emitterfollower.png  used on input line 1576.
+(pdftex.def)             Requested size: 85.6531pt x 117.27116pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1576.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [95
+
+ <./fig/relayschem.jpg> <./fig/emitterfollower.png>]
+<fig/optorelay.png, id=1018, 649.16211pt x 267.52579pt>
+File: fig/optorelay.png Graphic file (type png)
+<use fig/optorelay.png>
+Package pdftex.def Info: fig/optorelay.png  used on input line 1592.
+(pdftex.def)             Requested size: 259.66023pt x 107.0084pt.
+<fig/relay3va.jpg, id=1019, 963.6pt x 542.025pt>
+File: fig/relay3va.jpg Graphic file (type jpg)
+<use fig/relay3va.jpg>
+Package pdftex.def Info: fig/relay3va.jpg  used on input line 1592.
+(pdftex.def)             Requested size: 144.53375pt x 81.30023pt.
+
+Overfull \hbox (2.26997pt too wide) in paragraph at lines 1592--1592
+[][]  
+ []
+
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1592.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+[96
+
+ <./fig/optorelay.png> <./fig/relay3va.jpg>]
+<fig/lng.jpg, id=1027, 658.71094pt x 443.40656pt>
+File: fig/lng.jpg Graphic file (type jpg)
+<use fig/lng.jpg>
+Package pdftex.def Info: fig/lng.jpg  used on input line 1598.
+(pdftex.def)             Requested size: 263.4797pt x 177.35948pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1598.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [97
+
+ <./fig/lng.jpg>]
+<fig/inductedemf.jpg, id=1035, 752.8125pt x 461.47406pt>
+File: fig/inductedemf.jpg Graphic file (type jpg)
+<use fig/inductedemf.jpg>
+Package pdftex.def Info: fig/inductedemf.jpg  used on input line 1604.
+(pdftex.def)             Requested size: 301.11966pt x 184.58635pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1604.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [98
+
+ <./fig/inductedemf.jpg>]
+<fig/gfci.png, id=1043, 325.81725pt x 254.75175pt>
+File: fig/gfci.png Graphic file (type png)
+<use fig/gfci.png>
+Package pdftex.def Info: fig/gfci.png  used on input line 1610.
+(pdftex.def)             Requested size: 260.65413pt x 203.80167pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1610.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [99
+
+ <./fig/gfci.png>]
+<fig/hse.png, id=1051, 156.8259pt x 102.3825pt>
+File: fig/hse.png Graphic file (type png)
+<use fig/hse.png>
+Package pdftex.def Info: fig/hse.png  used on input line 1616.
+(pdftex.def)             Requested size: 282.28638pt x 184.28835pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1616.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [100
+
+ <./fig/hse.png>]
 \tf@nav=\write7
 \openout7 = `quantum_math.nav'.
 
@@ -2397,15 +2542,16 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1501.
 \tf@snm=\write9
 \openout9 = `quantum_math.snm'.
 
- (./quantum_math.aux)
+
+(./quantum_math.aux)
 Package rerunfilecheck Info: File `quantum_math.out' has not changed.
-(rerunfilecheck)             Checksum: 8605057445DD497FB9293E3696A577CA;705.
+(rerunfilecheck)             Checksum: 765F9D74C9F4B82F17CEF5E47F3F7B5A;821.
  ) 
 Here is how much of TeX's memory you used:
- 34658 strings out of 478268
- 726643 string characters out of 5846346
+ 34790 strings out of 478268
+ 728786 string characters out of 5846346
  990836 words of memory out of 5000000
- 51936 multiletter control sequences out of 15000+600000
+ 52034 multiletter control sequences out of 15000+600000
  484452 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,515b,876s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2427,10 +2573,10 @@ exlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/tex
 live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texli
 ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive
 /2022/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb>
-Output written on quantum_math.pdf (90 pages, 10814392 bytes).
+Output written on quantum_math.pdf (100 pages, 11505231 bytes).
 PDF statistics:
- 1088 PDF objects out of 1200 (max. 8388607)
- 753 compressed objects within 8 object streams
- 187 named destinations out of 1000 (max. 500000)
- 930 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1183 PDF objects out of 1200 (max. 8388607)
+ 818 compressed objects within 9 object streams
+ 207 named destinations out of 1000 (max. 500000)
+ 1000 words of extra memory for PDF output out of 10000 (max. 10000000)
 

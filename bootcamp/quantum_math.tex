@@ -1274,7 +1274,7 @@ The laser beam has a Gaussian profile.
 \end{frame}
 
 
-\section{Some Physics}
+\section{Electrical Components and Circuits}
 
 \begin{frame}
 \frametitle{Introduction to Electrical Circuits}
@@ -1499,6 +1499,122 @@ I = \frac{V_{cc}}{R_1} + \frac{V_{cc}}{R_2}
 \end{column}
 \end{columns}
 \end{frame}
+
+
+\begin{frame}\frametitle{Switches}
+\begin{figure}[h]
+	\includegraphics[scale=0.40]{fig/switchstate2.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{Poles and Throws}
+\begin{figure}[h]
+	\includegraphics[scale=0.25]{fig/st2.jpg}
+\end{figure}
+\begin{itemize}
+\item Poles indicates the number of circuits that one switch can control for one operation of the switch. 
+\item Throws indicates the number of contact points.
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}\frametitle{A Button - SPST}
+\begin{figure}[h]
+	\includegraphics[scale=0.20]{fig/SPST2.png}
+\end{figure}
+\end{frame}
+
+
+\begin{frame}\frametitle{Inductors}
+\begin{columns}
+\begin{column}{4cm}
+\begin{center}
+\includegraphics[scale=0.7]{fig/bsav3.png}
+
+\vspace{0.25cm}
+
+\includegraphics[scale=0.7]{fig/sol3.png}
+
+\vspace{0.25cm}
+
+\includegraphics[scale=1.00]{fig/ind.png}
+
+\end{center}
+\end{column}
+\begin{column}{6.5cm}
+\begin{itemize}
+\item Current flowing in a wire produces a magnetic field (B) around the wire (from Ampere's Law).
+\item Wire wrapped into a coil produces a magnetic field that resembles a bar magnet through the center of the coil.
+\item Also, in a coil, this magnetic field produces an effect known as Inductance (L) that opposes changes in electric current. 
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+
+\begin{frame}\frametitle{Relays}
+\begin{columns}
+\begin{column}{5cm}
+\begin{center}
+\includegraphics[scale=0.25]{fig/relayschem.jpg}
+
+\vspace{0.25cm}
+
+\includegraphics[scale=0.25]{fig/emitterfollower.png}
+\end{center}
+\end{column}
+\begin{column}{6cm}
+\begin{itemize}
+\item When a device (e.g. a pump) requires higher voltage ($>5V$) or higher current, then a relay can be used as a switch for the device
+\item The relay is activated by a digital pin from the microcontroller. 
+\begin{itemize}
+\item As the relay can require as much as 100mA from the digital pin, to provide sufficient current, use a current amplifying emitter follower to draw current directly from the USB connection ($V_{BUS}$).
+\end{itemize}
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Optocoupled Relay}
+\begin{center}
+\includegraphics[scale=0.40]{fig/optorelay.png}
+\end{center}
+\begin{columns}
+\begin{column}{5cm}
+\includegraphics[scale=0.15]{fig/relay3va.jpg}
+\end{column}
+\begin{column}{5cm}
+\begin{itemize}
+\item Optocoupler isolates the relay load (which could be up to 240V) from the microcontroller electronics.
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Electrical Safety - Three Wires}
+\begin{center}
+\includegraphics[scale=0.40]{fig/lng.jpg}
+\end{center}
+\end{frame}
+
+\begin{frame}\frametitle{Electrical Safety - Electric Shock}
+\begin{center}
+\includegraphics[scale=0.40]{fig/inductedemf.jpg}
+\end{center}
+\end{frame}
+
+\begin{frame}\frametitle{Electrical Safety - GFCI}
+\begin{center}
+\includegraphics[scale=0.80]{fig/gfci.png}
+\end{center}
+\end{frame}
+
+\begin{frame}\frametitle{Electrical Safety - 240V}
+\begin{center}
+\includegraphics[scale=1.8]{fig/hse.png}
+\end{center}
+\end{frame}
+
 
 
 \end{document}
