@@ -1,4 +1,4 @@
 \beamer@sectionintoc {1}{Electrical Components and Circuits}{2}{0}{1}
 \beamer@sectionintoc {2}{Capacitance and Filters}{16}{0}{2}
 \beamer@sectionintoc {3}{Switches, Inductance, and Relays}{27}{0}{3}
-\beamer@sectionintoc {4}{Diodes and Photodetectors}{40}{0}{4}
+\beamer@sectionintoc {4}{Diodes and Photodetectors}{44}{0}{4}
