@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  5 NOV 2025 21:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  6 NOV 2025 07:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1830,9 +1830,10 @@ File: fig/rectifier2.jpg Graphic file (type jpg)
 <use fig/rectifier2.jpg>
 Package pdftex.def Info: fig/rectifier2.jpg  used on input line 728.
 (pdftex.def)             Requested size: 147.95424pt x 91.08347pt.
-File: fig/rectifier2.jpg Graphic file (type jpg)
-<use fig/rectifier2.jpg>
-Package pdftex.def Info: fig/rectifier2.jpg  used on input line 728.
+<fig/rectifier3.jpg, id=559, 347.2975pt x 213.79875pt>
+File: fig/rectifier3.jpg Graphic file (type jpg)
+<use fig/rectifier3.jpg>
+Package pdftex.def Info: fig/rectifier3.jpg  used on input line 728.
 (pdftex.def)             Requested size: 147.95424pt x 91.08347pt.
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
@@ -1840,8 +1841,8 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 728.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
  [49
 
- <./fig/rectifier2.jpg>]
-<fig/rectifier4.jpg, id=567, 414.54875pt x 322.20375pt>
+ <./fig/rectifier2.jpg> <./fig/rectifier3.jpg>]
+<fig/rectifier4.jpg, id=568, 414.54875pt x 322.20375pt>
 File: fig/rectifier4.jpg Graphic file (type jpg)
 <use fig/rectifier4.jpg>
 Package pdftex.def Info: fig/rectifier4.jpg  used on input line 734.
@@ -1853,7 +1854,7 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 734.
  [50
 
  <./fig/rectifier4.jpg>]
-<fig/rectifier6.jpg, id=575, 1269.60811pt x 585.97298pt>
+<fig/rectifier6.jpg, id=576, 1269.60811pt x 585.97298pt>
 File: fig/rectifier6.jpg Graphic file (type jpg)
 <use fig/rectifier6.jpg>
 Package pdftex.def Info: fig/rectifier6.jpg  used on input line 740.
@@ -1867,12 +1868,12 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 740.
  <./fig/rectifier6.jpg>] [52
 
 ]
-<fig/idealdiode.png, id=600, 451.6875pt x 232.61906pt>
+<fig/idealdiode.png, id=601, 451.6875pt x 232.61906pt>
 File: fig/idealdiode.png Graphic file (type png)
 <use fig/idealdiode.png>
 Package pdftex.def Info: fig/idealdiode.png  used on input line 755.
 (pdftex.def)             Requested size: 112.92159pt x 58.15462pt.
-<fig/actualdiode.png, id=601, 451.6875pt x 451.6875pt>
+<fig/actualdiode.png, id=602, 451.6875pt x 451.6875pt>
 File: fig/actualdiode.png Graphic file (type png)
 <use fig/actualdiode.png>
 Package pdftex.def Info: fig/actualdiode.png  used on input line 755.
@@ -1884,7 +1885,7 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 755.
  [53
 
  <./fig/idealdiode.png> <./fig/actualdiode.png>]
-<fig/LEDs.png, id=611, 72.27pt x 82.3878pt>
+<fig/LEDs.png, id=612, 72.27pt x 82.3878pt>
 File: fig/LEDs.png Graphic file (type png)
 <use fig/LEDs.png>
 Package pdftex.def Info: fig/LEDs.png  used on input line 763.
@@ -1896,7 +1897,7 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 763.
  [54
 
  <./fig/LEDs.png>]
-<fig/diodeFR.jpg, id=620, 642.4pt x 309.155pt>
+<fig/diodeFR.jpg, id=621, 642.4pt x 309.155pt>
 File: fig/diodeFR.jpg Graphic file (type jpg)
 <use fig/diodeFR.jpg>
 Package pdftex.def Info: fig/diodeFR.jpg  used on input line 769.
@@ -1908,12 +1909,12 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 769.
  [55
 
  <./fig/diodeFR.jpg>]
-<fig/photodiode3.jpg, id=629, 657.45625pt x 714.67pt>
+<fig/photodiode3.jpg, id=630, 657.45625pt x 714.67pt>
 File: fig/photodiode3.jpg Graphic file (type jpg)
 <use fig/photodiode3.jpg>
 Package pdftex.def Info: fig/photodiode3.jpg  used on input line 784.
 (pdftex.def)             Requested size: 147.95424pt x 160.82652pt.
-<fig/photodiode2.png, id=630, 1027.84pt x 687.56876pt>
+<fig/photodiode2.png, id=631, 1027.84pt x 687.56876pt>
 File: fig/photodiode2.png Graphic file (type png)
 <use fig/photodiode2.png>
 Package pdftex.def Info: fig/photodiode2.png  used on input line 784.
@@ -1925,7 +1926,7 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 784.
  [56
 
  <./fig/photodiode3.jpg> <./fig/photodiode2.png>]
-<fig/apd.jpg, id=640, 291.0875pt x 204.765pt>
+<fig/apd.jpg, id=641, 291.0875pt x 204.765pt>
 File: fig/apd.jpg Graphic file (type jpg)
 <use fig/apd.jpg>
 Package pdftex.def Info: fig/apd.jpg  used on input line 802.
@@ -1952,10 +1953,10 @@ Package rerunfilecheck Info: File `quantum_electronics.out' has not changed.
 (rerunfilecheck)             Checksum: 1C63D60D1C16B57BB4FE44460AD636C9;956.
  ) 
 Here is how much of TeX's memory you used:
- 34260 strings out of 478268
- 720651 string characters out of 5846346
- 988883 words of memory out of 5000000
- 51640 multiletter control sequences out of 15000+600000
+ 34267 strings out of 478268
+ 720804 string characters out of 5846346
+ 988882 words of memory out of 5000000
+ 51646 multiletter control sequences out of 15000+600000
  484452 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,463b,878s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1974,10 +1975,10 @@ l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local
 texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/te
 xlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
 ive/2022/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb>
-Output written on quantum_electronics.pdf (57 pages, 6953675 bytes).
+Output written on quantum_electronics.pdf (57 pages, 6969310 bytes).
 PDF statistics:
- 739 PDF objects out of 1000 (max. 8388607)
+ 740 PDF objects out of 1000 (max. 8388607)
  502 compressed objects within 6 object streams
  120 named destinations out of 1000 (max. 500000)
- 737 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 742 words of extra memory for PDF output out of 10000 (max. 10000000)
 
