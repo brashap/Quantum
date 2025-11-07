@@ -17,8 +17,7 @@
 \beamer@sectionintoc {17}{Polarization}{179}{0}{17}
 \beamer@sectionintoc {18}{Quantum Cryptography - Quantum Key Distribution}{195}{0}{18}
 \beamer@sectionintoc {19}{The Atom and Quantum Mechanics}{211}{0}{19}
-\beamer@sectionintoc {20}{The Laser}{224}{0}{20}
-\beamer@sectionintoc {21}{Entanglement}{229}{0}{21}
-\beamer@sectionintoc {22}{Schrodenger's Atom}{237}{0}{22}
-\beamer@sectionintoc {23}{What is a Qubit}{241}{0}{23}
-\beamer@sectionintoc {24}{Quantum Computing}{243}{0}{24}
+\beamer@sectionintoc {20}{The Laser}{239}{0}{20}
+\beamer@sectionintoc {21}{Entanglement}{244}{0}{21}
+\beamer@sectionintoc {22}{What is a Qubit}{252}{0}{22}
+\beamer@sectionintoc {23}{Quantum Computing}{254}{0}{23}
