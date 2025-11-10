@@ -3486,15 +3486,84 @@ Dutch physics student Pieter Zeeman investigated how spectra are affected by mag
 \end{center}
 \end{frame}
 
+\begin{frame}\frametitle{Population Inversion}
+\begin{columns}
+\begin{column}{5cm}
+\begin{center}
+\includegraphics[width=5cm]{fig/popinvert.jpg}
+\end{center}
+\end{column}
+\begin{column}{7cm}
+\begin{itemize}
+\item Electrons are pumped to a short-lived excited state
+\item The electrons drop to a relatively long metastable state
+\item One spontaneous emission leads to stimulated emission
+\item If population is not inverted (i.e., more electrons in ground state) then more likely photons will be absorbed vs stimulate emission
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
 \begin{frame}\frametitle{Light Amplification $\rightarrow$ LASER}
 \begin{center}
 \includegraphics[width=10cm]{fig/laser2.png}
 \end{center}
 \end{frame}
 
-\begin{frame}\frametitle{Coherence}
+\begin{frame}\frametitle{Parts of a Laser}
+\begin{columns}
+\begin{column}{3.5cm}
 \begin{center}
-\includegraphics[width=8cm]{fig/laser3.jpg}
+\includegraphics[width=3.5cm]{fig/laserparts.jpg}
+\end{center}
+\end{column}
+\begin{column}{8cm}
+\begin{itemize}
+\item Gain Medium - a liquid, gas, or solid whose electrons get excited by energy and a light amplification process occurs. 
+\item Pumping Source - atoms in the gain medium absorb energy from the pumping source, they reach an excited state.
+\item Mirrors - one high reflective (near 100\%), the other partially transparent.
+\end{itemize}
+\end{column}
+\end{columns}
+
+\vspace{0.25cm}
+
+The photons from the excited atoms bounce between the two mirrors. As they pass through the gain medium, they stimulate atoms to release more photons. This process amplifies the light. Eventually, the light becomes intense enough to pass through the output coupler as a concentrated beam of light.
+\end{frame}
+
+\begin{frame}\frametitle{Gain Medium}
+\begin{itemize}
+\item Solid State: solid material, typically a glass or crystalline doped with ions of rare earth metals. The doping material absorbs pumping energy and emits light
+\item Gas: A current is passed through a gas mixture exciting the gas atoms and causes them to emit photons. The gases typically used are noble gases (helium, neon, argon, krypton), nitrogen, and $CO_2$.
+\item Liquid: Dye lasers use a liquid dye solution (e.g. Rhodamine) as the gain medium. The dye molecules are excited by a light source, which leads to the emission of photons.
+\item Semiconductor: When an electric current is passed through the PN junction of this diode, electrons and holes (electron vacancies) recombine, releasing energy in the form of photons.
+\item Fiber: the core is doped with rare-earth elements like erbium, ytterbium, or neodymium. The fiber is then “pumped” with light from diode lasers, which excites the doped atoms. As these atoms release photons, the light is amplified within the fiber.
+\end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{Mode of Operation}
+\begin{itemize}
+\item Continuous Wave (CW): emit a constant, unbroken beam of light as long as they are powered. There is no interruption or modulation in the light output.
+\item Pulsed: emit light in short bursts or pulses. This mode is used when continuous operation is not practical, or when high peak power is required. Pulse duration varies by application:
+\begin{itemize}
+\item Milliseconds: medical treatments such as dermatology procedures.
+\item Microseconds: industrial applications such as precision drilling and micro-machining.
+\item Nanoseconds: scientific research
+\item Pico/Femtoseconds: highly precise surgical procedures, such as eye surgeries, high precision machining, quantum technologies.
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{Laser by Wavelength}
+\begin{center}
+\includegraphics[width=10cm]{fig/laserlambda.jpg}
+\end{center}
+\end{frame}
+
+\begin{frame}\frametitle{Coherence}
+Coherence expresses the potential for two waves to interfere.
+\begin{center}
+\includegraphics[width=6cm]{fig/coherence2.jpg}
 \end{center}
 \end{frame}
 
@@ -3504,7 +3573,39 @@ Dutch physics student Pieter Zeeman investigated how spectra are affected by mag
 \end{center}
 \end{frame}
 
-\section{Entanglement}
+\begin{frame}\frametitle{Fabry-Perot Diode Laser}
+\begin{columns}
+\begin{column}{4cm}
+\begin{center}
+\includegraphics[width=4cm]{fig/LaserDiode.jpg}
+
+\vspace{1cm}
+
+\includegraphics[width=4cm]{fig/FPcavity.jpg}
+
+\end{center}
+\end{column}
+\begin{column}{8cm}
+\begin{itemize}
+\item Semiconductor materials (e.g. GaAr or InP), resembles a PIN diode, including an active region where light emission occurs. 
+\item Intrinsic region has a higher refractive index than the n- and p-type regions. This creates lateral confinement, acting as a waveguide that confines the light to propagate along the active region.
+\item Both ends of the active region are cleaved facets that are parallel to each other and perpendicular to the length of the active region. One serves as a highly reflective mirror, while the other acts as a partially reflective mirror. 
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{FP Cavity}
+Only wavelengths that can form a standing wave mode within the cavity are allowed to oscillate. This characteristic results in the FP resonance spectrum, which consists of a series of discrete resonant modes.
+\begin{center}
+\includegraphics[width=4cm]{fig/FPcavity2.jpg}
+\end{center}
+\[ 2nL = m \lambda \]
+
+Only the wavelengths within the gain medium spectrum (where there is sufficient gain) will be present in the output. 
+\end{frame}
+
+\section{Quantum Optics}
 
 \begin{frame}\frametitle{BBO Crystals}
 \begin{center}

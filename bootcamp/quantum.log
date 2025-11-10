@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  7 NOV 2025 06:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  9 NOV 2025 20:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4151,222 +4151,304 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3487.
  [240
 
  <./fig/laser1.png>]
-<fig/laser2.png, id=2445, 144.54pt x 49.3845pt>
-File: fig/laser2.png Graphic file (type png)
-<use fig/laser2.png>
-Package pdftex.def Info: fig/laser2.png  used on input line 3493.
-(pdftex.def)             Requested size: 284.52756pt x 97.21869pt.
-File: fig/ddclogotransparent.png Graphic file (type png)
-<use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3493.
-(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
- [241
-
- <./fig/laser2.png>]
-<fig/laser3.jpg, id=2455, 327.2225pt x 244.915pt>
-File: fig/laser3.jpg Graphic file (type jpg)
-<use fig/laser3.jpg>
-Package pdftex.def Info: fig/laser3.jpg  used on input line 3499.
-(pdftex.def)             Requested size: 227.62204pt x 170.36676pt.
-File: fig/ddclogotransparent.png Graphic file (type png)
-<use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3499.
-(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
- [242
-
- <./fig/laser3.jpg>]
-<fig/HeNe_transitions.jpg, id=2463, 807.015pt x 671.50874pt>
-File: fig/HeNe_transitions.jpg Graphic file (type jpg)
-<use fig/HeNe_transitions.jpg>
-Package pdftex.def Info: fig/HeNe_transitions.jpg  used on input line 3505.
-(pdftex.def)             Requested size: 227.62204pt x 189.40442pt.
+<fig/popinvert.jpg, id=2445, 315.1775pt x 216.81pt>
+File: fig/popinvert.jpg Graphic file (type jpg)
+<use fig/popinvert.jpg>
+Package pdftex.def Info: fig/popinvert.jpg  used on input line 3505.
+(pdftex.def)             Requested size: 142.26378pt x 97.86133pt.
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
 Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3505.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [241
+
+ <./fig/popinvert.jpg>]
+<fig/laser2.png, id=2454, 144.54pt x 49.3845pt>
+File: fig/laser2.png Graphic file (type png)
+<use fig/laser2.png>
+Package pdftex.def Info: fig/laser2.png  used on input line 3511.
+(pdftex.def)             Requested size: 284.52756pt x 97.21869pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3511.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [242
+
+ <./fig/laser2.png>]
+<fig/laserparts.jpg, id=2463, 540.0175pt x 327.2225pt>
+File: fig/laserparts.jpg Graphic file (type jpg)
+<use fig/laserparts.jpg>
+Package pdftex.def Info: fig/laserparts.jpg  used on input line 3532.
+(pdftex.def)             Requested size: 99.58464pt x 60.34048pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3532.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
  [243
 
- <./fig/HeNe_transitions.jpg>]
+ <./fig/laserparts.jpg>]
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3542.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+
+Overfull \vbox (1.72528pt too high) detected at line 3542
+ []
+
 [244
 
 ]
-<fig/BBOcrystal.jpg, id=2488, 113.223pt x 75.4017pt>
-File: fig/BBOcrystal.jpg Graphic file (type jpg)
-<use fig/BBOcrystal.jpg>
-Package pdftex.def Info: fig/BBOcrystal.jpg  used on input line 3513.
-(pdftex.def)             Requested size: 227.62204pt x 151.59113pt.
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3513.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3555.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
  [245
 
- <./fig/BBOcrystal.jpg>]
-<fig/SPDC.png, id=2496, 615.2586pt x 362.3136pt>
-File: fig/SPDC.png Graphic file (type png)
-<use fig/SPDC.png>
-Package pdftex.def Info: fig/SPDC.png  used on input line 3519.
-(pdftex.def)             Requested size: 227.62204pt x 134.04288pt.
+]
+<fig/laserlambda.jpg, id=2485, 755.82375pt x 266.9975pt>
+File: fig/laserlambda.jpg Graphic file (type jpg)
+<use fig/laserlambda.jpg>
+Package pdftex.def Info: fig/laserlambda.jpg  used on input line 3561.
+(pdftex.def)             Requested size: 284.52756pt x 100.51083pt.
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3519.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3561.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
  [246
 
- <./fig/SPDC.png>]
-<fig/QOCover.jpg, id=2505, 447.6725pt x 653.44125pt>
-File: fig/QOCover.jpg Graphic file (type jpg)
-<use fig/QOCover.jpg>
-Package pdftex.def Info: fig/QOCover.jpg  used on input line 3538.
-(pdftex.def)             Requested size: 142.26378pt x 207.65971pt.
-File: fig/ddclogotransparent.png Graphic file (type png)
-<use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3538.
-(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
- [247
-
- <./fig/QOCover.jpg>]
-<fig/SPDC2.jpg, id=2514, 1355.0625pt x 774.895pt>
-File: fig/SPDC2.jpg Graphic file (type jpg)
-<use fig/SPDC2.jpg>
-Package pdftex.def Info: fig/SPDC2.jpg  used on input line 3544.
-(pdftex.def)             Requested size: 227.62204pt x 130.15782pt.
-File: fig/ddclogotransparent.png Graphic file (type png)
-<use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3544.
-(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
- [248
-
- <./fig/SPDC2.jpg>]
-<fig/QO_coinc.jpg, id=2523, 863.225pt x 489.83pt>
-File: fig/QO_coinc.jpg Graphic file (type jpg)
-<use fig/QO_coinc.jpg>
-Package pdftex.def Info: fig/QO_coinc.jpg  used on input line 3568.
-(pdftex.def)             Requested size: 113.81102pt x 64.57703pt.
-<fig/QO_a2t.jpg, id=2524, 687.56876pt x 393.47pt>
-File: fig/QO_a2t.jpg Graphic file (type jpg)
-<use fig/QO_a2t.jpg>
-Package pdftex.def Info: fig/QO_a2t.jpg  used on input line 3568.
-(pdftex.def)             Requested size: 113.81102pt x 65.12987pt.
-<fig/QO_g2.jpg, id=2525, 874.26625pt x 494.84875pt>
-File: fig/QO_g2.jpg Graphic file (type jpg)
-<use fig/QO_g2.jpg>
-Package pdftex.def Info: fig/QO_g2.jpg  used on input line 3568.
-(pdftex.def)             Requested size: 113.81102pt x 64.41565pt.
-<fig/QO_PP.jpg, id=2526, 1175.39125pt x 694.595pt>
-File: fig/QO_PP.jpg Graphic file (type jpg)
-<use fig/QO_PP.jpg>
-Package pdftex.def Info: fig/QO_PP.jpg  used on input line 3568.
-(pdftex.def)             Requested size: 142.26378pt x 84.06851pt.
+ <./fig/laserlambda.jpg>]
+<fig/coherence2.jpg, id=2493, 642.4pt x 654.445pt>
+File: fig/coherence2.jpg Graphic file (type jpg)
+<use fig/coherence2.jpg>
+Package pdftex.def Info: fig/coherence2.jpg  used on input line 3568.
+(pdftex.def)             Requested size: 170.71652pt x 173.91641pt.
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
 Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3568.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [247
+
+ <./fig/coherence2.jpg>]
+<fig/HeNe_transitions.jpg, id=2502, 807.015pt x 671.50874pt>
+File: fig/HeNe_transitions.jpg Graphic file (type jpg)
+<use fig/HeNe_transitions.jpg>
+Package pdftex.def Info: fig/HeNe_transitions.jpg  used on input line 3574.
+(pdftex.def)             Requested size: 227.62204pt x 189.40442pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3574.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [248
+
+ <./fig/HeNe_transitions.jpg>]
+<fig/LaserDiode.jpg, id=2510, 501.875pt x 315.1775pt>
+File: fig/LaserDiode.jpg Graphic file (type jpg)
+<use fig/LaserDiode.jpg>
+Package pdftex.def Info: fig/LaserDiode.jpg  used on input line 3596.
+(pdftex.def)             Requested size: 113.81102pt x 71.46974pt.
+<fig/FPcavity.jpg, id=2511, 376.40625pt x 114.4275pt>
+File: fig/FPcavity.jpg Graphic file (type jpg)
+<use fig/FPcavity.jpg>
+Package pdftex.def Info: fig/FPcavity.jpg  used on input line 3596.
+(pdftex.def)             Requested size: 113.81102pt x 34.59914pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3596.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
  [249
 
- <./fig/QO_coinc.jpg> <./fig/QO_a2t.jpg> <./fig/QO_g2.jpg> <./fig/QO_PP.jpg>]
-<fig/grangier.jpg, id=2534, 1110.1475pt x 885.3075pt>
-File: fig/grangier.jpg Graphic file (type jpg)
-<use fig/grangier.jpg>
-Package pdftex.def Info: fig/grangier.jpg  used on input line 3594.
-(pdftex.def)             Requested size: 113.81102pt x 90.75136pt.
+ <./fig/LaserDiode.jpg> <./fig/FPcavity.jpg>]
+<fig/FPcavity2.jpg, id=2520, 327.47343pt x 258.21469pt>
+File: fig/FPcavity2.jpg Graphic file (type jpg)
+<use fig/FPcavity2.jpg>
+Package pdftex.def Info: fig/FPcavity2.jpg  used on input line 3606.
+(pdftex.def)             Requested size: 113.81102pt x 89.7382pt.
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3594.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3606.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
- [250
 
- <./fig/grangier.jpg>]
-<fig/QO_GRA2.jpg, id=2542, 925.4575pt x 532.99126pt>
-File: fig/QO_GRA2.jpg Graphic file (type jpg)
-<use fig/QO_GRA2.jpg>
-Package pdftex.def Info: fig/QO_GRA2.jpg  used on input line 3621.
-(pdftex.def)             Requested size: 142.26378pt x 81.92963pt.
-<fig/QO_GRA.jpg, id=2543, 844.15375pt x 510.90875pt>
-File: fig/QO_GRA.jpg Graphic file (type jpg)
-<use fig/QO_GRA.jpg>
-Package pdftex.def Info: fig/QO_GRA.jpg  used on input line 3621.
-(pdftex.def)             Requested size: 142.26378pt x 86.09714pt.
-File: fig/ddclogotransparent.png Graphic file (type png)
-<use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3621.
-(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
- [251
+[250
 
- <./fig/QO_GRA2.jpg> <./fig/QO_GRA.jpg>] [252
+ <./fig/FPcavity2.jpg>] [251
 
 ]
-<fig/bitQubit.png, id=2568, 875.52094pt x 432.86719pt>
-File: fig/bitQubit.png Graphic file (type png)
-<use fig/bitQubit.png>
-Package pdftex.def Info: fig/bitQubit.png  used on input line 3634.
-(pdftex.def)             Requested size: 312.9803pt x 154.74223pt.
+<fig/BBOcrystal.jpg, id=2545, 113.223pt x 75.4017pt>
+File: fig/BBOcrystal.jpg Graphic file (type jpg)
+<use fig/BBOcrystal.jpg>
+Package pdftex.def Info: fig/BBOcrystal.jpg  used on input line 3614.
+(pdftex.def)             Requested size: 227.62204pt x 151.59113pt.
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3634.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3614.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [252
+
+ <./fig/BBOcrystal.jpg>]
+<fig/SPDC.png, id=2553, 615.2586pt x 362.3136pt>
+File: fig/SPDC.png Graphic file (type png)
+<use fig/SPDC.png>
+Package pdftex.def Info: fig/SPDC.png  used on input line 3620.
+(pdftex.def)             Requested size: 227.62204pt x 134.04288pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3620.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
  [253
 
- <./fig/bitQubit.png>] [254
-
-]
+ <./fig/SPDC.png>]
+<fig/QOCover.jpg, id=2563, 447.6725pt x 653.44125pt>
+File: fig/QOCover.jpg Graphic file (type jpg)
+<use fig/QOCover.jpg>
+Package pdftex.def Info: fig/QOCover.jpg  used on input line 3639.
+(pdftex.def)             Requested size: 142.26378pt x 207.65971pt.
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3647.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3639.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [254
+
+ <./fig/QOCover.jpg>]
+<fig/SPDC2.jpg, id=2571, 1355.0625pt x 774.895pt>
+File: fig/SPDC2.jpg Graphic file (type jpg)
+<use fig/SPDC2.jpg>
+Package pdftex.def Info: fig/SPDC2.jpg  used on input line 3645.
+(pdftex.def)             Requested size: 227.62204pt x 130.15782pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3645.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
  [255
 
-]
+ <./fig/SPDC2.jpg>]
+<fig/QO_coinc.jpg, id=2579, 863.225pt x 489.83pt>
+File: fig/QO_coinc.jpg Graphic file (type jpg)
+<use fig/QO_coinc.jpg>
+Package pdftex.def Info: fig/QO_coinc.jpg  used on input line 3669.
+(pdftex.def)             Requested size: 113.81102pt x 64.57703pt.
+<fig/QO_a2t.jpg, id=2580, 687.56876pt x 393.47pt>
+File: fig/QO_a2t.jpg Graphic file (type jpg)
+<use fig/QO_a2t.jpg>
+Package pdftex.def Info: fig/QO_a2t.jpg  used on input line 3669.
+(pdftex.def)             Requested size: 113.81102pt x 65.12987pt.
+<fig/QO_g2.jpg, id=2581, 874.26625pt x 494.84875pt>
+File: fig/QO_g2.jpg Graphic file (type jpg)
+<use fig/QO_g2.jpg>
+Package pdftex.def Info: fig/QO_g2.jpg  used on input line 3669.
+(pdftex.def)             Requested size: 113.81102pt x 64.41565pt.
+<fig/QO_PP.jpg, id=2582, 1175.39125pt x 694.595pt>
+File: fig/QO_PP.jpg Graphic file (type jpg)
+<use fig/QO_PP.jpg>
+Package pdftex.def Info: fig/QO_PP.jpg  used on input line 3669.
+(pdftex.def)             Requested size: 142.26378pt x 84.06851pt.
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3653.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3669.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
  [256
 
-]
+ <./fig/QO_coinc.jpg> <./fig/QO_a2t.jpg> <./fig/QO_g2.jpg> <./fig/QO_PP.jpg>]
+<fig/grangier.jpg, id=2590, 1110.1475pt x 885.3075pt>
+File: fig/grangier.jpg Graphic file (type jpg)
+<use fig/grangier.jpg>
+Package pdftex.def Info: fig/grangier.jpg  used on input line 3695.
+(pdftex.def)             Requested size: 113.81102pt x 90.75136pt.
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3658.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3695.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [257
 
-[257
-
-]
+ <./fig/grangier.jpg>]
+<fig/QO_GRA2.jpg, id=2598, 925.4575pt x 532.99126pt>
+File: fig/QO_GRA2.jpg Graphic file (type jpg)
+<use fig/QO_GRA2.jpg>
+Package pdftex.def Info: fig/QO_GRA2.jpg  used on input line 3722.
+(pdftex.def)             Requested size: 142.26378pt x 81.92963pt.
+<fig/QO_GRA.jpg, id=2599, 844.15375pt x 510.90875pt>
+File: fig/QO_GRA.jpg Graphic file (type jpg)
+<use fig/QO_GRA.jpg>
+Package pdftex.def Info: fig/QO_GRA.jpg  used on input line 3722.
+(pdftex.def)             Requested size: 142.26378pt x 86.09714pt.
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3663.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3722.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
  [258
 
+ <./fig/QO_GRA2.jpg> <./fig/QO_GRA.jpg>] [259
+
 ]
-<fig/qscoutTrappedIon.jpg, id=2623, 803.0pt x 446.66875pt>
+<fig/bitQubit.png, id=2625, 875.52094pt x 432.86719pt>
+File: fig/bitQubit.png Graphic file (type png)
+<use fig/bitQubit.png>
+Package pdftex.def Info: fig/bitQubit.png  used on input line 3735.
+(pdftex.def)             Requested size: 312.9803pt x 154.74223pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3735.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [260
+
+ <./fig/bitQubit.png>] [261
+
+]
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3748.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [262
+
+]
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3754.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [263
+
+]
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3759.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [264
+
+]
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3764.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [265
+
+]
+<fig/qscoutTrappedIon.jpg, id=2681, 803.0pt x 446.66875pt>
 File: fig/qscoutTrappedIon.jpg Graphic file (type jpg)
 <use fig/qscoutTrappedIon.jpg>
-Package pdftex.def Info: fig/qscoutTrappedIon.jpg  used on input line 3675.
+Package pdftex.def Info: fig/qscoutTrappedIon.jpg  used on input line 3776.
 (pdftex.def)             Requested size: 142.26378pt x 79.1292pt.
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3675.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3776.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
 
-Overfull \vbox (34.45445pt too high) detected at line 3675
+Overfull \vbox (34.45445pt too high) detected at line 3776
  []
 
-[259
+[266
 
  <./fig/qscoutTrappedIon.jpg>]
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3682.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3783.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
- [260
+ [267
 
 ]
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3686.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3787.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
- [261
+ [268
 
 ]
 \tf@nav=\write7
@@ -4387,13 +4469,13 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 (./quantum.aux)
 Package rerunfilecheck Info: File `quantum.out' has not changed.
-(rerunfilecheck)             Checksum: B8549335FC221DF1B268F0E2C76C3CF8;2987.
+(rerunfilecheck)             Checksum: 87B609EBF826A3B25DF883E5F0FA70EB;3000.
  ) 
 Here is how much of TeX's memory you used:
- 37064 strings out of 478268
- 765890 string characters out of 5846346
- 1066309 words of memory out of 5000000
- 53804 multiletter control sequences out of 15000+600000
+ 37136 strings out of 478268
+ 767106 string characters out of 5846346
+ 1067686 words of memory out of 5000000
+ 53856 multiletter control sequences out of 15000+600000
  485848 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,510b,836s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -4417,10 +4499,10 @@ ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive
 /2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2
 022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/20
 22/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb>
-Output written on quantum.pdf (261 pages, 31877013 bytes).
+Output written on quantum.pdf (268 pages, 32072787 bytes).
 PDF statistics:
- 2857 PDF objects out of 2984 (max. 8388607)
- 2054 compressed objects within 21 object streams
- 546 named destinations out of 1000 (max. 500000)
- 2386 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2916 PDF objects out of 2984 (max. 8388607)
+ 2100 compressed objects within 21 object streams
+ 560 named destinations out of 1000 (max. 500000)
+ 2416 words of extra memory for PDF output out of 10000 (max. 10000000)
 
