@@ -18,6 +18,6 @@
 \beamer@sectionintoc {18}{Quantum Cryptography - Quantum Key Distribution}{195}{0}{18}
 \beamer@sectionintoc {19}{The Atom and Quantum Mechanics}{211}{0}{19}
 \beamer@sectionintoc {20}{The Laser}{239}{0}{20}
-\beamer@sectionintoc {21}{Quantum Optics}{251}{0}{21}
+\beamer@sectionintoc {21}{Quantum Optics - Making Single Photon Pairs}{251}{0}{21}
 \beamer@sectionintoc {22}{What is a Qubit}{259}{0}{22}
 \beamer@sectionintoc {23}{Quantum Computing}{261}{0}{23}
