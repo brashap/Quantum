@@ -3639,10 +3639,28 @@ Only the wavelengths within the gain medium spectrum (where there is sufficient 
 \end{frame}
 
 \begin{frame}\frametitle{BBO Crystal: Spontaneous Parametric Down Conversion}
+\begin{columns}
+\begin{column}{5cm}
 \begin{center}
-\includegraphics[width=8cm]{fig/SPDC2.jpg}
+\includegraphics[width=4cm]{fig/SPDC.png}
 \end{center}
+\end{column}
+\begin{column}{5cm}
+\begin{center}
+\includegraphics[width=4cm]{fig/SPDC2.jpg}
+\end{center}
+\end{column}
+
+
+\end{columns}
+Incident photon:
+\[E_{inc} = hf = \frac{hc}{\lambda}= 4.89 \times 10^{-19} Joules \]
+
+Signal/Idler pair:
+\[\frac{hc}{\lambda} = \frac{E_{inc}}{2}  = 2.445 \times 10^{-19} Joules\]
+\[\lambda = 2 (\frac{hc}{E_{inc}}) = 810 nm\]
 \end{frame}
+
 
 \begin{frame}\frametitle{Assignment: Quantum Optics - Part 2}
 \begin{columns}
@@ -3677,7 +3695,7 @@ Grangier-Roger-Aspect experiment
 \begin{itemize}
 \item Introduce beamsplitter
 \item Single photon transmitted or reflected, but not both
-\item Autocorrelations: \[g^{(2)}(0) = \frac{N_{TAB} \cdot N_T}{N_{TA} \cdot N_{TB}} \]
+\item Autocorrelations: \[g^{(2)}(0) = \frac{R_{TAB} \cdot R_T}{R_{TA} \cdot R_{TB}} \]
 \begin{itemize}
 \item Coherent (Laser): $g^{(2)}(0) = 1$
 \item Classical Light: $g^{(2)}(0) > 1$
@@ -3694,13 +3712,99 @@ Grangier-Roger-Aspect experiment
 \end{columns}
 \end{frame}
 
+\begin{frame}\frametitle{Auto corrleations function}
+\begin{itemize}
+\item $g^2(0)$ is based on probability of simultaneous events at each detector:
+\[g^2(0) = \frac{P_{TAB}}{P_{TA} P_{TB}} \]
+\item $P_{TA}$ is the likelihood that an event is detected at Detector A at the same time as an event on Detector T. 
+\[ P_{TA} = \frac{R_{TA}}{R_T} \] 
+\item Likewise for the others detectors.
+\item Autocorrelation: \[g^{(2)}(0) = \frac{\frac{R_{TAB}}{R_T}}{\frac{R_{TA}}{R_T} \cdot \frac{R_{TB}}{R_T}} = \frac{R_{TAB} \cdot R_T}{R_{TA} \cdot R_{TB}} \]
+\end{itemize}
+\end{frame}
 
-\begin{frame}\frametitle{Assignment: Quantum Optics - Part 3}
+
+
+\begin{frame}\frametitle{Assignment: Quantum Optics - GRA Experiment}
 \begin{columns}
 \begin{column}{5.0cm}
 \begin{center}
 \begin{center}
 \includegraphics[width=5cm]{fig/QO_GRA2.jpg}
+\end{center}
+\end{center}
+\end{column}
+\begin{column}{6.5cm}
+Grangier-Roger-Aspect (Chapter 7.5)
+\begin{center}
+\includegraphics[width=5cm]{fig/QO_GRA.jpg}
+\end{center}
+\begin{itemize}
+\item Position Beamsplitter
+\item Position Third Detector
+\item Align Third Detector
+\item $g^2(0)$ should be less than 0.1
+\end{itemize}
+
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Assignment: Quantum Optics - Malus' Law}
+\begin{columns}
+\begin{column}{5.0cm}
+\begin{center}
+\begin{center}
+\includegraphics[width=5cm]{fig/spMalus1.jpg}
+\end{center}
+\end{center}
+\end{column}
+\begin{column}{7cm}
+Single Photon Malus Law (Chapter 9.6)
+\begin{center}
+\includegraphics[width=5cm]{fig/qop1_Malus.jpg}
+\end{center}
+\begin{itemize}
+\item Add a linear polarizer before Detector B
+\item Set polarizer to $0^{\circ}$
+\item Set integration time to 20s, take a measurement.
+\item Rotate polarizer in $10^{\circ}$ increments taking measurements from $0^{\circ}$ to $180^{\circ}$
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Assignment: Quantum Optics - Michelson Interferometer}
+\begin{columns}
+\begin{column}{6.0cm}
+\begin{center}
+\begin{center}
+\includegraphics[width=6cm]{fig/qop1_inter.jpg}
+\end{center}
+\end{center}
+\end{column}
+\begin{column}{5cm}
+\begin{itemize}
+\item Follow 7.6.1 for the additional alignment path
+\item Followed by the INterferometer alignment
+\item And then the detector alignment
+\item Take interferometer measurements
+\end{itemize}
+\begin{center}
+\includegraphics[width=5cm]{fig/qop1_inter2.jpg}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+
+
+\begin{frame}\frametitle{Assignment: Entangled Photons}
+\begin{columns}
+\begin{column}{5.0cm}
+\begin{center}
+\begin{center}
+\includegraphics[width=5cm]{fig/esp1.png}
 \end{center}
 \end{center}
 \end{column}
@@ -3720,8 +3824,6 @@ Grangier-Roger-Aspect (Chapter 7.5)
 \end{column}
 \end{columns}
 \end{frame}
-
-
 
 
 
