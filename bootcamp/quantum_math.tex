@@ -1617,6 +1617,22 @@ I = \frac{V_{cc}}{R_1} + \frac{V_{cc}}{R_2}
 
 \section{Control Theory}
 
+\begin{frame}\frametitle{Vescent Laser Servo and Spectroscopy Module}
+\begin{columns}
+\begin{column}{4cm}
+\includegraphics[width=3.5cm]{fig/d2-125.jpg}
+\includegraphics[width=3.5cm]{fig/d2-210.jpg}
+\end{column}
+\begin{column}{7cm}
+\begin{itemize}
+\item A laser servo's purpose is to act as a feedback control system to lock a laser's frequency or wavelength to a stable reference.
+\item Together with the spectroscopy module continuously monitors for any deviations from the target frequency.
+\item It generates an error signal, calculates a corrective signal using a PID controller and sends it back to the laser to stabilize it
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
 \begin{frame}\frametitle{PID Control: Cruise Control Example}
 \begin{center}
 \includegraphics[width=6cm]{fig/cruiseLogo.jpg}
@@ -1624,7 +1640,7 @@ I = \frac{V_{cc}}{R_1} + \frac{V_{cc}}{R_2}
 \url{https://youtu.be/XfAt6hNV8XM?si=DFWqnSe2hT0wGM92}
 \end{frame}
 
-\begin{frame}\frametitle{PID Control: The Plant (the car)}
+\begin{frame}\frametitle{PID Control: The "Plant" (the car)}
 \begin{center}
 \includegraphics[width=12cm]{fig/cruise.jpg}
 \end{center}

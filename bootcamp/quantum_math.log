@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  20 NOV 2025 09:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  20 NOV 2025 10:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2535,76 +2535,93 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1616.
  <./fig/hse.png>] [101
 
 ]
-<fig/cruiseLogo.jpg, id=1083, 225.84375pt x 225.84375pt>
-File: fig/cruiseLogo.jpg Graphic file (type jpg)
-<use fig/cruiseLogo.jpg>
-Package pdftex.def Info: fig/cruiseLogo.jpg  used on input line 1625.
-(pdftex.def)             Requested size: 170.71652pt x 170.72636pt.
+<fig/d2-125.jpg, id=1083, 481.8pt x 614.295pt>
+File: fig/d2-125.jpg Graphic file (type jpg)
+<use fig/d2-125.jpg>
+Package pdftex.def Info: fig/d2-125.jpg  used on input line 1634.
+(pdftex.def)             Requested size: 99.58464pt x 126.96236pt.
+<fig/d2-210.jpg, id=1084, 594.22pt x 407.5225pt>
+File: fig/d2-210.jpg Graphic file (type jpg)
+<use fig/d2-210.jpg>
+Package pdftex.def Info: fig/d2-210.jpg  used on input line 1634.
+(pdftex.def)             Requested size: 99.58464pt x 68.29541pt.
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1625.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1634.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
  [102
 
- <./fig/cruiseLogo.jpg>]
-<fig/cruise.jpg, id=1093, 1904.11375pt x 950.55125pt>
-File: fig/cruise.jpg Graphic file (type jpg)
-<use fig/cruise.jpg>
-Package pdftex.def Info: fig/cruise.jpg  used on input line 1631.
-(pdftex.def)             Requested size: 341.43306pt x 170.43915pt.
+ <./fig/d2-125.jpg> <./fig/d2-210.jpg>]
+<fig/cruiseLogo.jpg, id=1092, 225.84375pt x 225.84375pt>
+File: fig/cruiseLogo.jpg Graphic file (type jpg)
+<use fig/cruiseLogo.jpg>
+Package pdftex.def Info: fig/cruiseLogo.jpg  used on input line 1641.
+(pdftex.def)             Requested size: 170.71652pt x 170.72636pt.
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1631.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1641.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
  [103
 
- <./fig/cruise.jpg>]
-<fig/cruise2.jpg, id=1102, 1904.11375pt x 1067.99pt>
-File: fig/cruise2.jpg Graphic file (type jpg)
-<use fig/cruise2.jpg>
-Package pdftex.def Info: fig/cruise2.jpg  used on input line 1637.
-(pdftex.def)             Requested size: 341.43306pt x 191.49658pt.
+ <./fig/cruiseLogo.jpg>]
+<fig/cruise.jpg, id=1103, 1904.11375pt x 950.55125pt>
+File: fig/cruise.jpg Graphic file (type jpg)
+<use fig/cruise.jpg>
+Package pdftex.def Info: fig/cruise.jpg  used on input line 1647.
+(pdftex.def)             Requested size: 341.43306pt x 170.43915pt.
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1637.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1647.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
  [104
 
- <./fig/cruise2.jpg>]
-<fig/cruise3.jpg, id=1110, 1904.11375pt x 1067.99pt>
-File: fig/cruise3.jpg Graphic file (type jpg)
-<use fig/cruise3.jpg>
-Package pdftex.def Info: fig/cruise3.jpg  used on input line 1643.
+ <./fig/cruise.jpg>]
+<fig/cruise2.jpg, id=1111, 1904.11375pt x 1067.99pt>
+File: fig/cruise2.jpg Graphic file (type jpg)
+<use fig/cruise2.jpg>
+Package pdftex.def Info: fig/cruise2.jpg  used on input line 1653.
 (pdftex.def)             Requested size: 341.43306pt x 191.49658pt.
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1643.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1653.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
  [105
 
- <./fig/cruise3.jpg>]
-<fig/cruise4.jpg, id=1118, 1904.11375pt x 1017.8025pt>
-File: fig/cruise4.jpg Graphic file (type jpg)
-<use fig/cruise4.jpg>
-Package pdftex.def Info: fig/cruise4.jpg  used on input line 1649.
-(pdftex.def)             Requested size: 341.43306pt x 182.49768pt.
+ <./fig/cruise2.jpg>]
+<fig/cruise3.jpg, id=1119, 1904.11375pt x 1067.99pt>
+File: fig/cruise3.jpg Graphic file (type jpg)
+<use fig/cruise3.jpg>
+Package pdftex.def Info: fig/cruise3.jpg  used on input line 1659.
+(pdftex.def)             Requested size: 341.43306pt x 191.49658pt.
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1649.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1659.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
  [106
 
+ <./fig/cruise3.jpg>]
+<fig/cruise4.jpg, id=1127, 1904.11375pt x 1017.8025pt>
+File: fig/cruise4.jpg Graphic file (type jpg)
+<use fig/cruise4.jpg>
+Package pdftex.def Info: fig/cruise4.jpg  used on input line 1665.
+(pdftex.def)             Requested size: 341.43306pt x 182.49768pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1665.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [107
+
  <./fig/cruise4.jpg>]
-<fig/cruise5.jpg, id=1126, 1904.11375pt x 1056.94875pt>
+<fig/cruise5.jpg, id=1135, 1904.11375pt x 1056.94875pt>
 File: fig/cruise5.jpg Graphic file (type jpg)
 <use fig/cruise5.jpg>
-Package pdftex.def Info: fig/cruise5.jpg  used on input line 1655.
+Package pdftex.def Info: fig/cruise5.jpg  used on input line 1671.
 (pdftex.def)             Requested size: 341.43306pt x 189.51682pt.
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1655.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1671.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
- [107
+ [108
 
  <./fig/cruise5.jpg>]
 \tf@nav=\write7
@@ -2616,16 +2633,15 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1655.
 \tf@snm=\write9
 \openout9 = `quantum_math.snm'.
 
-
-(./quantum_math.aux)
+ (./quantum_math.aux)
 Package rerunfilecheck Info: File `quantum_math.out' has not changed.
 (rerunfilecheck)             Checksum: C07343E3F3B3E04BBF527054764A6A11;937.
  ) 
 Here is how much of TeX's memory you used:
- 34874 strings out of 478268
- 730001 string characters out of 5846346
+ 34892 strings out of 478268
+ 730290 string characters out of 5846346
  990839 words of memory out of 5000000
- 52096 multiletter control sequences out of 15000+600000
+ 52110 multiletter control sequences out of 15000+600000
  484620 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,515b,876s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2648,10 +2664,10 @@ live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texli
 ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive
 /2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/
 2022/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb>
-Output written on quantum_math.pdf (107 pages, 12703469 bytes).
+Output written on quantum_math.pdf (108 pages, 12793092 bytes).
 PDF statistics:
- 1264 PDF objects out of 1440 (max. 8388607)
- 879 compressed objects within 9 object streams
- 222 named destinations out of 1000 (max. 500000)
- 1068 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1274 PDF objects out of 1440 (max. 8388607)
+ 886 compressed objects within 9 object streams
+ 224 named destinations out of 1000 (max. 500000)
+ 1078 words of extra memory for PDF output out of 10000 (max. 10000000)
 
