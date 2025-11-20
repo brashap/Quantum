@@ -4,3 +4,4 @@
 \beamer@sectionintoc {3}{Vectors}{54}{0}{3}
 \beamer@sectionintoc {4}{Probability and Statistics}{65}{0}{4}
 \beamer@sectionintoc {5}{Electrical Components and Circuits}{77}{0}{5}
+\beamer@sectionintoc {6}{Control Theory}{101}{0}{6}

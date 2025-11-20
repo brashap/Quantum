@@ -215,8 +215,25 @@
 \headcommand {\beamer@framepages {99}{99}}
 \headcommand {\slideentry {5}{0}{24}{100/100}{}{0}}
 \headcommand {\beamer@framepages {100}{100}}
-\headcommand {\beamer@partpages {1}{100}}
-\headcommand {\beamer@subsectionpages {77}{100}}
 \headcommand {\beamer@sectionpages {77}{100}}
-\headcommand {\beamer@documentpages {100}}
-\headcommand {\gdef \inserttotalframenumber {100}}
+\headcommand {\beamer@subsectionpages {77}{100}}
+\headcommand {\sectionentry {6}{Control Theory}{101}{Control Theory}{0}}
+\headcommand {\slideentry {6}{0}{1}{101/101}{}{0}}
+\headcommand {\beamer@framepages {101}{101}}
+\headcommand {\slideentry {6}{0}{2}{102/102}{}{0}}
+\headcommand {\beamer@framepages {102}{102}}
+\headcommand {\slideentry {6}{0}{3}{103/103}{}{0}}
+\headcommand {\beamer@framepages {103}{103}}
+\headcommand {\slideentry {6}{0}{4}{104/104}{}{0}}
+\headcommand {\beamer@framepages {104}{104}}
+\headcommand {\slideentry {6}{0}{5}{105/105}{}{0}}
+\headcommand {\beamer@framepages {105}{105}}
+\headcommand {\slideentry {6}{0}{6}{106/106}{}{0}}
+\headcommand {\beamer@framepages {106}{106}}
+\headcommand {\slideentry {6}{0}{7}{107/107}{}{0}}
+\headcommand {\beamer@framepages {107}{107}}
+\headcommand {\beamer@partpages {1}{107}}
+\headcommand {\beamer@subsectionpages {101}{107}}
+\headcommand {\beamer@sectionpages {101}{107}}
+\headcommand {\beamer@documentpages {107}}
+\headcommand {\gdef \inserttotalframenumber {107}}
