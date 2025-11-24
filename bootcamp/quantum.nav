@@ -587,32 +587,41 @@
 \headcommand {\beamer@framepages {262}{262}}
 \headcommand {\beamer@sectionpages {251}{262}}
 \headcommand {\beamer@subsectionpages {251}{262}}
-\headcommand {\sectionentry {22}{What is a Qubit}{263}{What is a Qubit}{0}}
+\headcommand {\sectionentry {22}{Magneto-Optical Trap}{263}{Magneto-Optical Trap}{0}}
 \headcommand {\slideentry {22}{0}{1}{263/263}{}{0}}
 \headcommand {\beamer@framepages {263}{263}}
 \headcommand {\slideentry {22}{0}{2}{264/264}{}{0}}
 \headcommand {\beamer@framepages {264}{264}}
-\headcommand {\beamer@sectionpages {263}{264}}
-\headcommand {\beamer@subsectionpages {263}{264}}
-\headcommand {\sectionentry {23}{Quantum Computing}{265}{Quantum Computing}{0}}
-\headcommand {\slideentry {23}{0}{1}{265/265}{}{0}}
+\headcommand {\slideentry {22}{0}{3}{265/265}{}{0}}
 \headcommand {\beamer@framepages {265}{265}}
-\headcommand {\slideentry {23}{0}{2}{266/266}{}{0}}
+\headcommand {\beamer@sectionpages {263}{265}}
+\headcommand {\beamer@subsectionpages {263}{265}}
+\headcommand {\sectionentry {23}{What is a Qubit}{266}{What is a Qubit}{0}}
+\headcommand {\slideentry {23}{0}{1}{266/266}{}{0}}
 \headcommand {\beamer@framepages {266}{266}}
-\headcommand {\slideentry {23}{0}{3}{267/267}{}{0}}
+\headcommand {\slideentry {23}{0}{2}{267/267}{}{0}}
 \headcommand {\beamer@framepages {267}{267}}
-\headcommand {\slideentry {23}{0}{4}{268/268}{}{0}}
+\headcommand {\beamer@sectionpages {266}{267}}
+\headcommand {\beamer@subsectionpages {266}{267}}
+\headcommand {\sectionentry {24}{Quantum Computing}{268}{Quantum Computing}{0}}
+\headcommand {\slideentry {24}{0}{1}{268/268}{}{0}}
 \headcommand {\beamer@framepages {268}{268}}
-\headcommand {\slideentry {23}{0}{5}{269/269}{}{0}}
+\headcommand {\slideentry {24}{0}{2}{269/269}{}{0}}
 \headcommand {\beamer@framepages {269}{269}}
-\headcommand {\slideentry {23}{0}{6}{270/270}{}{0}}
+\headcommand {\slideentry {24}{0}{3}{270/270}{}{0}}
 \headcommand {\beamer@framepages {270}{270}}
-\headcommand {\slideentry {23}{0}{7}{271/271}{}{0}}
+\headcommand {\slideentry {24}{0}{4}{271/271}{}{0}}
 \headcommand {\beamer@framepages {271}{271}}
-\headcommand {\slideentry {23}{0}{8}{272/272}{}{0}}
+\headcommand {\slideentry {24}{0}{5}{272/272}{}{0}}
 \headcommand {\beamer@framepages {272}{272}}
-\headcommand {\beamer@partpages {1}{272}}
-\headcommand {\beamer@subsectionpages {265}{272}}
-\headcommand {\beamer@sectionpages {265}{272}}
-\headcommand {\beamer@documentpages {272}}
-\headcommand {\gdef \inserttotalframenumber {272}}
+\headcommand {\slideentry {24}{0}{6}{273/273}{}{0}}
+\headcommand {\beamer@framepages {273}{273}}
+\headcommand {\slideentry {24}{0}{7}{274/274}{}{0}}
+\headcommand {\beamer@framepages {274}{274}}
+\headcommand {\slideentry {24}{0}{8}{275/275}{}{0}}
+\headcommand {\beamer@framepages {275}{275}}
+\headcommand {\beamer@partpages {1}{275}}
+\headcommand {\beamer@subsectionpages {268}{275}}
+\headcommand {\beamer@sectionpages {268}{275}}
+\headcommand {\beamer@documentpages {275}}
+\headcommand {\gdef \inserttotalframenumber {275}}

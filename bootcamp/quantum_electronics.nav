@@ -127,8 +127,19 @@
 \headcommand {\beamer@framepages {56}{56}}
 \headcommand {\slideentry {5}{0}{6}{57/57}{}{0}}
 \headcommand {\beamer@framepages {57}{57}}
-\headcommand {\beamer@partpages {1}{57}}
-\headcommand {\beamer@subsectionpages {52}{57}}
 \headcommand {\beamer@sectionpages {52}{57}}
-\headcommand {\beamer@documentpages {57}}
-\headcommand {\gdef \inserttotalframenumber {57}}
+\headcommand {\beamer@subsectionpages {52}{57}}
+\headcommand {\sectionentry {6}{Operational Amplifiers}{58}{Operational Amplifiers}{0}}
+\headcommand {\slideentry {6}{0}{1}{58/58}{}{0}}
+\headcommand {\beamer@framepages {58}{58}}
+\headcommand {\slideentry {6}{0}{2}{59/59}{}{0}}
+\headcommand {\beamer@framepages {59}{59}}
+\headcommand {\slideentry {6}{0}{3}{60/60}{}{0}}
+\headcommand {\beamer@framepages {60}{60}}
+\headcommand {\slideentry {6}{0}{4}{61/61}{}{0}}
+\headcommand {\beamer@framepages {61}{61}}
+\headcommand {\beamer@partpages {1}{61}}
+\headcommand {\beamer@subsectionpages {58}{61}}
+\headcommand {\beamer@sectionpages {58}{61}}
+\headcommand {\beamer@documentpages {61}}
+\headcommand {\gdef \inserttotalframenumber {61}}

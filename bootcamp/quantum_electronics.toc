@@ -3,3 +3,4 @@
 \beamer@sectionintoc {3}{Switches, Inductance, and Relays}{27}{0}{3}
 \beamer@sectionintoc {4}{Transformers and Rectifiers}{45}{0}{4}
 \beamer@sectionintoc {5}{Diodes and Photodetectors}{52}{0}{5}
+\beamer@sectionintoc {6}{Operational Amplifiers}{58}{0}{6}
