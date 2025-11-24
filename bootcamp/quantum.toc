@@ -20,5 +20,5 @@
 \beamer@sectionintoc {20}{The Laser}{239}{0}{20}
 \beamer@sectionintoc {21}{Quantum Optics - Making Single Photon Pairs}{251}{0}{21}
 \beamer@sectionintoc {22}{Magneto-Optical Trap}{263}{0}{22}
-\beamer@sectionintoc {23}{What is a Qubit}{266}{0}{23}
-\beamer@sectionintoc {24}{Quantum Computing}{268}{0}{24}
+\beamer@sectionintoc {23}{What is a Qubit}{267}{0}{23}
+\beamer@sectionintoc {24}{Quantum Computing}{269}{0}{24}

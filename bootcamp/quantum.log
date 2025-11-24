@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  24 NOV 2025 09:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  24 NOV 2025 12:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4467,80 +4467,97 @@ Overfull \vbox (6.5094pt too high) detected at line 3854
 
 [265
 
- <./fig/vatValve2.jpg>] [266
+ <./fig/vatValve2.jpg>]
+<fig/vatValve3.jpg, id=2682, 915.42pt x 1142.2675pt>
+File: fig/vatValve3.jpg Graphic file (type jpg)
+<use fig/vatValve3.jpg>
+Package pdftex.def Info: fig/vatValve3.jpg  used on input line 3871.
+(pdftex.def)             Requested size: 159.61423pt x 199.16928pt.
+<fig/vatValve4.jpg, id=2683, 467.7475pt x 1284.8pt>
+File: fig/vatValve4.jpg Graphic file (type jpg)
+<use fig/vatValve4.jpg>
+Package pdftex.def Info: fig/vatValve4.jpg  used on input line 3871.
+(pdftex.def)             Requested size: 72.50725pt x 199.16928pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3871.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [266
+
+ <./fig/vatValve3.jpg> <./fig/vatValve4.jpg>]
+[267
 
 ]
-<fig/bitQubit.png, id=2699, 875.52094pt x 432.86719pt>
+<fig/bitQubit.png, id=2708, 875.52094pt x 432.86719pt>
 File: fig/bitQubit.png Graphic file (type png)
 <use fig/bitQubit.png>
-Package pdftex.def Info: fig/bitQubit.png  used on input line 3863.
+Package pdftex.def Info: fig/bitQubit.png  used on input line 3881.
 (pdftex.def)             Requested size: 312.9803pt x 154.74223pt.
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3863.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3881.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
- [267
+ [268
 
- <./fig/bitQubit.png>] [268
+ <./fig/bitQubit.png>] [269
 
 ]
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3876.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3894.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
- [269
+ [270
 
 ]
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3882.
-(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
-
-[270
-
-]
-File: fig/ddclogotransparent.png Graphic file (type png)
-<use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3887.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3900.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
  [271
 
 ]
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3892.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3905.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
  [272
 
 ]
-<fig/qscoutTrappedIon.jpg, id=2754, 803.0pt x 446.66875pt>
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3910.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [273
+
+]
+<fig/qscoutTrappedIon.jpg, id=2763, 803.0pt x 446.66875pt>
 File: fig/qscoutTrappedIon.jpg Graphic file (type jpg)
 <use fig/qscoutTrappedIon.jpg>
-Package pdftex.def Info: fig/qscoutTrappedIon.jpg  used on input line 3904.
+Package pdftex.def Info: fig/qscoutTrappedIon.jpg  used on input line 3922.
 (pdftex.def)             Requested size: 142.26378pt x 79.1292pt.
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3904.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3922.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
 
-Overfull \vbox (34.45445pt too high) detected at line 3904
+Overfull \vbox (34.45445pt too high) detected at line 3922
  []
 
-[273
+[274
 
  <./fig/qscoutTrappedIon.jpg>]
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3911.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3929.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
- [274
+ [275
 
 ]
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3915.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 3933.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
- [275
+ [276
 
 ]
 \tf@nav=\write7
@@ -4564,10 +4581,10 @@ Package rerunfilecheck Info: File `quantum.out' has not changed.
 (rerunfilecheck)             Checksum: A08E58FF2F147139BDB41D648B1196B5;3308.
  ) 
 Here is how much of TeX's memory you used:
- 37221 strings out of 478268
- 768473 string characters out of 5846346
- 1069571 words of memory out of 5000000
- 53918 multiletter control sequences out of 15000+600000
+ 37237 strings out of 478268
+ 768786 string characters out of 5846346
+ 1069782 words of memory out of 5000000
+ 53930 multiletter control sequences out of 15000+600000
  486190 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,510b,836s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -4592,10 +4609,10 @@ ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive
 022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/20
 22/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb></usr/local/texlive/2022
 /texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb>
-Output written on quantum.pdf (275 pages, 32795435 bytes).
+Output written on quantum.pdf (276 pages, 33070671 bytes).
 PDF statistics:
- 2996 PDF objects out of 3580 (max. 8388607)
- 2157 compressed objects within 22 object streams
- 575 named destinations out of 1000 (max. 500000)
- 2489 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3007 PDF objects out of 3580 (max. 8388607)
+ 2165 compressed objects within 22 object streams
+ 577 named destinations out of 1000 (max. 500000)
+ 2499 words of extra memory for PDF output out of 10000 (max. 10000000)
 
