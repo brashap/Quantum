@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  24 NOV 2025 09:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  30 NOV 2025 11:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1987,6 +1987,97 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 854.
  [61
 
  <./fig/opamp1.jpg> <./fig/opamp2.jpg>]
+<fig/abp0.png, id=697, 285.73158pt x 470.17355pt>
+File: fig/abp0.png Graphic file (type png)
+<use fig/abp0.png>
+Package pdftex.def Info: fig/abp0.png  used on input line 871.
+(pdftex.def)             Requested size: 85.35826pt x 140.45769pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 871.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [62
+
+ <./fig/abp0.png>]
+<fig/pbp1.jpg, id=705, 347.2975pt x 186.6975pt>
+File: fig/pbp1.jpg Graphic file (type jpg)
+<use fig/pbp1.jpg>
+Package pdftex.def Info: fig/pbp1.jpg  used on input line 893.
+(pdftex.def)             Requested size: 156.49014pt x 84.12704pt.
+<fig/pbp2.jpg, id=706, 347.2975pt x 186.6975pt>
+File: fig/pbp2.jpg Graphic file (type jpg)
+<use fig/pbp2.jpg>
+Package pdftex.def Info: fig/pbp2.jpg  used on input line 893.
+(pdftex.def)             Requested size: 156.49014pt x 84.12704pt.
+<fig/abp3.jpg, id=707, 502.87875pt x 134.5025pt>
+File: fig/abp3.jpg Graphic file (type jpg)
+<use fig/abp3.jpg>
+Package pdftex.def Info: fig/abp3.jpg  used on input line 893.
+(pdftex.def)             Requested size: 199.16928pt x 53.27052pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 893.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [63
+
+ <./fig/pbp1.jpg> <./fig/pbp2.jpg> <./fig/abp3.jpg>]
+<fig/abp1.jpg, id=715, 564.1075pt x 289.08pt>
+File: fig/abp1.jpg Graphic file (type jpg)
+<use fig/abp1.jpg>
+Package pdftex.def Info: fig/abp1.jpg  used on input line 910.
+(pdftex.def)             Requested size: 227.62204pt x 116.64447pt.
+File: fig/abp3.jpg Graphic file (type jpg)
+<use fig/abp3.jpg>
+Package pdftex.def Info: fig/abp3.jpg  used on input line 910.
+(pdftex.def)             Requested size: 227.62204pt x 60.8806pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 910.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [64
+
+ <./fig/abp1.jpg>]
+<fig/abp4.jpg, id=723, 561.09625pt x 495.8525pt>
+File: fig/abp4.jpg Graphic file (type jpg)
+<use fig/abp4.jpg>
+Package pdftex.def Info: fig/abp4.jpg  used on input line 917.
+(pdftex.def)             Requested size: 227.62204pt x 201.15207pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 917.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [65
+
+ <./fig/abp4.jpg>]
+<fig/abp2.jpg, id=731, 564.1075pt x 289.08pt>
+File: fig/abp2.jpg Graphic file (type jpg)
+<use fig/abp2.jpg>
+Package pdftex.def Info: fig/abp2.jpg  used on input line 926.
+(pdftex.def)             Requested size: 284.52756pt x 145.81pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 926.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [66
+
+ <./fig/abp2.jpg>]
+<fig/butter2.jpg, id=739, 375.4025pt x 337.26pt>
+File: fig/butter2.jpg Graphic file (type jpg)
+<use fig/butter2.jpg>
+Package pdftex.def Info: fig/butter2.jpg  used on input line 947.
+(pdftex.def)             Requested size: 113.81102pt x 102.24403pt.
+<fig/butter1.jpg, id=740, 541.02126pt x 337.26pt>
+File: fig/butter1.jpg Graphic file (type jpg)
+<use fig/butter1.jpg>
+Package pdftex.def Info: fig/butter1.jpg  used on input line 947.
+(pdftex.def)             Requested size: 170.71652pt x 106.41757pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 947.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [67
+
+ <./fig/butter2.jpg> <./fig/butter1.jpg>]
 \tf@nav=\write7
 \openout7 = `quantum_electronics.nav'.
 
@@ -1996,15 +2087,16 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 854.
 \tf@snm=\write9
 \openout9 = `quantum_electronics.snm'.
 
- (./quantum_electronics.aux)
+
+(./quantum_electronics.aux)
 Package rerunfilecheck Info: File `quantum_electronics.out' has not changed.
 (rerunfilecheck)             Checksum: DA6FEADD2EA27ADD631050A43A4A9DE4;1112.
  ) 
 Here is how much of TeX's memory you used:
- 34323 strings out of 478268
- 721703 string characters out of 5846346
+ 34410 strings out of 478268
+ 722966 string characters out of 5846346
  988884 words of memory out of 5000000
- 51688 multiletter control sequences out of 15000+600000
+ 51754 multiletter control sequences out of 15000+600000
  484452 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,463b,878s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2023,10 +2115,10 @@ l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local
 texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/te
 xlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
 ive/2022/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb>
-Output written on quantum_electronics.pdf (61 pages, 7236120 bytes).
+Output written on quantum_electronics.pdf (67 pages, 7513401 bytes).
 PDF statistics:
- 790 PDF objects out of 1000 (max. 8388607)
- 538 compressed objects within 6 object streams
- 129 named destinations out of 1000 (max. 500000)
- 805 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 844 PDF objects out of 1000 (max. 8388607)
+ 577 compressed objects within 6 object streams
+ 141 named destinations out of 1000 (max. 500000)
+ 850 words of extra memory for PDF output out of 10000 (max. 10000000)
 
