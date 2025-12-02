@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  30 NOV 2025 11:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  1 DEC 2025 20:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2061,21 +2061,38 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 926.
  [66
 
  <./fig/abp2.jpg>]
-<fig/butter2.jpg, id=739, 375.4025pt x 337.26pt>
+<fig/noninvamp_bb.jpg, id=739, 252.142pt x 220.022pt>
+File: fig/noninvamp_bb.jpg Graphic file (type jpg)
+<use fig/noninvamp_bb.jpg>
+Package pdftex.def Info: fig/noninvamp_bb.jpg  used on input line 941.
+(pdftex.def)             Requested size: 128.0374pt x 111.72627pt.
+<fig/noninvamp_schem.jpg, id=740, 203.962pt x 165.418pt>
+File: fig/noninvamp_schem.jpg Graphic file (type jpg)
+<use fig/noninvamp_schem.jpg>
+Package pdftex.def Info: fig/noninvamp_schem.jpg  used on input line 941.
+(pdftex.def)             Requested size: 184.9429pt x 149.99802pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 941.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+ [67
+
+ <./fig/noninvamp_bb.jpg> <./fig/noninvamp_schem.jpg>]
+<fig/butter2.jpg, id=749, 375.4025pt x 337.26pt>
 File: fig/butter2.jpg Graphic file (type jpg)
 <use fig/butter2.jpg>
-Package pdftex.def Info: fig/butter2.jpg  used on input line 947.
+Package pdftex.def Info: fig/butter2.jpg  used on input line 962.
 (pdftex.def)             Requested size: 113.81102pt x 102.24403pt.
-<fig/butter1.jpg, id=740, 541.02126pt x 337.26pt>
+<fig/butter1.jpg, id=750, 541.02126pt x 337.26pt>
 File: fig/butter1.jpg Graphic file (type jpg)
 <use fig/butter1.jpg>
-Package pdftex.def Info: fig/butter1.jpg  used on input line 947.
+Package pdftex.def Info: fig/butter1.jpg  used on input line 962.
 (pdftex.def)             Requested size: 170.71652pt x 106.41757pt.
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 947.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 962.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
- [67
+ [68
 
  <./fig/butter2.jpg> <./fig/butter1.jpg>]
 \tf@nav=\write7
@@ -2093,10 +2110,10 @@ Package rerunfilecheck Info: File `quantum_electronics.out' has not changed.
 (rerunfilecheck)             Checksum: DA6FEADD2EA27ADD631050A43A4A9DE4;1112.
  ) 
 Here is how much of TeX's memory you used:
- 34410 strings out of 478268
- 722966 string characters out of 5846346
+ 34428 strings out of 478268
+ 723358 string characters out of 5846346
  988884 words of memory out of 5000000
- 51754 multiletter control sequences out of 15000+600000
+ 51768 multiletter control sequences out of 15000+600000
  484452 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,463b,878s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2115,10 +2132,10 @@ l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local
 texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/te
 xlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
 ive/2022/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb>
-Output written on quantum_electronics.pdf (67 pages, 7513401 bytes).
+Output written on quantum_electronics.pdf (68 pages, 7864490 bytes).
 PDF statistics:
- 844 PDF objects out of 1000 (max. 8388607)
- 577 compressed objects within 6 object streams
- 141 named destinations out of 1000 (max. 500000)
- 850 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 853 PDF objects out of 1000 (max. 8388607)
+ 583 compressed objects within 6 object streams
+ 143 named destinations out of 1000 (max. 500000)
+ 860 words of extra memory for PDF output out of 10000 (max. 10000000)
 
