@@ -1,6 +1,6 @@
 \beamer@sectionintoc {1}{Electrical Components and Circuits}{2}{0}{1}
 \beamer@sectionintoc {2}{Capacitance and Filters}{16}{0}{2}
-\beamer@sectionintoc {3}{Switches, Inductance, and Relays}{27}{0}{3}
-\beamer@sectionintoc {4}{Transformers and Rectifiers}{45}{0}{4}
-\beamer@sectionintoc {5}{Diodes and Photodetectors}{52}{0}{5}
-\beamer@sectionintoc {6}{Operational Amplifiers}{58}{0}{6}
+\beamer@sectionintoc {3}{Switches and Relays}{30}{0}{3}
+\beamer@sectionintoc {4}{Transformers and Rectifiers}{47}{0}{4}
+\beamer@sectionintoc {5}{Diodes and Photodetectors}{54}{0}{5}
+\beamer@sectionintoc {6}{Operational Amplifiers}{60}{0}{6}
