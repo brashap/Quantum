@@ -1,24 +1,24 @@
 \beamer@sectionintoc {1}{Introduction}{2}{0}{1}
 \beamer@sectionintoc {2}{Overview: QIS in NM}{16}{0}{2}
 \beamer@sectionintoc {3}{Safety}{36}{0}{3}
-\beamer@sectionintoc {4}{Python}{45}{0}{4}
-\beamer@sectionintoc {5}{Atomic Quantum Systems}{49}{0}{5}
-\beamer@sectionintoc {6}{Vacuum Systems}{50}{0}{6}
-\beamer@sectionintoc {7}{Geometric Optics}{51}{0}{7}
-\beamer@sectionintoc {8}{Math Interlude: Trigonometry}{60}{0}{8}
-\beamer@sectionintoc {9}{Return to Geometric Optics}{71}{0}{9}
-\beamer@sectionintoc {10}{Lens}{86}{0}{10}
-\beamer@sectionintoc {11}{Math Interlude: Probability}{101}{0}{11}
-\beamer@sectionintoc {12}{Optical Tweezers}{114}{0}{12}
-\beamer@sectionintoc {13}{Mirrors}{120}{0}{13}
-\beamer@sectionintoc {14}{Vision}{127}{0}{14}
-\beamer@sectionintoc {15}{Wave Optics}{136}{0}{15}
-\beamer@sectionintoc {16}{Interferometry}{170}{0}{16}
-\beamer@sectionintoc {17}{Polarization}{179}{0}{17}
-\beamer@sectionintoc {18}{Quantum Cryptography - Quantum Key Distribution}{195}{0}{18}
-\beamer@sectionintoc {19}{The Atom and Quantum Mechanics}{211}{0}{19}
-\beamer@sectionintoc {20}{The Laser}{239}{0}{20}
-\beamer@sectionintoc {21}{Quantum Optics - Making Single Photon Pairs}{251}{0}{21}
-\beamer@sectionintoc {22}{Magneto-Optical Trap}{263}{0}{22}
-\beamer@sectionintoc {23}{What is a Qubit}{267}{0}{23}
-\beamer@sectionintoc {24}{Quantum Computing}{269}{0}{24}
+\beamer@sectionintoc {4}{Python}{46}{0}{4}
+\beamer@sectionintoc {5}{Atomic Quantum Systems}{50}{0}{5}
+\beamer@sectionintoc {6}{Vacuum Systems}{51}{0}{6}
+\beamer@sectionintoc {7}{Geometric Optics}{52}{0}{7}
+\beamer@sectionintoc {8}{Math Interlude: Trigonometry}{61}{0}{8}
+\beamer@sectionintoc {9}{Return to Geometric Optics}{72}{0}{9}
+\beamer@sectionintoc {10}{Lens}{87}{0}{10}
+\beamer@sectionintoc {11}{Math Interlude: Probability}{102}{0}{11}
+\beamer@sectionintoc {12}{Optical Tweezers}{115}{0}{12}
+\beamer@sectionintoc {13}{Mirrors}{121}{0}{13}
+\beamer@sectionintoc {14}{Vision}{128}{0}{14}
+\beamer@sectionintoc {15}{Wave Optics}{137}{0}{15}
+\beamer@sectionintoc {16}{Interferometry}{171}{0}{16}
+\beamer@sectionintoc {17}{Polarization}{180}{0}{17}
+\beamer@sectionintoc {18}{Quantum Cryptography - Quantum Key Distribution}{196}{0}{18}
+\beamer@sectionintoc {19}{The Atom and Quantum Mechanics}{212}{0}{19}
+\beamer@sectionintoc {20}{The Laser}{240}{0}{20}
+\beamer@sectionintoc {21}{Quantum Optics - Making Single Photon Pairs}{252}{0}{21}
+\beamer@sectionintoc {22}{Magneto-Optical Trap}{264}{0}{22}
+\beamer@sectionintoc {23}{What is a Qubit}{268}{0}{23}
+\beamer@sectionintoc {24}{Quantum Computing}{270}{0}{24}
