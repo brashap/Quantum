@@ -862,6 +862,80 @@ LEDs (that's "ell-ee-dees") are a particular type of diode that convert electric
 
 \section{Operational Amplifiers}
 
+\begin{frame}\frametitle{Keysight Oscilloscope}
+\begin{center}	
+	\includegraphics[width=12cm]{fig/keysightoscope.jpg}
+\end{center}
+\end{frame}
+
+\begin{frame}\frametitle{Keysight Waveform Generator}
+\begin{center}	
+	\includegraphics[width=12cm]{fig/keysightwave.jpg}
+\end{center}
+\end{frame}
+
+\begin{frame}\frametitle{Keysight 3-Channel Power Supply}
+\begin{center}	
+	\includegraphics[width=12cm]{fig/keysightpower.jpg}
+\end{center}
+\end{frame}
+
+\begin{frame}\frametitle{Assignment: Oscilloscope Basics}
+\begin{columns}
+\begin{column}{4cm}
+\begin{center}	
+	\includegraphics[width=4cm]{fig/keysightwave.jpg}
+	
+\vspace{1cm}	
+	
+	\includegraphics[width=4cm]{fig/keysightoscope.jpg}
+\end{center}
+\end{column}
+\begin{column}{7.3cm}
+\begin{itemize}
+\item Connect Waverform Generator Output 1 to Oscilloscope Input 1
+\item On the Waveform Generator: 
+\begin{itemize}
+\item Select waveform $\rightarrow$ Sine
+\item Set amplitude to 5V
+\item Set frequency to 10 kHz
+\item Turn on Channel 1
+\end{itemize}
+\item On the Oscilloscope:
+\begin{itemize}
+\item Select Channel 1
+\item Adjust vertical and horizontal until you see a standing sine wave
+\end{itemize}
+\item Experiment with adjusting amplitude, frequency, and waveform type
+\item Note how the data in upper left, upper right, and bottom of oscilloscope changes
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+
+\begin{frame}\frametitle{Assignment: Low Pass Filter}
+\begin{columns}
+\begin{column}{5cm}
+\begin{center}	
+	\includegraphics[width=5cm]{fig/keysightLP_bb.jpg}
+\end{center}
+\end{column}
+\begin{column}{6cm}
+Select sine and sweep on the waveform generator
+\begin{itemize}
+\item Amplitude 500mV
+\item Sweep On
+\item Log
+\item Frequency Start 100Hz
+\item Frequency Stop 100kHz
+\item Sweep Time 30 seconds
+\item With oscilloscope estimate change in gain and phase
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
 \begin{frame}\frametitle{Ideal Op Amp}
 \begin{columns}
 \begin{column}{4cm}
@@ -984,6 +1058,25 @@ Capacitor acts like:
 
 \end{frame}
 
+
+
+
+
+\begin{frame}\frametitle{Assignment: Amplifying BandPass Filter}
+\begin{columns}
+\begin{column}{4cm}
+\begin{center}	
+	\includegraphics[width=4cm]{fig/bandpassAmp_bb.jpg}
+	\includegraphics[width=4cm]{fig/bandpassAmp_schem.jpg}
+\end{center}
+\end{column}
+\begin{column}{7.cm}
+Repeat low pass filter measurements using the amplifying bandpass on this page. 
+\end{column}
+\end{columns}
+\end{frame}
+
+
 \begin{frame}\frametitle{Non-inverting Bandpass filter}
 \begin{columns}
 \begin{column}{4.5cm}
@@ -1018,72 +1111,6 @@ Capacitor acts like:
 
 First described in 1930 by the British engineer and physicist Stephen Butterworth in his paper entitled "On the Theory of Filter Amplifiers".
 
-\end{frame}
-
-\begin{frame}\frametitle{Keysight Oscilloscope}
-\begin{center}	
-	\includegraphics[width=12cm]{fig/keysightoscope.jpg}
-\end{center}
-\end{frame}
-
-\begin{frame}\frametitle{Keysight Waveform Generator}
-\begin{center}	
-	\includegraphics[width=12cm]{fig/keysightwave.jpg}
-\end{center}
-\end{frame}
-
-\begin{frame}\frametitle{Keysight 3-Channel Power Supply}
-\begin{center}	
-	\includegraphics[width=12cm]{fig/keysightpower.jpg}
-\end{center}
-\end{frame}
-
-\begin{frame}\frametitle{Assignment: Oscilloscope Basics}
-\begin{columns}
-\begin{column}{4cm}
-\begin{center}	
-	\includegraphics[width=4cm]{fig/keysightwave.jpg}
-	
-\vspace{1cm}	
-	
-	\includegraphics[width=4cm]{fig/keysightoscope.jpg}
-\end{center}
-\end{column}
-\begin{column}{7.cm}
-\begin{itemize}
-\item Connect Waverform Generator Output 1 to Oscilloscope Input 1
-\item On the Waveform Generator: 
-\begin{itemize}
-\item Select waveform $\rightarrow$ Sine
-\item Set amplitude to 5V
-\item Set frequency to 10 kHz
-\item Turn on Channel 1
-\end{itemize}
-\item On the Oscilloscope:
-\begin{itemize}
-\item Select Channel 1
-\item Adjust vertical and horizontal until you see a standing sine wave
-\end{itemize}
-\item Experiment with adjusting amplitude, frequency, and waveform type
-\item Note how the data in upper left, upper right, and bottom of oscilloscope changes
-\end{itemize}
-\end{column}
-\end{columns}
-\end{frame}
-
-\begin{frame}\frametitle{Assignment: Low Pass Filter}
-\begin{columns}
-\begin{column}{4cm}
-\begin{center}	
-	\includegraphics[width=4cm]{fig/keysightwave.jpg}
-\end{center}
-\end{column}
-\begin{column}{7.cm}
-\begin{itemize}
-\item 
-\end{itemize}
-\end{column}
-\end{columns}
 \end{frame}
 
 
