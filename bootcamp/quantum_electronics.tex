@@ -907,7 +907,7 @@ LEDs (that's "ell-ee-dees") are a particular type of diode that convert electric
 \item Adjust vertical and horizontal until you see a standing sine wave
 \end{itemize}
 \item Experiment with adjusting amplitude, frequency, and waveform type
-\item Note how the data in upper left, upper right, and bottom of oscilloscope changes
+\item Note how the data in upper left, upper right, and bottom of oscope changes
 \end{itemize}
 \end{column}
 \end{columns}
@@ -1066,15 +1066,24 @@ Capacitor acts like:
 \begin{columns}
 \begin{column}{4cm}
 \begin{center}	
-	\includegraphics[width=4cm]{fig/bandpassAmp_bb.jpg}
-	\includegraphics[width=4cm]{fig/bandpassAmp_schem.jpg}
+	\includegraphics[width=3cm]{fig/bandpassAmp_bb.jpg}
+	\includegraphics[width=3.6cm]{fig/bandpassAmp_schem.jpg}
 \end{center}
 \end{column}
-\begin{column}{7.cm}
-Repeat low pass filter measurements using the amplifying bandpass on this page. 
+\begin{column}{8.0cm}
+\begin{itemize}
+\item Start without the $C_f$ capacitor and with shorting the $C_{in}$ capacitor. 
+\item Using a $500 mV_{pp}$ input sinewave, you should see $10 V_{pp}$ inverted sinewave as the output.
+\item Install $C_f$ and remove the jumper that is shorting $C_{in}$. 
+\item Repeat the sweep from the Lowpass Filter Assignment
+\end{itemize}
+\begin{center}	
+	\includegraphics[width=3cm,angle=90]{fig/LM741.jpg}
+\end{center}
 \end{column}
 \end{columns}
 \end{frame}
+
 
 
 \begin{frame}\frametitle{Non-inverting Bandpass filter}
