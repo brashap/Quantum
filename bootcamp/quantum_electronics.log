@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  30 MAR 2026 19:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  8 APR 2026 10:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2158,64 +2158,88 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1059.
  [73
 
  <./fig/abp2.jpg>]
-<fig/bandpassAmp_bb.jpg, id=796, 259.369pt x 243.309pt>
-File: fig/bandpassAmp_bb.jpg Graphic file (type jpg)
-<use fig/bandpassAmp_bb.jpg>
-Package pdftex.def Info: fig/bandpassAmp_bb.jpg  used on input line 1085.
-(pdftex.def)             Requested size: 85.35826pt x 80.07317pt.
+<fig/ugly741_bb.jpg, id=796, 153.373pt x 208.78pt>
+File: fig/ugly741_bb.jpg Graphic file (type jpg)
+<use fig/ugly741_bb.jpg>
+Package pdftex.def Info: fig/ugly741_bb.jpg  used on input line 1083.
+(pdftex.def)             Requested size: 85.35826pt x 116.19601pt.
 <fig/bandpassAmp_schem.jpg, id=797, 179.069pt x 155.782pt>
 File: fig/bandpassAmp_schem.jpg Graphic file (type jpg)
 <use fig/bandpassAmp_schem.jpg>
-Package pdftex.def Info: fig/bandpassAmp_schem.jpg  used on input line 1085.
+Package pdftex.def Info: fig/bandpassAmp_schem.jpg  used on input line 1083.
 (pdftex.def)             Requested size: 102.43008pt x 89.11041pt.
 <fig/LM741.jpg, id=798, 344.03531pt x 244.66406pt>
 File: fig/LM741.jpg Graphic file (type jpg)
 <use fig/LM741.jpg>
-Package pdftex.def Info: fig/LM741.jpg  used on input line 1085.
+Package pdftex.def Info: fig/LM741.jpg  used on input line 1083.
 (pdftex.def)             Requested size: 85.35826pt x 60.70293pt.
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1085.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1083.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
 
-Overfull \vbox (0.2835pt too high) detected at line 1085
+Overfull \vbox (0.2835pt too high) detected at line 1083
  []
 
 [74
 
- <./fig/bandpassAmp_bb.jpg> <./fig/bandpassAmp_schem.jpg> <./fig/LM741.jpg>]
-<fig/noninvamp_bb.jpg, id=806, 252.142pt x 220.022pt>
+ <./fig/ugly741_bb.jpg> <./fig/bandpassAmp_schem.jpg> <./fig/LM741.jpg>]
+<fig/bandpassAmp_bb.jpg, id=806, 259.369pt x 243.309pt>
+File: fig/bandpassAmp_bb.jpg Graphic file (type jpg)
+<use fig/bandpassAmp_bb.jpg>
+Package pdftex.def Info: fig/bandpassAmp_bb.jpg  used on input line 1105.
+(pdftex.def)             Requested size: 85.35826pt x 80.07317pt.
+File: fig/bandpassAmp_schem.jpg Graphic file (type jpg)
+<use fig/bandpassAmp_schem.jpg>
+Package pdftex.def Info: fig/bandpassAmp_schem.jpg  used on input line 1105.
+(pdftex.def)             Requested size: 102.43008pt x 89.11041pt.
+File: fig/LM741.jpg Graphic file (type jpg)
+<use fig/LM741.jpg>
+Package pdftex.def Info: fig/LM741.jpg  used on input line 1105.
+(pdftex.def)             Requested size: 85.35826pt x 60.70293pt.
+File: fig/ddclogotransparent.png Graphic file (type png)
+<use fig/ddclogotransparent.png>
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1105.
+(pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
+
+Overfull \vbox (0.2835pt too high) detected at line 1105
+ []
+
+[75
+
+ <./fig/bandpassAmp_bb.jpg>]
+<fig/noninvamp_bb.jpg, id=814, 252.142pt x 220.022pt>
 File: fig/noninvamp_bb.jpg Graphic file (type jpg)
 <use fig/noninvamp_bb.jpg>
-Package pdftex.def Info: fig/noninvamp_bb.jpg  used on input line 1102.
+Package pdftex.def Info: fig/noninvamp_bb.jpg  used on input line 1122.
 (pdftex.def)             Requested size: 128.0374pt x 111.72627pt.
-<fig/noninvamp_schem.jpg, id=807, 203.962pt x 165.418pt>
+<fig/noninvamp_schem.jpg, id=815, 203.962pt x 165.418pt>
 File: fig/noninvamp_schem.jpg Graphic file (type jpg)
 <use fig/noninvamp_schem.jpg>
-Package pdftex.def Info: fig/noninvamp_schem.jpg  used on input line 1102.
+Package pdftex.def Info: fig/noninvamp_schem.jpg  used on input line 1122.
 (pdftex.def)             Requested size: 184.9429pt x 149.99802pt.
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1102.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1122.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
-[75
+ [76
 
  <./fig/noninvamp_bb.jpg> <./fig/noninvamp_schem.jpg>]
-<fig/butter2.jpg, id=815, 375.4025pt x 337.26pt>
+<fig/butter2.jpg, id=822, 375.4025pt x 337.26pt>
 File: fig/butter2.jpg Graphic file (type jpg)
 <use fig/butter2.jpg>
-Package pdftex.def Info: fig/butter2.jpg  used on input line 1123.
+Package pdftex.def Info: fig/butter2.jpg  used on input line 1143.
 (pdftex.def)             Requested size: 113.81102pt x 102.24403pt.
-<fig/butter1.jpg, id=816, 541.02126pt x 337.26pt>
+<fig/butter1.jpg, id=823, 541.02126pt x 337.26pt>
 File: fig/butter1.jpg Graphic file (type jpg)
 <use fig/butter1.jpg>
-Package pdftex.def Info: fig/butter1.jpg  used on input line 1123.
+Package pdftex.def Info: fig/butter1.jpg  used on input line 1143.
 (pdftex.def)             Requested size: 170.71652pt x 106.41757pt.
 File: fig/ddclogotransparent.png Graphic file (type png)
 <use fig/ddclogotransparent.png>
-Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1123.
+Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1143.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
- [76
+ [77
 
  <./fig/butter2.jpg> <./fig/butter1.jpg>]
 \tf@nav=\write7
@@ -2227,15 +2251,16 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1123.
 \tf@snm=\write9
 \openout9 = `quantum_electronics.snm'.
 
- (./quantum_electronics.aux)
+
+(./quantum_electronics.aux)
 Package rerunfilecheck Info: File `quantum_electronics.out' has not changed.
 (rerunfilecheck)             Checksum: 5A2288D34465F358D4CF55E7CDCDC327;1044.
  ) 
 Here is how much of TeX's memory you used:
- 34523 strings out of 478268
- 725039 string characters out of 5846346
+ 34532 strings out of 478268
+ 725211 string characters out of 5846346
  991884 words of memory out of 5000000
- 51838 multiletter control sequences out of 15000+600000
+ 51844 multiletter control sequences out of 15000+600000
  484452 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,463b,877s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2254,10 +2279,10 @@ l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local
 texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/te
 xlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
 ive/2022/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb>
-Output written on quantum_electronics.pdf (76 pages, 9353603 bytes).
+Output written on quantum_electronics.pdf (77 pages, 9542620 bytes).
 PDF statistics:
- 924 PDF objects out of 1000 (max. 8388607)
- 637 compressed objects within 7 object streams
- 159 named destinations out of 1000 (max. 500000)
- 905 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 932 PDF objects out of 1000 (max. 8388607)
+ 643 compressed objects within 7 object streams
+ 161 named destinations out of 1000 (max. 500000)
+ 910 words of extra memory for PDF output out of 10000 (max. 10000000)
 
