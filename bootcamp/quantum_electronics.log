@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  8 APR 2026 10:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  16 APR 2026 08:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2225,12 +2225,12 @@ Package pdftex.def Info: fig/ddclogotransparent.png  used on input line 1122.
  [76
 
  <./fig/noninvamp_bb.jpg> <./fig/noninvamp_schem.jpg>]
-<fig/butter2.jpg, id=822, 375.4025pt x 337.26pt>
+<fig/butter2.jpg, id=823, 375.4025pt x 337.26pt>
 File: fig/butter2.jpg Graphic file (type jpg)
 <use fig/butter2.jpg>
 Package pdftex.def Info: fig/butter2.jpg  used on input line 1143.
 (pdftex.def)             Requested size: 113.81102pt x 102.24403pt.
-<fig/butter1.jpg, id=823, 541.02126pt x 337.26pt>
+<fig/butter1.jpg, id=824, 541.02126pt x 337.26pt>
 File: fig/butter1.jpg Graphic file (type jpg)
 <use fig/butter1.jpg>
 Package pdftex.def Info: fig/butter1.jpg  used on input line 1143.
@@ -2257,10 +2257,10 @@ Package rerunfilecheck Info: File `quantum_electronics.out' has not changed.
 (rerunfilecheck)             Checksum: 5A2288D34465F358D4CF55E7CDCDC327;1044.
  ) 
 Here is how much of TeX's memory you used:
- 34532 strings out of 478268
- 725211 string characters out of 5846346
+ 34534 strings out of 478268
+ 725229 string characters out of 5846346
  991884 words of memory out of 5000000
- 51844 multiletter control sequences out of 15000+600000
+ 51846 multiletter control sequences out of 15000+600000
  484452 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,463b,877s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2279,7 +2279,7 @@ l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local
 texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/te
 xlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
 ive/2022/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb>
-Output written on quantum_electronics.pdf (77 pages, 9542620 bytes).
+Output written on quantum_electronics.pdf (77 pages, 9542485 bytes).
 PDF statistics:
  932 PDF objects out of 1000 (max. 8388607)
  643 compressed objects within 7 object streams
