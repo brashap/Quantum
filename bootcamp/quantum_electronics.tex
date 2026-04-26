@@ -1143,7 +1143,135 @@ First described in 1930 by the British engineer and physicist Stephen Butterwort
 \end{frame}
 
 
+\section{Frequency Generators and Amplifiers}
+
+\begin{frame}\frametitle{Frequency and Power Needs}
+
+To laser cool, the light needs to be modulated. The modulators will be driven by a signal of a certain frequency and power:
+
+\begin{center}	
+	\includegraphics[width=10cm]{fig/aomeom.jpg}
+\end{center}
+\end{frame}
 
 
+\begin{frame}\frametitle{Frequency Generators and Amplifiers}
+\begin{columns}
+\begin{column}{5cm}
+\begin{center}	
+	\includegraphics[width=5cm]{fig/rigol.jpg}
+\end{center}
+\end{column}
+\begin{column}{5cm}
+\begin{center}	
+	\includegraphics[width=5cm]{fig/zx60.jpg}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+
+
+\begin{frame}\frametitle{Recall Logarithms}
+\begin{columns}
+\begin{column}{7cm}
+\begin{center}	
+	\includegraphics[width=7cm]{fig/log10.jpg}
+\end{center}
+\end{column}
+\begin{column}{4cm}
+The logarithm of a number (in base 10) is the exponent to which 10 must be raised to produce the number.
+\end{column}
+\end{columns}
+\begin{itemize}
+\item If $x = 10^y$, then $y = log_{10}(x)$
+\item With logarithms, multiplication becomes addition: $log_{10}(a \cdot b) = log_{10}(a) + log_{10}(b)$
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}\frametitle{Why Logarithms}
+
+Logarithms are useful when working across many orders of magnitude:
+
+\begin{center}	
+	\includegraphics[width=10cm]{fig/whylog.png}
+\end{center}
+\end{frame}
+
+\begin{frame}\frametitle{Why Logarithms}
+
+Logarithms started being used in RF communication due to the inverse square law
+
+\begin{center}	
+	\includegraphics[width=7cm]{fig/isl.jpg}
+\end{center}
+
+\begin{itemize}
+\item Surface Area of a Sphere: $A = 4 \pi r^2$
+\item Intensity: $I(r) = \frac{I(1)}{r^2}$
+\end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{Decibels (dB)}
+\begin{columns}
+\begin{column}{6cm}
+\begin{itemize}
+\item A decibel (dB) is an expression of a ratio
+\item dB = $10 * log_{10}(\frac{a}{b})$
+\item Decibels being a ratio means that they are relative to some reference
+\item Sound dB (or dB Audio or dBA) expresses the ratio of a sound relative to the threshold of human hearing
+\end{itemize}
+\end{column}
+\begin{column}{5cm}
+\begin{center}	
+	\includegraphics[width=5cm]{fig/dba.jpg}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Power Measurements (dBm)}
+\begin{columns}
+\begin{column}{6cm}
+\begin{itemize}
+\item To measure absolute power in dB, a reference needs to be defined
+\item It is useful to set the reference to 1 mW:
+\[1 mW \rightarrow 0 dBm\]
+\item The "m" in dBm indicating the reference is 1 mW.
+\end{itemize}
+\end{column}
+\begin{column}{5cm}
+\begin{center}	
+	\includegraphics[width=5cm]{fig/dBm_chart.jpg}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Using dB}
+When using dB, gains and losses (attenuation) are additive.
+
+\begin{itemize}
+\item Recall: $log_{10}(a \cdot b) = log_{10}(a) + log_{10}(b)$
+\item Also: $log_{10}(a / b) = log_{10}(a) - log_{10}(b)$
+\item This leads to: "initial power" + 10 dB = 10 times the initial power
+\item Examples \footnote{Note that 3dB = doubling}:
+	\begin{itemize}
+	\item $0 dBm + 10 dB = 10 dBm = 10 mW$
+	\item $0 dBm + 30 dB = 30 dBm = 1000 mW = 1 W$
+	\item $10 dBm + 3 dB = 13 dBm = 20 mW$
+	\item $20 dBm - 3 dB = 17 dBm = 50 mW$
+	\end{itemize}
+\item Another Example: How much is 33 dBm?
+	\begin{itemize}
+	\item $33dBm$ = $33 dB $ relative to $ 1 dBm$
+	\item $33dB = 10 dB + 10 dB + 10 dB + 3 dB$
+	\item $33dBm = 10 * 10 * 10 * 2 * 1mW$
+	\item $33dBm = 2000 mW $ or $ 2 W$
+	\end{itemize}
+\end{itemize}
+
+\end{frame}
 
 \end{document}

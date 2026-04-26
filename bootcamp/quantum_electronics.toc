@@ -4,3 +4,4 @@
 \beamer@sectionintoc {4}{Transformers and Rectifiers}{47}{0}{4}
 \beamer@sectionintoc {5}{Diodes and Photodetectors}{54}{0}{5}
 \beamer@sectionintoc {6}{Operational Amplifiers}{60}{0}{6}
+\beamer@sectionintoc {7}{Frequency Generators and Amplifiers}{78}{0}{7}
