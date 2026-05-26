@@ -1,0 +1,9 @@
+p = 11;
+q = 17;
+N = int64(p*q);
+E = int64(7);
+D = int64(((p-1)*(q-1)+1)/E)
+msg = int64(99);
+msg_e = int64(mod(msg^E,N))
+msg_r = double(double(msg_e)^D)
+msg_d = int64(mod(msg_r,N))
