@@ -8,18 +8,18 @@
 \beamer@sectionintoc {8}{Math Interlude: Trigonometry}{68}{0}{8}
 \beamer@sectionintoc {9}{Return to Geometric Optics}{79}{0}{9}
 \beamer@sectionintoc {10}{Lens}{95}{0}{10}
-\beamer@sectionintoc {11}{Math Interlude: Probability}{110}{0}{11}
-\beamer@sectionintoc {12}{Optical Tweezers}{125}{0}{12}
-\beamer@sectionintoc {13}{Mirrors}{131}{0}{13}
-\beamer@sectionintoc {14}{Vision}{138}{0}{14}
-\beamer@sectionintoc {15}{Wave Optics}{147}{0}{15}
-\beamer@sectionintoc {16}{Interferometry}{181}{0}{16}
-\beamer@sectionintoc {17}{Polarization}{190}{0}{17}
-\beamer@sectionintoc {18}{Quantum Cryptography - Quantum Key Distribution}{206}{0}{18}
-\beamer@sectionintoc {19}{How Cold Is It?}{222}{0}{19}
-\beamer@sectionintoc {20}{The Atom and Quantum Mechanics}{227}{0}{20}
-\beamer@sectionintoc {21}{The Laser}{255}{0}{21}
-\beamer@sectionintoc {22}{Quantum Optics - Making Single Photon Pairs}{267}{0}{22}
-\beamer@sectionintoc {23}{Magneto-Optical Trap}{279}{0}{23}
-\beamer@sectionintoc {24}{What is a Qubit}{283}{0}{24}
-\beamer@sectionintoc {25}{Quantum Computing}{285}{0}{25}
+\beamer@sectionintoc {11}{Math Interlude: Probability}{111}{0}{11}
+\beamer@sectionintoc {12}{Optical Tweezers}{126}{0}{12}
+\beamer@sectionintoc {13}{Mirrors}{133}{0}{13}
+\beamer@sectionintoc {14}{Vision}{140}{0}{14}
+\beamer@sectionintoc {15}{Wave Optics}{149}{0}{15}
+\beamer@sectionintoc {16}{Interferometry}{183}{0}{16}
+\beamer@sectionintoc {17}{Polarization}{193}{0}{17}
+\beamer@sectionintoc {18}{Quantum Cryptography - Quantum Key Distribution}{209}{0}{18}
+\beamer@sectionintoc {19}{How Cold Is It?}{225}{0}{19}
+\beamer@sectionintoc {20}{The Atom and Quantum Mechanics}{230}{0}{20}
+\beamer@sectionintoc {21}{The Laser}{258}{0}{21}
+\beamer@sectionintoc {22}{Quantum Optics - Making Single Photon Pairs}{270}{0}{22}
+\beamer@sectionintoc {23}{Magneto-Optical Trap}{283}{0}{23}
+\beamer@sectionintoc {24}{What is a Qubit}{287}{0}{24}
+\beamer@sectionintoc {25}{Quantum Computing}{289}{0}{25}
