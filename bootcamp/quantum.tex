@@ -83,6 +83,12 @@
   \end{frame}
 }
 
+\newcommand{\bra}[1]{\ensuremath{\left\langle#1\right|}}
+\newcommand{\ket}[1]{\ensuremath{\left|#1\right\rangle}}
+\newcommand{\bracket}[2]{\ensuremath{\left\langle#1 \vphantom{#2}\right| \left. #2 \vphantom{#1}\right\rangle}}
+\newcommand{\matrixel}[3]{\ensuremath{\left\langle #1 \vphantom{#2#3} \right| #2 \left| #3 \vphantom{#1#2} \right\rangle}}
+
+
 \begin{document}
 \title{Quantum Technician Bootcamp}
 \author{Brian Rashap}
@@ -4332,6 +4338,90 @@ Companies focused on this area include Diraq, Siquance and Quantum Motion.
 
 \end{frame}
 
+\section{Quantum Teleportation}
 
+\begin{frame}\frametitle{Practice Frame}
+
+These commands write quantum-mechanical bras and kets, such as \bra{\alpha} and \ket{\beta}, as well as their products, like \bracket{\alpha}{\eta}, and also matrix elements such as \matrixel{\xi}{T}{\pi}. They're quite useful when one of the factors is large: for instance \ket{\xi} vs \ket{\hat{\xi}}, or when one has \matrixel{\xi}{\hat{T}}{\pi}.
+
+There's only one funny space, in the bracket (as opposed to the ket) below, which shouldn't really be there, and which I can't really figure out:
+\begin{align*}
+a\ket{\alpha,1}&=\alpha\ket{\alpha,1}+\ket{\alpha}\\
+\bracket{\alpha,1}{\alpha,1}&=1
+\end{align*}
+
+\[ \ket{\psi} = \begin{pmatrix} c_{00} \\ c_{01} \\ c_{10} \\ c_{11} \end{pmatrix}\]
+
+
+\end{frame}
+
+\begin{frame}\frametitle{Teleportation Setup}
+\begin{columns}
+\begin{column}{5cm}
+Alice has a qubit ($q_0$) whose state she wants to be able to send to Bob. Bob has two entangled qubits ($q_1$ and $q_2$), he gives $q_1$ to Alice. \newline
+
+The entangled qubits are in a Bell State of $\beta_{00}$:
+\[ \beta_{00} = \frac{1}{\sqrt{2}} (\ket{00} + \ket{11}) \]
+
+The entire system is therefore in a state:
+\[ \ket{\psi_0} = \ket{\psi} \ket{\beta_{00}} \]
+
+\end{column}
+\begin{column}{5.5cm}
+\begin{center}
+\includegraphics[width=5cm]{fig/qt1.jpg}
+\end{center}
+\end{column}
+\end{columns}
+
+\end{frame} 
+
+\begin{frame}\frametitle{Initial State}
+
+Expanding out the initial state:
+
+\begin{align*}
+\ket{\psi_0} &= \ket{\psi} \ket{\beta_{00}} \\
+	&= (\alpha\ket{0} + \beta\ket{1}) (\frac{1}{\sqrt{2}} (\ket{00} + \ket{11})) \\
+	&= \frac{1}{\sqrt{2}} \left[(\alpha\ket{0} (\ket{00} + \ket{11}) + (\beta\ket{1} (\ket{00} + \ket{11})\right]
+\end{align*}
+
+By convention, we consider the first two qubits belonging to alice
+\end{frame}
+
+
+\begin{frame}\frametitle{CNOT + Hadamond Math}
+We next apply a CNOT gate to $q_1$ controlled by $q_0$:
+
+\[ \ket{\psi_1} = \frac{1}{\sqrt{2}} \left[(\alpha\ket{0} (\ket{00} + \ket{11}) + (\beta\ket{1} (\ket{10} + \ket{01})\right] \]
+
+Followed by a Hadamond Gate
+\begin{itemize}
+\item $H\ket{0} = \frac{\ket{0} + \ket{1}}{\sqrt{2}}$
+\item $H\ket{1} = \frac{\ket{0} - \ket{1}}{\sqrt{2}}$
+\end{itemize}
+
+This results in:
+\begin{align*}
+\ket{\psi_2} =& \frac{1}{2} [ \ket{00}(\alpha\ket{0}+ \beta\ket{1}) +
+									 \ket{01}(\alpha\ket{1}+ \beta\ket{0}) + \\
+								 	&\ket{10}(\alpha\ket{0}- \beta\ket{1}) +
+									 \ket{11}(\alpha\ket{1}- \beta\ket{0}) ]
+\end{align*}
+
+\end{frame}
+
+\begin{frame}\frametitle{CNOT + Hadamond Graphically}
+\begin{center}
+\includegraphics[width=7cm]{fig/qt2.jpg}
+\end{center}
+\end{frame}
+
+
+\begin{frame}\frametitle{Quantum Teleportation}
+\begin{center}
+\includegraphics[width=11cm]{fig/qtdone.jpg}
+\end{center}
+\end{frame}
 
 \end{document}

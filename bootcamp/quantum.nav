@@ -697,8 +697,25 @@
 \headcommand {\beamer@framepages {311}{311}}
 \headcommand {\slideentry {25}{0}{23}{312/312}{}{0}}
 \headcommand {\beamer@framepages {312}{312}}
-\headcommand {\beamer@partpages {1}{312}}
-\headcommand {\beamer@subsectionpages {290}{312}}
 \headcommand {\beamer@sectionpages {290}{312}}
-\headcommand {\beamer@documentpages {312}}
-\headcommand {\gdef \inserttotalframenumber {312}}
+\headcommand {\beamer@subsectionpages {290}{312}}
+\headcommand {\sectionentry {26}{Quantum Teleportation}{313}{Quantum Teleportation}{0}}
+\headcommand {\slideentry {26}{0}{1}{313/313}{}{0}}
+\headcommand {\beamer@framepages {313}{313}}
+\headcommand {\slideentry {26}{0}{2}{314/314}{}{0}}
+\headcommand {\beamer@framepages {314}{314}}
+\headcommand {\slideentry {26}{0}{3}{315/315}{}{0}}
+\headcommand {\beamer@framepages {315}{315}}
+\headcommand {\slideentry {26}{0}{4}{316/316}{}{0}}
+\headcommand {\beamer@framepages {316}{316}}
+\headcommand {\slideentry {26}{0}{5}{317/317}{}{0}}
+\headcommand {\beamer@framepages {317}{317}}
+\headcommand {\slideentry {26}{0}{6}{318/318}{}{0}}
+\headcommand {\beamer@framepages {318}{318}}
+\headcommand {\slideentry {26}{0}{7}{319/319}{}{0}}
+\headcommand {\beamer@framepages {319}{319}}
+\headcommand {\beamer@partpages {1}{319}}
+\headcommand {\beamer@subsectionpages {313}{319}}
+\headcommand {\beamer@sectionpages {313}{319}}
+\headcommand {\beamer@documentpages {319}}
+\headcommand {\gdef \inserttotalframenumber {319}}
