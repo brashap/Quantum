@@ -152,6 +152,183 @@
 \end{center}
 \end{frame}
 
+
+
+\section{Linear Algebra}
+
+\begin{frame}\frametitle{Quantum States - Column Vectors}
+
+Using Dirac's bra-ket notation, we write the quantum states using the ket to represent a column vector:
+
+\[\ket{0} = \begin{bmatrix} 1 \\ 0 \end{bmatrix}, \ket{1} = \begin{bmatrix} 0 \\ 1 \end{bmatrix} \]
+
+The quantum state $\ket{\psi}$ is the superposition of these two states with amplitudes $\alpha$ and $\beta$:
+
+\[\ket{\psi} = \alpha\ket{0}+\beta\ket{1} = \alpha \begin{bmatrix} 1 \\ 0 \end{bmatrix} + \beta \begin{bmatrix} 0 \\ 1 \end{bmatrix}= \begin{bmatrix} \alpha \\ 0 \end{bmatrix} + \begin{bmatrix} 0 \\ \beta \end{bmatrix} = \begin{bmatrix} \alpha \\ \beta \end{bmatrix}\]
+
+\end{frame}
+
+\begin{frame}\frametitle{Quantum States - Row Vectors}
+The transpose of a column vector is obtained by writing it as a row vector. But, in quantum computing, we use the conjugate transpose:
+\[ \begin{bmatrix} \alpha \\ \beta \end{bmatrix}^{\dagger} = \begin{bmatrix} \alpha^{*} \beta^{*} \end{bmatrix} \]
+
+This can be written using the bra:
+
+\[ \bra{\psi} = \begin{bmatrix} \alpha^{*} \beta^{*} \end{bmatrix} \]
+
+Going between kets and bras:
+\[\ket{\psi} = \begin{bmatrix} \alpha \\ \beta \end{bmatrix}  \iff \bra{\psi} \begin{bmatrix} \alpha^{*} \beta^{*} \end{bmatrix} \]
+
+\[\ket{\psi} =  \alpha \ket{0} + \beta \ket{1} \iff \bra{\psi} = \alpha^{*}\bra{0} + \beta^{*}\bra{1} \] 
+
+\end{frame}
+
+
+\begin{frame}\frametitle{Dirac Notation}
+\begin{itemize}
+\item Ket-notation:
+\[\ket{\psi} = \begin{bmatrix} \alpha \\ \beta \end{bmatrix} \]
+\item Bra-notation:
+\[\bra{\psi} = \ket{\psi}^{\dagger} \]
+\end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{Multiplication}
+Multiply a matrix and a vector:
+\[ \begin{bmatrix} a & b \\ c & d \end{bmatrix} 
+   \begin{bmatrix} \alpha \\ \beta \end{bmatrix} = 
+   \begin{bmatrix} a \alpha + b \beta \\ c \alpha + d \beta \end{bmatrix} \]
+   
+Complex conjugates:   
+   
+\end{frame}
+
+
+
+
+\section{Quantum Teleportation}
+
+\begin{frame}\frametitle{Practice Frame}
+
+These commands write quantum-mechanical bras and kets, such as \bra{\alpha} and \ket{\beta}, as well as their products, like \bracket{\alpha}{\eta}, and also matrix elements such as \matrixel{\xi}{T}{\pi}. They're quite useful when one of the factors is large: for instance \ket{\xi} vs \ket{\hat{\xi}}, or when one has \matrixel{\xi}{\hat{T}}{\pi}.
+
+There's only one funny space, in the bracket (as opposed to the ket) below, which shouldn't really be there, and which I can't really figure out:
+\begin{align*}
+a\ket{\alpha,1}&=\alpha\ket{\alpha,1}+\ket{\alpha}\\
+\bracket{\alpha,1}{\alpha,1}&=1
+\end{align*}
+
+\[ \ket{\psi} = \begin{bmatrix} a & b \\ c & d \end{bmatrix} \begin{bmatrix} 0 \\ 1 \end{bmatrix} \]
+
+
+\end{frame}
+
+\begin{frame}\frametitle{Teleportation Setup}
+\begin{columns}
+\begin{column}{5cm}
+Alice has a qubit ($q_0$) whose state she wants to be able to send to Bob. Bob has two entangled qubits ($q_1$ and $q_2$), he gives $q_1$ to Alice. \newline
+
+The entangled qubits are in a Bell State of $\beta_{00}$:
+\[ \beta_{00} = \frac{1}{\sqrt{2}} (\ket{00} + \ket{11}) \]
+
+The entire system is therefore in a state:
+\[ \ket{\psi_0} = \ket{\psi} \ket{\beta_{00}} \]
+
+\end{column}
+\begin{column}{5.5cm}
+\begin{center}
+\includegraphics[width=5cm]{fig/qt1.jpg}
+\end{center}
+\end{column}
+\end{columns}
+
+\end{frame} 
+
+\begin{frame}\frametitle{Initial State}
+
+Expanding out the initial state:
+
+\begin{align*}
+\ket{\psi_0} &= \ket{\psi} \ket{\beta_{00}} \\
+	&= (\alpha\ket{0} + \beta\ket{1}) (\frac{1}{\sqrt{2}} (\ket{00} + \ket{11})) \\
+	&= \frac{1}{\sqrt{2}} \left[(\alpha\ket{0} (\ket{00} + \ket{11}) + (\beta\ket{1} (\ket{00} + \ket{11})\right]
+\end{align*}
+
+By convention, we consider the first two qubits belonging to alice
+\end{frame}
+
+
+\begin{frame}\frametitle{CNOT + Hadamond Math}
+We next apply a CNOT gate to $q_1$ controlled by $q_0$:
+
+\[ \ket{\psi_1} = \frac{1}{\sqrt{2}} \left[(\alpha\ket{0} (\ket{00} + \ket{11}) + (\beta\ket{1} (\ket{10} + \ket{01})\right] \]
+
+Followed by a Hadamond Gate
+\begin{itemize}
+\item $H\ket{0} = \frac{\ket{0} + \ket{1}}{\sqrt{2}}$
+\item $H\ket{1} = \frac{\ket{0} - \ket{1}}{\sqrt{2}}$
+\end{itemize}
+
+This results in:
+\begin{align*}
+\ket{\psi_2} =& \frac{1}{2} [\alpha (\ket{0} + \ket{1})(\ket{00} + \ket{11}) + 
+							\beta (\ket{0} +-\ket{1})(\ket{10} + \ket{01})]
+\end{align*}
+
+\end{frame}
+
+\begin{frame}\frametitle{CNOT + Hadamond Graphically}
+\begin{center}
+\includegraphics[width=7cm]{fig/qt2.jpg}
+\end{center}
+\end{frame}
+
+\begin{frame}\frametitle{By Regrouping terms...}
+Using the associative property:
+\begin{align*}
+\ket{\psi_2} =& \frac{1}{2} [ \ket{00}(\alpha\ket{0}+ \beta\ket{1}) +
+									 \ket{01}(\alpha\ket{1}+ \beta\ket{0}) + \\
+								 	&\ket{10}(\alpha\ket{0}- \beta\ket{1}) +
+									 \ket{11}(\alpha\ket{1}- \beta\ket{0}) ]
+\end{align*}
+
+The first belong to Alice and the one in parenthesis belong to Bob. If Alice measures her qubits, there are four possibilities: 
+
+\[00 \rightarrow \ket{\psi_3(00)} \equiv \alpha \ket{0} + \beta \ket{1}  \]
+\[01 \rightarrow \ket{\psi_3(01)} \equiv \alpha \ket{1} + \beta \ket{0}  \]
+\[10 \rightarrow \ket{\psi_3(10)} \equiv \alpha \ket{0} - \beta \ket{1}  \]
+\[11 \rightarrow \ket{\psi_3(11)} \equiv \alpha \ket{1} - \beta \ket{0}  \]
+\end{frame}
+
+\begin{frame}\frametitle{Alice Measures, Bob then ...}
+
+We want Bob's qubit to match $\psi_0 = \alpha \ket{0} + \beta \ket(1)$. Alice measures here two qubits and classically sends her two results to Bob classically. Bob them applies the following gates:
+
+\begin{itemize}
+\item $00 \rightarrow \ket{\psi_3(00)} \equiv \alpha \ket{0} + \beta \ket{1} \rightarrow$ Bob does nothing
+\item $01 \rightarrow \ket{\psi_3(01)} \equiv \alpha \ket{1} + \beta \ket{0} \rightarrow$ Bob applies Pauli-X gate
+\item $10 \rightarrow \ket{\psi_3(10)} \equiv \alpha \ket{0} - \beta \ket{1} \rightarrow$ Bob applies Pauli-Z gate
+\item $11 \rightarrow \ket{\psi_3(11)} \equiv \alpha \ket{1} - \beta \ket{0} \rightarrow$ Bob applies Pauli-X and Pauli-Z.
+\end{itemize}
+
+Bob now has a qubit that matches Alice's original $\ket{\psi_0}$ and he can be extremely far away from Alice when she does her measurements. This leads to the following two questions: 
+\begin{itemize}
+\item Did this violate the no cloning theorem?
+\item Did this violate relativity, information can't be transmitted faster than the speed of light?
+\end{itemize}
+
+
+
+\end{frame}
+
+
+\begin{frame}\frametitle{Quantum Teleportation}
+\begin{center}
+\includegraphics[width=11cm]{fig/qtdone.jpg}
+\end{center}
+\end{frame}
+
+
 \section{Quantum Computing}
 
 \begin{frame}\frametitle{Types of Quantum Computers}
@@ -294,128 +471,6 @@ Companies focused on this area include Diraq, Siquance and Quantum Motion.
 \begin{frame}\frametitle{Quantum Computing: NV Diamond}
 \begin{center}
 \includegraphics[width=12cm]{fig/nvCompute.png}
-\end{center}
-\end{frame}
-
-\section{Quantum Teleportation}
-
-\begin{frame}\frametitle{Practice Frame}
-
-These commands write quantum-mechanical bras and kets, such as \bra{\alpha} and \ket{\beta}, as well as their products, like \bracket{\alpha}{\eta}, and also matrix elements such as \matrixel{\xi}{T}{\pi}. They're quite useful when one of the factors is large: for instance \ket{\xi} vs \ket{\hat{\xi}}, or when one has \matrixel{\xi}{\hat{T}}{\pi}.
-
-There's only one funny space, in the bracket (as opposed to the ket) below, which shouldn't really be there, and which I can't really figure out:
-\begin{align*}
-a\ket{\alpha,1}&=\alpha\ket{\alpha,1}+\ket{\alpha}\\
-\bracket{\alpha,1}{\alpha,1}&=1
-\end{align*}
-
-\[ \ket{\psi} = \begin{pmatrix} c_{00} \\ c_{01} \\ c_{10} \\ c_{11} \end{pmatrix}\]
-
-
-\end{frame}
-
-\begin{frame}\frametitle{Teleportation Setup}
-\begin{columns}
-\begin{column}{5cm}
-Alice has a qubit ($q_0$) whose state she wants to be able to send to Bob. Bob has two entangled qubits ($q_1$ and $q_2$), he gives $q_1$ to Alice. \newline
-
-The entangled qubits are in a Bell State of $\beta_{00}$:
-\[ \beta_{00} = \frac{1}{\sqrt{2}} (\ket{00} + \ket{11}) \]
-
-The entire system is therefore in a state:
-\[ \ket{\psi_0} = \ket{\psi} \ket{\beta_{00}} \]
-
-\end{column}
-\begin{column}{5.5cm}
-\begin{center}
-\includegraphics[width=5cm]{fig/qt1.jpg}
-\end{center}
-\end{column}
-\end{columns}
-
-\end{frame} 
-
-\begin{frame}\frametitle{Initial State}
-
-Expanding out the initial state:
-
-\begin{align*}
-\ket{\psi_0} &= \ket{\psi} \ket{\beta_{00}} \\
-	&= (\alpha\ket{0} + \beta\ket{1}) (\frac{1}{\sqrt{2}} (\ket{00} + \ket{11})) \\
-	&= \frac{1}{\sqrt{2}} \left[(\alpha\ket{0} (\ket{00} + \ket{11}) + (\beta\ket{1} (\ket{00} + \ket{11})\right]
-\end{align*}
-
-By convention, we consider the first two qubits belonging to alice
-\end{frame}
-
-
-\begin{frame}\frametitle{CNOT + Hadamond Math}
-We next apply a CNOT gate to $q_1$ controlled by $q_0$:
-
-\[ \ket{\psi_1} = \frac{1}{\sqrt{2}} \left[(\alpha\ket{0} (\ket{00} + \ket{11}) + (\beta\ket{1} (\ket{10} + \ket{01})\right] \]
-
-Followed by a Hadamond Gate
-\begin{itemize}
-\item $H\ket{0} = \frac{\ket{0} + \ket{1}}{\sqrt{2}}$
-\item $H\ket{1} = \frac{\ket{0} - \ket{1}}{\sqrt{2}}$
-\end{itemize}
-
-This results in:
-\begin{align*}
-\ket{\psi_2} =& \frac{1}{2} [\alpha (\ket{0} + \ket{1})(\ket{00} + \ket{11}) + 
-							\beta (\ket{0} +-\ket{1})(\ket{10} + \ket{01})]
-\end{align*}
-
-\end{frame}
-
-\begin{frame}\frametitle{CNOT + Hadamond Graphically}
-\begin{center}
-\includegraphics[width=7cm]{fig/qt2.jpg}
-\end{center}
-\end{frame}
-
-\begin{frame}\frametitle{By Regrouping terms...}
-Using the associative property:
-\begin{align*}
-\ket{\psi_2} =& \frac{1}{2} [ \ket{00}(\alpha\ket{0}+ \beta\ket{1}) +
-									 \ket{01}(\alpha\ket{1}+ \beta\ket{0}) + \\
-								 	&\ket{10}(\alpha\ket{0}- \beta\ket{1}) +
-									 \ket{11}(\alpha\ket{1}- \beta\ket{0}) ]
-\end{align*}
-
-The first belong to Alice and the one in parenthesis belong to Bob. If Alice measures her qubits, there are four possibilities: 
-
-\[00 \rightarrow \ket{\psi_3(00)} \equiv \alpha \ket{0} + \beta \ket{1}  \]
-\[01 \rightarrow \ket{\psi_3(01)} \equiv \alpha \ket{1} + \beta \ket{0}  \]
-\[10 \rightarrow \ket{\psi_3(10)} \equiv \alpha \ket{0} - \beta \ket{1}  \]
-\[11 \rightarrow \ket{\psi_3(11)} \equiv \alpha \ket{1} - \beta \ket{0}  \]
-\end{frame}
-
-\begin{frame}\frametitle{Alice Measures, Bob then ...}
-
-We want Bob's qubit to match $\psi_0 = \alpha \ket{0} + \beta \ket(1)$. Alice measures here two qubits and classically sends her two results to Bob classically. Bob them applies the following gates:
-
-\begin{itemize}
-\item $00 \rightarrow \ket{\psi_3(00)} \equiv \alpha \ket{0} + \beta \ket{1} \rightarrow$ Bob does nothing
-\item $01 \rightarrow \ket{\psi_3(01)} \equiv \alpha \ket{1} + \beta \ket{0} \rightarrow$ Bob applies Pauli-X gate
-\item $10 \rightarrow \ket{\psi_3(10)} \equiv \alpha \ket{0} - \beta \ket{1} \rightarrow$ Bob applies Pauli-Z gate
-\item $11 \rightarrow \ket{\psi_3(11)} \equiv \alpha \ket{1} - \beta \ket{0} \rightarrow$ Bob applies Pauli-X and Pauli-Z.
-\end{itemize}
-
-Bob now has a qubit that matches Alice's original $\ket{\psi_0}$ and he can be extremely far away from Alice when she does her measurements. This leads to the following two questions: 
-\begin{itemize}
-\item Did this violate the no cloning theorem?
-\item Did this violate relativity, information can't be transmitted faster than the speed of light?
-\end{itemize}
-
-
-
-\end{frame}
-
-
-\begin{frame}\frametitle{Quantum Teleportation}
-\begin{center}
-\includegraphics[width=11cm]{fig/qtdone.jpg}
 \end{center}
 \end{frame}
 
