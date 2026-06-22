@@ -174,7 +174,7 @@ The transpose of a column vector is obtained by writing it as a row vector. But,
 
 This can be written using the bra:
 
-\[ \bra{\psi} = \begin{bmatrix} \alpha^{*} \beta^{*} \end{bmatrix} \]
+\[ \ket{\psi}^{\dagger} = \bra{\psi} = \begin{bmatrix} \alpha^{*} \beta^{*} \end{bmatrix} \]
 
 Going between kets and bras:
 \[\ket{\psi} = \begin{bmatrix} \alpha \\ \beta \end{bmatrix}  \iff \bra{\psi} \begin{bmatrix} \alpha^{*} \beta^{*} \end{bmatrix} \]
@@ -183,31 +183,111 @@ Going between kets and bras:
 
 \end{frame}
 
+\begin{frame}\frametitle{Inner Product}
+Consider two states:
+\[\ket{\psi} = \begin{bmatrix} \alpha \\ \beta \end{bmatrix}, \ket{\phi} = \begin{bmatrix} \gamma \\ \delta \end{bmatrix} \]
+One way to multiple them is the inner product:
+\[\bra{\psi} \ket{\phi} = \bracket{\psi}{\phi} = \begin{bmatrix} \alpha^{*} \beta^{*} \end{bmatrix} \begin{bmatrix} \gamma \\ \delta \end{bmatrix} = \alpha^{*} \gamma + \beta^{*} \delta\]
 
-\begin{frame}\frametitle{Dirac Notation}
+Note that is inner product is just a scalar.
+\end{frame}
+
+\begin{frame}\frametitle{Orthonormality}
 \begin{itemize}
-\item Ket-notation:
-\[\ket{\psi} = \begin{bmatrix} \alpha \\ \beta \end{bmatrix} \]
-\item Bra-notation:
-\[\bra{\psi} = \ket{\psi}^{\dagger} \]
+\item Take the inner product of $\ket{\psi} =  \alpha \ket{0} + \beta \ket{1}$ with itself
+\[\bracket{\psi}{\psi} = \begin{bmatrix} \alpha^{*} \beta^{*} \end{bmatrix} \begin{bmatrix} \alpha \\ \beta \end{bmatrix}= \left| \alpha \right|^2 + \left| \beta \right|^2 = 1 \]
+$\bracket{\psi}{\psi}$ is the total probability and if it is equal to 1 then the state $\ket{\psi}$ is considered normalized.
+\item Consider the inner product of the Z-basis states $\ket{0}$ and $\ket{1}$:
+\[\bracket{0}{1} = \begin{bmatrix} 1 \quad 0 \end{bmatrix} \begin{bmatrix} 0 \\ 1 \end{bmatrix} = 1*0 + 0*1 = 0\]
+These, and any two states with zero for the inner product, are considered orthogonal. 
+\item As $\ket{0}$ and $\ket{1}$ are also normalized, they are considered orthonormal. 
 \end{itemize}
 \end{frame}
 
-\begin{frame}\frametitle{Multiplication}
-Multiply a matrix and a vector:
+\begin{frame}\frametitle{Orthonormality Continued}
+\begin{center}
+\includegraphics[width=4cm]{fig/ibmBloch.jpg}
+\end{center}
+\begin{itemize}
+\item Consider the inner product of the X-basis states $\ket{+}$ and $\ket{-}$:
+\[\bracket{+}{-} = \frac{1}{\sqrt{2}} \begin{bmatrix} 1 \quad 1 \end{bmatrix} \frac{1}{\sqrt{2}} \begin{bmatrix} 1 \\ -1 \end{bmatrix} = \frac{1}{2} \begin{bmatrix} 1 \quad 1 \end{bmatrix}  \begin{bmatrix} 1 \\ -1 \end{bmatrix} = \frac{1}{2}(1-1) = 0\]
+\item Consider the inner product of the Y-basis states $\ket{i}$ and $\ket{-i}$:
+\[\bracket{i}{-i} = \frac{1}{\sqrt{2}} \begin{bmatrix} 1 \quad {-i} \end{bmatrix} \frac{1}{\sqrt{2}} \begin{bmatrix} 1 \\ -i \end{bmatrix} = \frac{1}{2} \begin{bmatrix} 1 \quad {-i} \end{bmatrix} \begin{bmatrix} 1 \\ -i \end{bmatrix} = \frac{1}{2}(1-i^2) = 0\]
+
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}\frametitle{Matrices, Multiplication and Quantum Gates}
+\begin{itemize}
+\item Multiply a matrix and a vector:
 \[ \begin{bmatrix} a & b \\ c & d \end{bmatrix} 
    \begin{bmatrix} \alpha \\ \beta \end{bmatrix} = 
    \begin{bmatrix} a \alpha + b \beta \\ c \alpha + d \beta \end{bmatrix} \]
    
-Complex conjugates:   
-   
+\item Hadamond Gate applied to $\ket{0}$:
+\[ H\ket{0} = \frac{1}{\sqrt{2}} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} 
+   \begin{bmatrix} 1 \\ 0 \end{bmatrix} = \frac{1}{\sqrt{2}} (\ket{0} + \ket{1}) = \ket{+} \]
+
+\end{itemize}   
 \end{frame}
 
 
 
+\begin{frame}\frametitle{Two Qubit Gates}
+The state of multiple qubits is written as the tensor product:
+\[\ket{0} \oplus \ket{0} = \ket{0} \ket{0} = \ket{00}    \]
+
+
+For two qubits the z-basis is $\{\ket{00}, \ket{01}, \ket{10}, \ket{11} \}$ with the superposition written as:
+\[ c_0 \ket{00} + c_1 \ket{01} + c_2 \ket{10} + c_3 \ket{11} \]
+
+In the linear algebra representation, the tensor product is the Kronecker product:
+
+\[ 	\ket{00} = \begin{bmatrix} 1\\0\\0\\0 \end{bmatrix},
+	\ket{01} = \begin{bmatrix} 0\\1\\0\\0 \end{bmatrix},
+	\ket{10} = \begin{bmatrix} 0\\0\\1\\0 \end{bmatrix},
+	\ket{11} = \begin{bmatrix} 0\\0\\0\\1 \end{bmatrix} \]
+
+\end{frame}
+
+\begin{frame}\frametitle{The Controlled NOT (CNOT) Gate}
+
+Given the two qubit system $\ket{q_0 q_1}$ and Pauli-X gate (the NOT operation) is applied to the $q_1$ qubit if $q_0 = \ket{1}$, otherwise $q_1$ is unchanged.
+
+\[ CNOT  = \begin{bmatrix}
+1 \quad 0 \quad 0 \quad 0 \\
+0 \quad 1 \quad 0 \quad 0 \\
+0 \quad 0 \quad 0 \quad 1 \\
+0 \quad 0 \quad 1 \quad 0 \\
+\end{bmatrix} \]
+
+Applied to the general superposition
+\[ CNOT (c_0 \ket{00} + c_1 \ket{01} + c_2 \ket{10} + c_3 \ket{11})= \begin{bmatrix}
+1 \quad 0 \quad 0 \quad 0 \\
+0 \quad 1 \quad 0 \quad 0 \\
+0 \quad 0 \quad 0 \quad 1 \\
+0 \quad 0 \quad 1 \quad 0 \\
+\end{bmatrix}
+\begin{bmatrix} c_0 \\ c_1 \\ c_2 \\ c_3 \end{bmatrix} =
+\begin{bmatrix} c_0 \\ c_1 \\ c_3 \\ c_2 \end{bmatrix} \]
+\end{frame}
+
+\begin{frame}\frametitle{The CNOT Gate is the Quantum XOR}
+\begin{center}
+\includegraphics[width=8cm]{fig/CNOTXOR.png}
+\end{center}
+\end{frame}
+
+\begin{frame}\frametitle{Quantum Gate Summary} 
+\begin{center}
+\includegraphics[width=12cm]{fig/gateTable.png}
+\end{center}
+\end{frame}
 
 \section{Quantum Teleportation}
 
+\begin{comment}
 \begin{frame}\frametitle{Practice Frame}
 
 These commands write quantum-mechanical bras and kets, such as \bra{\alpha} and \ket{\beta}, as well as their products, like \bracket{\alpha}{\eta}, and also matrix elements such as \matrixel{\xi}{T}{\pi}. They're quite useful when one of the factors is large: for instance \ket{\xi} vs \ket{\hat{\xi}}, or when one has \matrixel{\xi}{\hat{T}}{\pi}.
@@ -219,9 +299,8 @@ a\ket{\alpha,1}&=\alpha\ket{\alpha,1}+\ket{\alpha}\\
 \end{align*}
 
 \[ \ket{\psi} = \begin{bmatrix} a & b \\ c & d \end{bmatrix} \begin{bmatrix} 0 \\ 1 \end{bmatrix} \]
-
-
 \end{frame}
+\end{comment}
 
 \begin{frame}\frametitle{Teleportation Setup}
 \begin{columns}
@@ -330,6 +409,12 @@ Bob now has a qubit that matches Alice's original $\ket{\psi_0}$ and he can be e
 
 
 \section{Quantum Computing}
+
+\begin{frame}\frametitle{Quantum Stack}
+\begin{center}
+\includegraphics[width=9cm]{fig/QuantumPyramid.png}
+\end{center}
+\end{frame}
 
 \begin{frame}\frametitle{Types of Quantum Computers}
 \begin{itemize}
