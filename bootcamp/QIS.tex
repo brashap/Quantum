@@ -128,7 +128,7 @@
 \end{center}
 \end{frame}
 
-\begin{frame}\frametitle{Hadamond Gate}
+\begin{frame}\frametitle{Hadamard Gate}
 \begin{center}
 \includegraphics[width=12cm]{fig/GateH.png}
 \end{center}
@@ -225,14 +225,64 @@ These, and any two states with zero for the inner product, are considered orthog
    \begin{bmatrix} \alpha \\ \beta \end{bmatrix} = 
    \begin{bmatrix} a \alpha + b \beta \\ c \alpha + d \beta \end{bmatrix} \]
    
-\item Hadamond Gate applied to $\ket{0}$:
+\item Hadamard Gate applied to $\ket{0}$:
 \[ H\ket{0} = \frac{1}{\sqrt{2}} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} 
    \begin{bmatrix} 1 \\ 0 \end{bmatrix} = \frac{1}{\sqrt{2}} (\ket{0} + \ket{1}) = \ket{+} \]
 
 \end{itemize}   
 \end{frame}
 
+\begin{frame}\frametitle{One Qubit Pauli Rotation Gates}
+\begin{columns}
+\begin{column}{4cm}
+\begin{center}
+\includegraphics[width=4cm]{fig/xrot.jpg}
+\[ X = \begin{bmatrix} 0 \quad 1 \\ 1 \quad 0 \end{bmatrix} \]
+\end{center}
+\end{column}
+\begin{column}{4cm}
+\begin{center}
+\includegraphics[width=4cm]{fig/yrot.jpg}
+\[ Y = \begin{bmatrix*}[l] 0 \quad -i \\ i \quad 0 \end{bmatrix*} \]
+\end{center}
+\end{column}
+\begin{column}{4cm}
+\begin{center}
+\includegraphics[width=4cm]{fig/zrot.jpg}
+\[ Z = \begin{bmatrix*}[l] 1 \quad 0 \\ 0 \quad -1 \end{bmatrix*} \]
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
 
+\begin{frame}\frametitle{Generic Gate Rotations}
+\begin{center}
+\includegraphics[width=12cm]{fig/qubitRot.jpg}
+\end{center}
+\end{frame}
+
+\begin{frame}\frametitle{More One Qubit Gates}
+\begin{columns}
+\begin{column}{4cm}
+\begin{center}
+\includegraphics[width=4cm]{fig/Hrot.jpg}
+\[ H = \frac{1}{\sqrt{2}} \begin{bmatrix*}[l] 1 \quad 1 \\ 1 \quad -1 \end{bmatrix*} \]
+\end{center}
+\end{column}
+\begin{column}{4cm}
+\begin{center}
+\includegraphics[width=4cm]{fig/srot.jpg}
+\[ S = \begin{bmatrix} 1 \quad 0 \\ 0 \quad e^{\frac{i\pi}{2}} \end{bmatrix} \]
+\end{center}
+\end{column}
+\begin{column}{4cm}
+\begin{center}
+\includegraphics[width=4cm]{fig/trot.jpg}
+\[ T = \begin{bmatrix} 1 \quad 0 \\ 0 \quad e^{\frac{i\pi}{4}} \end{bmatrix} \]
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
 
 \begin{frame}\frametitle{Two Qubit Gates}
 The state of multiple qubits is written as the tensor product:
@@ -279,9 +329,9 @@ Applied to the general superposition
 \end{center}
 \end{frame}
 
-\begin{frame}\frametitle{Quantum Gate Summary} 
+\begin{frame}\frametitle{Two Qubit Gates} 
 \begin{center}
-\includegraphics[width=12cm]{fig/gateTable.png}
+\includegraphics[width=10cm]{fig/twoqubitgates.jpg}
 \end{center}
 \end{frame}
 
@@ -337,12 +387,12 @@ By convention, we consider the first two qubits belonging to alice
 \end{frame}
 
 
-\begin{frame}\frametitle{CNOT + Hadamond Math}
+\begin{frame}\frametitle{CNOT + Hadamard Math}
 We next apply a CNOT gate to $q_1$ controlled by $q_0$:
 
 \[ \ket{\psi_1} = \frac{1}{\sqrt{2}} \left[(\alpha\ket{0} (\ket{00} + \ket{11}) + (\beta\ket{1} (\ket{10} + \ket{01})\right] \]
 
-Followed by a Hadamond Gate
+Followed by a Hadamard Gate
 \begin{itemize}
 \item $H\ket{0} = \frac{\ket{0} + \ket{1}}{\sqrt{2}}$
 \item $H\ket{1} = \frac{\ket{0} - \ket{1}}{\sqrt{2}}$
@@ -351,12 +401,12 @@ Followed by a Hadamond Gate
 This results in:
 \begin{align*}
 \ket{\psi_2} =& \frac{1}{2} [\alpha (\ket{0} + \ket{1})(\ket{00} + \ket{11}) + 
-							\beta (\ket{0} +-\ket{1})(\ket{10} + \ket{01})]
+							\beta (\ket{0} -\ket{1})(\ket{10} + \ket{01})]
 \end{align*}
 
 \end{frame}
 
-\begin{frame}\frametitle{CNOT + Hadamond Graphically}
+\begin{frame}\frametitle{CNOT + Hadamard Graphically}
 \begin{center}
 \includegraphics[width=7cm]{fig/qt2.jpg}
 \end{center}
