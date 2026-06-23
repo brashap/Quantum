@@ -255,33 +255,38 @@ These, and any two states with zero for the inner product, are considered orthog
 \end{columns}
 \end{frame}
 
-\begin{frame}\frametitle{Generic Gate Rotations}
-\begin{center}
-\includegraphics[width=12cm]{fig/qubitRot.jpg}
-\end{center}
-\end{frame}
+
 
 \begin{frame}\frametitle{More One Qubit Gates}
 \begin{columns}
 \begin{column}{4cm}
 \begin{center}
-\includegraphics[width=4cm]{fig/Hrot.jpg}
+\includegraphics[width=2.25cm]{fig/bs1.jpg}
+\includegraphics[width=2.25cm]{fig/bs2.jpg}
 \[ H = \frac{1}{\sqrt{2}} \begin{bmatrix*}[l] 1 \quad 1 \\ 1 \quad -1 \end{bmatrix*} \]
 \end{center}
 \end{column}
 \begin{column}{4cm}
 \begin{center}
-\includegraphics[width=4cm]{fig/srot.jpg}
+\includegraphics[width=2.25cm]{fig/bs3.jpg}
+\includegraphics[width=2.25cm]{fig/bs4.jpg}
 \[ S = \begin{bmatrix} 1 \quad 0 \\ 0 \quad e^{\frac{i\pi}{2}} \end{bmatrix} \]
 \end{center}
 \end{column}
 \begin{column}{4cm}
 \begin{center}
-\includegraphics[width=4cm]{fig/trot.jpg}
+\includegraphics[width=2.25cm]{fig/bs5.jpg}
+\includegraphics[width=2.25cm]{fig/bs6.jpg}
 \[ T = \begin{bmatrix} 1 \quad 0 \\ 0 \quad e^{\frac{i\pi}{4}} \end{bmatrix} \]
 \end{center}
 \end{column}
 \end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Generic Gate Rotations}
+\begin{center}
+\includegraphics[width=12cm]{fig/qubitRot.jpg}
+\end{center}
 \end{frame}
 
 \begin{frame}\frametitle{Two Qubit Gates}
@@ -415,7 +420,7 @@ This results in:
 \begin{frame}\frametitle{By Regrouping terms...}
 Using the associative property:
 \begin{align*}
-\ket{\psi_2} =& \frac{1}{2} [ \ket{00}(\alpha\ket{0}+ \beta\ket{1}) +
+\ket{\psi_3} =& \frac{1}{2} [ \ket{00}(\alpha\ket{0}+ \beta\ket{1}) +
 									 \ket{01}(\alpha\ket{1}+ \beta\ket{0}) + \\
 								 	&\ket{10}(\alpha\ket{0}- \beta\ket{1}) +
 									 \ket{11}(\alpha\ket{1}- \beta\ket{0}) ]
@@ -431,7 +436,7 @@ The first belong to Alice and the one in parenthesis belong to Bob. If Alice mea
 
 \begin{frame}\frametitle{Alice Measures, Bob then ...}
 
-We want Bob's qubit to match $\psi_0 = \alpha \ket{0} + \beta \ket(1)$. Alice measures here two qubits and classically sends her two results to Bob classically. Bob them applies the following gates:
+We want Bob's qubit to match $\psi = \alpha \ket{0} + \beta \ket{1}$. Alice measures here two qubits and classically sends her two results to Bob classically. Bob them applies the following gates:
 
 \begin{itemize}
 \item $00 \rightarrow \ket{\psi_3(00)} \equiv \alpha \ket{0} + \beta \ket{1} \rightarrow$ Bob does nothing
