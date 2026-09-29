@@ -653,7 +653,11 @@ Your Student Download Serial Number is:
 \end{center}
 \end{frame}
 
-
+\begin{frame}\frametitle{Model Based Problem Solving}
+\begin{center}
+\includegraphics[width=11cm]{fig/mbps.png}
+\end{center}
+\end{frame}
 
 
 
@@ -954,6 +958,41 @@ An algebraic function provides a "y-value" for every "x-value"
 \end{center}
 \end{frame}
 
+
+
+
+
+
+\defverbatim[colored]\lstfun{
+\begin{lstlisting}[language=Python,basicstyle=\ttfamily\tiny,keywordstyle=\color{red}]
+def getSlope(x1,y1,x2,y2):
+  rise = y2-y1
+  run = x2-x1
+  slope = rise/run
+  return slope
+  
+(x1,y1) = (3,4)
+(x2,y2) = (6,12)
+theSlope = getSlope(x1,y1,x2,y2)
+print(f"Given points ({x1},{y1}) and ({x2},{y2}) the slope between them is {theSlope}")
+\end{lstlisting}
+}
+
+\begin{frame}\frametitle{Functions and Python Script}
+\begin{columns}
+\begin{column}{4.5cm}
+\begin{center}
+\includegraphics[width=3cm]{fig/python1.png}
+\end{center}
+\end{column}
+\begin{column}{6.5cm}
+\begin{center}
+\includegraphics[width=5cm]{fig/sayHello.jpg}
+\end{center}
+\end{column}
+\end{columns}
+\lstfun
+\end{frame}
 
 \begin{frame}\frametitle{Pi ($\pi)$}
 
@@ -1362,6 +1401,7 @@ Rainbows are produced by a combination of refraction and reflection. You may hav
 \end{column}
 \end{columns}
 \end{frame}
+
 
 
 \section{Lens}
@@ -1791,6 +1831,41 @@ mode $ = 6$
 \end{frame}
 
 
+\defverbatim[colored]\lstdi{
+\begin{lstlisting}[language=Python,basicstyle=\ttfamily\tiny,keywordstyle=\color{red}]
+runRolls = 36
+rolls = []
+for i in range(0,numRolls):
+  roll = random.randrange(1,7) + random.randrange(1,7)
+  rolls.append(roll)
+rollArray = np.array(rolls)
+print(rollArray)
+
+plt.hist(rollArray,bins=(np.max(rollArray-np.min(rollArray))))
+plt.xlabel('Dice Roll Total')
+plt.ylabel('Frequency')
+plt.show()
+\end{lstlisting}
+}
+
+\begin{frame}\frametitle{Rolling Dice and Graphing Python Script}
+\begin{columns}
+\begin{column}{4.5cm}
+\begin{center}
+\includegraphics[width=3cm]{fig/python1.png}
+\end{center}
+\end{column}
+\begin{column}{6.5cm}
+\begin{center}
+\includegraphics[width=5cm]{fig/numrolls.png}
+\end{center}
+\end{column}
+\end{columns}
+\lstdi
+\end{frame}
+
+
+
 \begin{frame}\frametitle{Summary Statistics: Variation}
 \begin{center}
 \includegraphics[width=11cm]{fig/stat3.jpg}
@@ -1842,6 +1917,10 @@ Galton Baord
 \end{columns}
 \end{frame}
 
+
+
+
+
 \begin{frame}\frametitle{Assignment: Measuring Bean Profile}
 \begin{columns}
 \begin{column}{4cm}
@@ -1878,15 +1957,37 @@ The laser beam has a Gaussian profile.
 \end{columns}
 \end{frame}
 
-\begin{frame}\frametitle{Python Excursion}
+\defverbatim[colored]\lstgf{
+\begin{lstlisting}[language=Python,basicstyle=\ttfamily\tiny,keywordstyle=\color{red}]
+def gaussian_cdf(x, mean, stddev):
+    return stats.norm.cdf(x, loc=mean, scale=stddev)
+    
+params, covariance = curve_fit(gaussian_cdf, distance, power, p0=[0, 1])
+fitted_mean, fitted_stddev = params
+print(f"Fitted mean: {fitted_mean}, Fitted stddev: {fitted_stddev}")    
+    
+plt.plot(distance, power, 'bo', label='Observed data', markersize=5)
+plt.plot(distance, gaussian_cdf(distance, *params), 'r-', label=f'Fitted CDF')
+plt.plot(distance, beamProfile,'g-',label=f'Beam Profile')
+plt.plot(distanceFine, beamProfileFine,'m-',label=f'Beam Profile (finer)') 
+\end{lstlisting}
+}
 
+\begin{frame}\frametitle{Beam Profile Python Script}
+\begin{columns}
+\begin{column}{4.5cm}
 \begin{center}
-\includegraphics[width=6cm]{fig/python1.png}
+\includegraphics[width=3cm]{fig/python1.png}
 \end{center}
-
+\end{column}
+\begin{column}{6.5cm}
+\begin{center}
+\includegraphics[width=5cm]{fig/bpgt.png}
+\end{center}
+\end{column}
+\end{columns}
+\lstgf
 \end{frame}
-
-
 
 
 \section{Optical Tweezers}
@@ -2503,6 +2604,36 @@ for, $m = 1$.
 \end{itemize}
 \end{column}
 \end{columns}
+
+\vspace{1.0cm}
+
+NOTE: For the diffraction grating the small angle assumption does not apply.
+\end{frame}
+
+\begin{frame}\frametitle{Assignment: Diffraction Grating}
+\begin{columns}
+\begin{column}{4cm}
+
+\begin{center}
+\includegraphics[width=4cm]{fig/geoslides.jpg}
+\end{center}
+\end{column}
+\begin{column}{7cm}
+\begin{itemize}
+\item Setup: Red Laser, Geometric Slide, Mount, Screen
+\item There are three regions.
+\begin{enumerate}
+\item Calculate the diffraction grating spacing
+\item Using the double slit, calculate the width and space
+\item Looking at the diffraction pattern for the four geometries, guess the shape of the features.
+\end{enumerate}
+\end{itemize}
+\end{column}
+\end{columns}
+
+\vspace{0.5cm}
+
+NOTE: For the diffraction grating the small angle assumption does not apply.
 \end{frame}
 
 
@@ -3059,7 +3190,7 @@ From \url{https://emanim.szialab.org/}
 When light in incident on the interface of materials with different indices of refraction: 
 \begin{itemize}
 \item Polarized light that is parallel to the plane of incidence (P-Polarization) is refracted
-\item Polarized light that is perpendicular (senkrecht in German) to the plan (S-Polarization) is transmitted.
+\item Polarized light that is perpendicular (senkrecht in German) to the plan (S-Polarization) is reflected.
 \item The angle were the reflected and refracted angles are at $90^{\circ}$ to each other, the angle of incidence is called the Brewster's Angle.
 \end{itemize}
 \end{column}
@@ -3099,7 +3230,7 @@ Documenting your work with the Labnotes:
 \item Rotate the half-wave plate so all the light transmits through the beamsplitter
 \item Measure the power with the power meter and then the detector connected to an oscilloscope. Find the scaling factor between volts and power.
 \item Rotate the half-wave plate 45 degrees and measure the reflected beam power. (Don't move the detector attached to the o-scope
-\item Rotate the half-wave plate recording both measurements. Convert between volts and power.
+\item Rotate the half-wave plate 360 degrees in 10 degree increments, recording both measurements. Convert between volts and power.
 \end{itemize}
 \end{column}
 \end{columns}
