@@ -1,6 +1,8 @@
 \beamer@sectionintoc {1}{Classical Bits}{2}{0}{1}
-\beamer@sectionintoc {2}{What is a Qubit}{8}{0}{2}
-\beamer@sectionintoc {3}{Quantum Gates}{10}{0}{3}
-\beamer@sectionintoc {4}{Linear Algebra}{18}{0}{4}
-\beamer@sectionintoc {5}{Quantum Teleportation}{32}{0}{5}
-\beamer@sectionintoc {6}{Quantum Computing}{40}{0}{6}
+\beamer@sectionintoc {2}{Classical Gates}{8}{0}{2}
+\beamer@sectionintoc {3}{Quantum Gates - A simplified Introduction}{15}{0}{3}
+\beamer@sectionintoc {4}{What is a Qubit}{19}{0}{4}
+\beamer@sectionintoc {5}{Quantum Gates}{22}{0}{5}
+\beamer@sectionintoc {6}{Linear Algebra}{30}{0}{6}
+\beamer@sectionintoc {7}{Quantum Teleportation}{44}{0}{7}
+\beamer@sectionintoc {8}{Quantum Computing}{52}{0}{8}

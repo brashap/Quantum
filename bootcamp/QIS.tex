@@ -15,6 +15,7 @@
 \usepackage{graphbox}
 \usepackage{movie15}
 \usepackage{caption}
+
 \DeclareCaptionType{code}[Code Listing][List of Code Listings] 
 
 \definecolor{codegreen}{rgb}{0,0.6,0}
@@ -141,6 +142,142 @@ Any nonzero real number raised to the power of zero is one, this means anything 
 \end{center}
 \end{frame}
 
+\section{Classical Gates}
+
+\begin{frame}\frametitle{NOT Gate}
+\begin{columns}
+\begin{column}{5cm}
+\begin{itemize}
+\item The NOT gate take the input bit and flips it
+\begin{itemize}
+\item 0 becomes a 1
+\item 1 becomes a 0
+\end{itemize}
+\end{itemize}
+\end{column}
+\begin{column}{5cm}
+\begin{center}
+\includegraphics[width=4cm]{fig/boolean_not.jpg}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{AND and OR Gate}
+\begin{columns}
+\begin{column}{5cm}
+\begin{itemize}
+\item The AND gate returns a 1 if both inputs are 1's.
+\item The OR gate returns a 1 if either input is a 1.
+\end{itemize}
+\end{column}
+\begin{column}{5cm}
+\begin{center}
+\includegraphics[width=4cm]{fig/boolean_and.jpg}
+
+\vspace{0.5cm}
+\includegraphics[width=4cm]{fig/boolean_or.jpg}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{NAND and NOR Gate}
+\begin{columns}
+\begin{column}{5cm}
+The NOT AND (NAND) and the NOT OR (NOR) gates behave like the AND or OR gate followed by a NOT.
+\begin{itemize}
+\item The NAND gate returns a 1 if either input is a 0.
+\item The NOR gate returns a 1 if both inputs are a 0.
+\end{itemize}
+\end{column}
+\begin{column}{5cm}
+\begin{center}
+\includegraphics[width=4cm]{fig/boolean_nand.jpg}
+
+\vspace{0.5cm}
+\includegraphics[width=4cm]{fig/boolean_nor.jpg}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{XOR and XNOR Gate}
+\begin{columns}
+\begin{column}{5cm}
+The exclusive (X) OR and NOR gates, are similar to the OR and NOR but only if either/or but not both inputs are a 1 or 0 respectively. 
+\end{column}
+\begin{column}{5cm}
+\begin{center}
+\includegraphics[width=4cm]{fig/boolean_xor.jpg}
+
+\includegraphics[width=4cm]{fig/boolean_xnor.jpg}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Universal Gates}
+ALL other logic gate functions can be created using only NAND gates making it a universal logic gate.
+
+\begin{center}
+\includegraphics[width=7cm]{fig/universal_nand.jpg}
+\end{center}
+\end{frame}
+
+\begin{frame}\frametitle{Reversible Gates}
+The classical gates (other than NOT) are not reversible gates (e.g., the inputs can not be inferred from the output). However, it is possible to make them reversible by adding an additional output.
+
+\begin{center}
+\includegraphics[width=8cm]{fig/reversible.jpg}
+\end{center}
+\end{frame}
+
+\section{Quantum Gates - A simplified Introduction}
+
+\begin{frame}\frametitle{The Quantum NOT Gate}
+
+We are going to move from bits with values 0 or 1, to quantum bits (or qubits) represented as $\ket{\psi}$ with states $\ket{0}$ and $\ket{1}$.
+
+\vspace{1cm}
+
+The quantum NOT gate is the analogue of the classical NOT gate used in quantum computing. It turns a state of $\ket{0}$ into a state of $\ket{1}$, and vice versa.
+
+\vspace{0.25cm}
+
+\begin{center}
+\includegraphics[width=5cm]{fig/quantum_not.jpg}
+\end{center}
+
+Note, it is required that all quantum gates be reversible.
+
+\end{frame}
+
+\begin{frame}\frametitle{The Quantum SWAP Gate}
+
+The SWAP gate is the first of the two input quantum gates. 
+
+\begin{center}
+\includegraphics[width=5cm]{fig/quantum_swap.jpg}
+\end{center}
+
+In this case $\ket{\psi_1}$ swaps values with $\ket{\psi_2}$.
+
+\end{frame}
+
+
+
+\begin{frame}\frametitle{The Quantum CNOT Gate}
+
+For Controlled NOT (or CNOT) gate, consider qubits x and y, where x is the control qubit and y is the target qubit. The CNOT gate applies a NOT to the target qubit only if the control qubit is $\ket{1}$, otherwise the target is unchanged. Additionally, the control qubit is passed through always unchanged. This is the quantum equivalent of the classical XOR gate made reversible.
+
+\begin{center}
+\includegraphics[width=5cm]{fig/quantum_cnot.jpg}
+\end{center}
+
+\end{frame}
+
+
 \section{What is a Qubit}
 
 \begin{frame} \frametitle{Bit vs Qubit}
@@ -148,6 +285,14 @@ Any nonzero real number raised to the power of zero is one, this means anything 
 \includegraphics[width=11cm]{fig/bitQubit.png}
 \end{center}
 
+\end{frame}
+
+\begin{frame}\frametitle{Bloch Sphere}
+\begin{center}
+\includegraphics[width=11cm]{fig/quantum_bloch.jpg}
+\end{center}
+
+\url{https://bloch.kherb.io/}
 \end{frame}
 
 \section{Quantum Gates}
