@@ -381,6 +381,24 @@ The quantum state $\ket{\psi}$ is the superposition of these two states with amp
 
 \end{frame}
 
+\begin{frame}\frametitle{The Quantum Hadamard Gate - Creating Superposition}
+
+The Hadamard\footnote{Jacques Salomon Hadamard (8 December 1865 – 17 October 1963) was a French mathematician who made major contributions in complex analysis, number theory, differential geometry, and partial differential equations.} gate can be used to create superposition.
+
+\begin{center}
+\includegraphics[width=5cm]{fig/quantum_hadamard.jpg}
+\end{center}
+
+\[ H\ket{0} = \frac{1}{\sqrt{2}} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} 
+   \begin{bmatrix} 1 \\ 0 \end{bmatrix} = \frac{1}{\sqrt{2}} (\ket{0} + \ket{1}) = \ket{+} \]
+   
+or
+   
+\[ H\ket{1} = \frac{1}{\sqrt{2}} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} 
+   \begin{bmatrix} 0 \\ 1 \end{bmatrix} = \frac{1}{\sqrt{2}} (\ket{0} - \ket{1}) = \ket{-} \]
+
+\end{frame}
+
 \begin{frame}\frametitle{Quantum States - Row Vectors}
 The transpose of a column vector is obtained by writing it as a row vector. But, in quantum computing, we use the conjugate transpose:
 \[ \begin{bmatrix} \alpha \\ \beta \end{bmatrix}^{\dagger} = \begin{bmatrix} \alpha^{*} \beta^{*} \end{bmatrix} \]
@@ -425,7 +443,7 @@ These, and any two states with zero for the inner product, are considered orthog
 \item Consider the inner product of the X-basis states $\ket{+}$ and $\ket{-}$:
 \[\bracket{+}{-} = \frac{1}{\sqrt{2}} \begin{bmatrix} 1 \quad 1 \end{bmatrix} \frac{1}{\sqrt{2}} \begin{bmatrix} 1 \\ -1 \end{bmatrix} = \frac{1}{2} \begin{bmatrix} 1 \quad 1 \end{bmatrix}  \begin{bmatrix} 1 \\ -1 \end{bmatrix} = \frac{1}{2}(1-1) = 0\]
 \item Consider the inner product of the Y-basis states $\ket{i}$ and $\ket{-i}$:
-\[\bracket{i}{-i} = \frac{1}{\sqrt{2}} \begin{bmatrix} 1 \quad {-i} \end{bmatrix} \frac{1}{\sqrt{2}} \begin{bmatrix} 1 \\ -i \end{bmatrix} = \frac{1}{2} \begin{bmatrix} 1 \quad {-i} \end{bmatrix} \begin{bmatrix} 1 \\ -i \end{bmatrix} = \frac{1}{2}(1-i^2) = 0\]
+\[\bracket{i}{-i} = \frac{1}{\sqrt{2}} \begin{bmatrix} 1 \quad {-i} \end{bmatrix} \frac{1}{\sqrt{2}} \begin{bmatrix} 1 \\ -i \end{bmatrix} = \frac{1}{2} \begin{bmatrix} 1 \quad {-i} \end{bmatrix} \begin{bmatrix} 1 \\ -i \end{bmatrix} = \frac{1}{2}(1+i^2) = 0\]
 
 \end{itemize}
 \end{frame}

@@ -4,5 +4,5 @@
 \beamer@sectionintoc {4}{What is a Qubit}{19}{0}{4}
 \beamer@sectionintoc {5}{Quantum Gates}{22}{0}{5}
 \beamer@sectionintoc {6}{Linear Algebra}{30}{0}{6}
-\beamer@sectionintoc {7}{Quantum Teleportation}{45}{0}{7}
-\beamer@sectionintoc {8}{Quantum Computing}{53}{0}{8}
+\beamer@sectionintoc {7}{Quantum Teleportation}{46}{0}{7}
+\beamer@sectionintoc {8}{Quantum Computing}{54}{0}{8}
