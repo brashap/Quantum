@@ -537,6 +537,23 @@ In the linear algebra representation, the tensor product is the Kronecker produc
 
 \end{frame}
 
+\begin{frame}\frametitle{Rules for Superposition}
+Ignoring coefficients for now, but similar set of rules with coefficients:
+\begin{enumerate}
+\item Terms Commute: $\ket{00} + \ket{01} = \ket{01} + \ket{00}$
+\item Keep Track of Which Qubit is which: $\ket{00} + \ket{01} \neq \ket{00} + \ket{10}$
+\item Terms Cancel: $\ket{0} + \ket{1} - \ket{1} = \ket{0}$
+\item Normalization: $\ket{0} + \ket{1} + \ket{0} + \ket{1}= \ket{0} + \ket{1}$
+\item Tensor Product: $\ket{0} ( \ket{0} + \ket{1} ) = \ket{00} + \ket{01}$
+\item Tensor Product: $(\ket{0} + \ket{1}) ( \ket{0} - \ket{1} ) = \ket{00} + \ket{01} + \ket{10} - \ket{11}$
+\item Global Phase Ignored: $-\ket{00} + \ket {01} - \ket{10} = \ket{00} - \ket {01} + \ket{10}$ 
+\end{enumerate}
+
+\end{frame}
+
+
+
+
 \begin{frame}\frametitle{The Controlled NOT (CNOT) Gate}
 
 Given the two qubit system $\ket{q_0 q_1}$ and Pauli-X gate (the NOT operation) is applied to the $q_1$ qubit if $q_0 = \ket{1}$, otherwise $q_1$ is unchanged.
@@ -568,6 +585,32 @@ Applied to the general superposition
 \begin{frame}\frametitle{Two Qubit Gates} 
 \begin{center}
 \includegraphics[width=10cm]{fig/twoqubitgates.jpg}
+\end{center}
+\end{frame}
+
+\section{IBM Quantum Composer}
+
+\begin{frame}\frametitle{IBM Quantum Composer} 
+\begin{center}
+\includegraphics[width=11cm]{fig/ibm_qc01.jpg}
+\end{center}
+
+\url{https://quantum.cloud.ibm.com/composer}
+
+\end{frame}
+
+\begin{frame}\frametitle{Qiskit} 
+\begin{center}
+\includegraphics[width=10cm]{fig/ibm_qc03.jpg}
+\end{center}
+
+\url{https://ibm.com/quantum/qiskit}
+
+\end{frame}
+
+\begin{frame}\frametitle{OpenQASM vs Qiskit} 
+\begin{center}
+\includegraphics[width=10cm]{fig/ibm_qc02.jpg}
 \end{center}
 \end{frame}
 
