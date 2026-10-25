@@ -2654,6 +2654,128 @@ The EM spectrum radiated by a hot solid is linked directly to the solid’s temp
 \end{center}
 \end{frame}
 
+\section{Electronics Interlude}
+
+\begin{frame}
+\frametitle{Resistive Circuits}
+\begin{figure}
+\includegraphics[scale=0.15]{fig/circuits2.png} 
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Energy}
+\begin{figure}
+\includegraphics[scale=0.15]{fig/EnergyAlien.jpg} 
+\end{figure}
+\begin{itemize} 
+\item Kinetic Energy - energy of motion
+\item Potential Energy - energy stored in an object
+\end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{Electrical Circuit Terms}
+\begin{figure}
+\includegraphics[scale=0.50]{fig/terms.png} 
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Measuring Voltage, Current, and Resistance}
+\begin{figure}
+\includegraphics[scale=0.65]{fig/multi1.jpg} 
+\includegraphics[scale=0.38]{fig/multi2.jpg} 
+\end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{Ohm's Law}
+Georg  Ohm (16 March 1789 – 6 July 1854) was a German physicist and mathematician. As a school teacher, Ohm began his research with the new electrochemical cell, invented by Italian scientist Alessandro Volta. Ohm found that there is a direct proportionality between the potential difference (voltage) applied across a conductor and the resultant electric current. This relationship is known as Ohm's law:
+\vspace{0.5cm}
+\begin{columns}
+\begin{column}{5.5cm}
+\includegraphics[scale=0.33]{fig/ol2.jpg}
+\end{column}
+\begin{column}{5.5cm}
+\includegraphics[scale=.1]{fig/Volt_Amp_Ohm.png}
+\end{column}
+\end{columns}
+\end{frame}
+
+
+\begin{frame}\frametitle{A word about circuit notation}
+\begin{columns}
+\begin{column}{2.5cm}
+\begin{center}
+\includegraphics[width=1.5cm]{fig/notation.png}
+\end{center}
+\end{column}
+\begin{column}{8.5cm}
+Subscripts will be used to denote quanties (voltage, currect, etc) for different elements:
+\begin{itemize}
+\item i1 or $i_1$ is the current through Resistor 1 ($R_1$) 
+\item i2 or $i_2$ is the current through Resistor 2 ($R_2$) 
+\item v2 or $v_2$ is the votage across Resistor 2 ($R_2$) 
+\item $I$ is the current delivered by the power supply
+\item $V_{cc}$ (common collector \footnote{Common Collector is a term for certain parts of transistor circuits. We will learn about Transistors in Lesson 11} voltage) is the notation will will use for $3.3V$ from the Particle
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Kirchhoff's First Law}
+Gustav Robert Kirchhoff (12 March 1824 – 17 October 1887) was a German physicist who contributed to the fundamental understanding of electrical circuits. His first law:
+\begin{columns}
+\begin{column}{5cm}
+In an electrical circuit, the sum of currents flowing into that node is equal to the sum of currents flowing out of that node
+\end{column}
+\begin{column}{4cm}
+\begin{overprint}
+\includegraphics[scale=0.25]{fig/KFL2.png}
+\end{overprint}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Kirchhoff's Second Law}
+\begin{columns}
+\begin{column}{4cm}
+The directed sum of the potential differences (voltages) around any closed loop is zero.
+\end{column}
+\begin{column}{6cm}
+\begin{overprint}
+\includegraphics[scale=0.25]{fig/KSL2.png}
+\end{overprint}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Kirchhoff's Second Law}
+\begin{figure}
+\includegraphics[scale=0.40]{fig/klooplaw.jpg} 
+\end{figure}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Resistors in Series and Parallel}
+\begin{figure}
+\includegraphics[scale=0.40]{fig/SP.png} 
+\end{figure}
+
+\vspace{0.25cm}
+
+How many nodes? How many loops?
+
+\end{frame}
+
+
+\section{Return to Wave Optics}
+
+
 
 \begin{frame}\frametitle{Ultraviolet Catastrophe}
 \begin{columns}
@@ -2724,23 +2846,32 @@ where $c = 3 \cdot 10^{8} (m/s)$
 \end{columns}
 \end{frame}
 
-
+\begin{frame}\frametitle{Keysight 3-Channel Power Supply}
+\begin{center}	
+	\includegraphics[width=12cm]{fig/keysightpower.jpg}
+\end{center}
+\end{frame}
 
 
 \begin{frame}\frametitle{Assignment: Plank and Colors}
 \begin{columns}
 \begin{column}{5cm}
 \begin{center}
-\includegraphics[width=5cm]{fig/plank.png}
+\includegraphics[width=3cm]{fig/plank.png}
+
+\vspace{0.1cm}
+
+\includegraphics[width=5cm]{fig/plank_bb.jpg}
+
 \end{center}
 \end{column}
 \begin{column}{6cm}
 Using "Determine the Wavelength of an LED" lab sheet:
 \begin{itemize}
-\item Build the circuit to measure voltage across Red LED
-\item Also use Diffraction slide and ruler to calculate wavelength
+\item Build the circuit, apply 3V on the power supply, measure voltage across Red LED
+\item Use Spectrascope to calculate wavelength
 \item Repeat for Yellow, Green, and Blue LEDs
-\item Plot voltage vs wavelength in your notebook,excel, or python
+\item Plot voltage vs wavelength in your notebook, excel, or python
 \end{itemize}
 \end{column}
 \end{columns}
@@ -2889,6 +3020,269 @@ Each wavelet to the right was emitted when the wavefront crossed the interface b
 \begin{center}
 \includegraphics[width=5cm]{fig/huyRefract.jpg}
 \end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+\section{Another Electronics Interlude}
+
+\begin{frame}\frametitle{Keysight Oscilloscope}
+\begin{center}	
+	\includegraphics[width=12cm]{fig/keysightoscope.jpg}
+\end{center}
+\end{frame}
+
+\begin{frame}\frametitle{Keysight Waveform Generator}
+\begin{center}	
+	\includegraphics[width=12cm]{fig/keysightwave.jpg}
+\end{center}
+\end{frame}
+
+\begin{frame}\frametitle{Keysight 3-Channel Power Supply}
+\begin{center}	
+	\includegraphics[width=12cm]{fig/keysightpower.jpg}
+\end{center}
+\end{frame}
+
+\begin{frame}\frametitle{Assignment: Oscilloscope Basics}
+\begin{columns}
+\begin{column}{4cm}
+\begin{center}	
+	\includegraphics[width=4cm]{fig/keysightwave.jpg}
+	
+\vspace{1cm}	
+	
+	\includegraphics[width=4cm]{fig/keysightoscope.jpg}
+\end{center}
+\end{column}
+\begin{column}{7.3cm}
+\begin{itemize}
+\item Connect Waverform Generator Output 1 to Oscilloscope Input 1
+\item On the Waveform Generator: 
+\begin{itemize}
+\item Select waveform $\rightarrow$ Sine
+\item Set amplitude to 5V
+\item Set frequency to 10 kHz
+\item Turn on Channel 1
+\end{itemize}
+\item On the Oscilloscope:
+\begin{itemize}
+\item Select Channel 1
+\item Adjust vertical and horizontal until you see a standing sine wave
+\end{itemize}
+\item Experiment with adjusting amplitude, frequency, and waveform type
+\item Note how the data in upper left, upper right, and bottom of oscope changes
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+
+\begin{frame}\frametitle{Capacitors}
+\begin{columns}
+\begin{column}{7cm}
+A capacitor is created out of two metal plates and an insulating material called a dielectric. The metal plates are placed very close to each other, in parallel, but the dielectric sits between them to make sure they don't touch.
+\begin{itemize}
+\item The dielectric can be made out of all sorts of insulating materials; paper, glass, rubber, ceramic, plastic, or anything that will impede the flow of current.
+\item The plates are made of a conductive material; aluminum, tantalum, silver, or other metals. 
+\end{itemize}
+\end{column}
+\begin{column}{4cm}
+\begin{overprint}
+\includegraphics[scale=0.4]{fig/capwich.png}
+\end{overprint}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Capacitors}
+When current flows into a capacitor, the charges get "stuck" on the plates because they cannot get past the insulating dielectric. Electrons build up on one of the plates, and it becomes overall negatively charged. The large amount of negative charges pushes away like charges on the other plate, making it positively charged.
+\begin{figure}
+\includegraphics[scale=0.35]{fig/howcap.png} 
+\end{figure}
+The stationary charges on these plates create an electric field, which influences electric potential energy and voltage. When charges group together on a capacitor like this, the capacitor is storing electric energy just as a battery might store chemical energy.
+\end{frame}
+
+\begin{frame}\frametitle{Capacitors in Circuits}
+\begin{center}
+\includegraphics[scale=0.30]{fig/aliencap1.jpg}
+\end{center}
+\end{frame}
+
+\begin{frame}\frametitle{Capacitors in Circuits}
+\begin{center}
+\includegraphics[scale=0.30]{fig/aliencap2.jpg}
+\end{center}
+\end{frame}
+
+\begin{frame}\frametitle{RC Time Constant}
+\begin{columns}
+\begin{column}{4cm}
+\begin{center}
+\includegraphics[scale=0.25]{fig/capacitor.png}
+
+$V_{c}(t) = V_{c}(0) * e^{\frac{t}{-\tau}}$
+\end{center}
+\end{column}
+\begin{column}{7cm}
+Capacitance is defined as:
+\begin{center}
+$C = \frac{Q}{V} (\frac{Coulombs}{Volt})$ 
+\end{center}
+
+The current through a capacitor is:
+\begin{center}
+$I = C \frac{\Delta V}{\Delta t}$
+\end{center}
+
+And, therefore, the capacitor charges with a time constant ($\tau$):
+\begin{center}
+$ \tau = RC $
+\includegraphics[scale=0.60]{fig/tau.jpg}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Alternating Current}
+\begin{center}
+\includegraphics[scale=0.35]{fig/aliencap3.jpg}
+\end{center}
+\end{frame}
+
+\begin{frame} \frametitle{Low Pass Filter - cutoff frequency $f_{c}$}
+\begin{columns}
+\begin{column}{7cm}
+\begin{itemize}
+\item At low frequencies, there is plenty of time for the capacitor to charge up to practically the same voltage as the input voltage.
+\item At high frequencies, the capacitor only has time to charge up a small amount before the input switches direction. The output goes up and down only a small fraction of the amount the input goes up and down. At double the frequency, there's only time for it to charge up half the amount.
+\end{itemize}
+\end{column}
+\begin{column}{4cm}
+\begin{overprint}
+\includegraphics[scale=0.25]{fig/LP_circuit.png}
+\end{overprint}
+$ f_{c} = \frac{1}{2 \pi \tau} = \frac{1}{2 \pi RC} $
+\end{column}
+\end{columns}
+\end{frame}
+
+
+
+\begin{frame}\frametitle{Assignment: Low Pass Filters}
+\begin{columns}
+\begin{column}{5cm}
+\begin{center}
+\begin{figure}[h]
+	\includegraphics[width=3cm]{fig/RC1.png}
+	
+	\vspace{0.5cm}
+	
+	\includegraphics[width=5cm]{fig/keysightLP_bb.jpg}
+\end{figure}
+\end{center}
+\end{column}
+\begin{column}{6cm}
+\begin{itemize}
+\item Build a low pass filter as shown
+\item Set the waveform generator to:
+\begin{itemize}
+\item Sine Wave
+\item 5V
+\item Sweep 100 Hz to 100MHz
+\end{itemize}
+\item Record the input, output attenuation, and phase
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Low Pass Filter Response}
+\begin{center}
+	\includegraphics[width=12cm]{fig/Bode_RC1.jpg}
+	
+\vspace{0.1cm}	
+	
+$ f_{c} = \frac{1}{2 \pi RC} = \frac{1}{2 \pi (500) (01.* 10^{-6})} = 3.34 kHz $
+\end{center}
+\end{frame}
+
+
+\begin{frame}\frametitle{Other types of filters}
+\begin{figure}[h]
+	\includegraphics[width=9cm]{fig/filters.jpg}
+\end{figure}
+\end{frame}
+
+
+\begin{frame} \frametitle{Capacitors - does it matter how they are placed}
+\begin{columns}
+\begin{column}{6cm}
+\begin{itemize}
+\item Some types of capacitors (electrolytic and tantalum) are polarized (they have + and - terminals). This is due to how the dielectric film has been deposited. The reverse polarity leads to degradation of the dielectric.
+\item Other capacitors (ceramic and film)  do not have a polarity and can be installed in either direction. 
+\end{itemize}
+\end{column}
+\begin{column}{4cm}
+\includegraphics[scale=0.5]{fig/cap_pol.png}
+\includegraphics[scale=0.5]{fig/cap_gen.png}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Inductors}
+\begin{columns}
+\begin{column}{4cm}
+\begin{center}
+\includegraphics[scale=0.7]{fig/bsav3.png}
+
+\vspace{0.25cm}
+
+\includegraphics[scale=0.7]{fig/sol3.png}
+
+\vspace{0.25cm}
+
+\includegraphics[scale=1.00]{fig/ind.png}
+
+\end{center}
+\end{column}
+\begin{column}{6.5cm}
+\begin{itemize}
+\item Current flowing in a wire produces a magnetic field (B) around the wire (from Ampere's Law).
+\item Wire wrapped into a coil produces a magnetic field that resembles a bar magnet through the center of the coil.
+\item Also, in a coil, this magnetic field produces an effect known as Inductance (L) that opposes changes in electric current. 
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Assignment: RLC Oscillator}
+\begin{columns}
+\begin{column}{4cm}
+\begin{center}
+\begin{figure}[h]
+	\includegraphics[width=3cm]{fig/RLC2.png}
+
+\vspace{0.25cm}
+
+	\includegraphics[width=5cm]{fig/RLC_bb.jpg}	
+	
+\end{figure}
+\end{center}
+\end{column}
+\begin{column}{6cm}
+\begin{itemize}
+\item Build the oscillator as shown
+\item Set the waveform generator to:
+\begin{itemize}
+\item Square Wave
+\item 5V
+\item Frequency = 100 Hz
+\item Duty Cycle to 0.1%
+\end{itemize}
+\item Calculate the period of the oscillations.
+\item Calculate the dampening over time. 
+\end{itemize}
 \end{column}
 \end{columns}
 \end{frame}
