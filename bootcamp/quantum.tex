@@ -2484,16 +2484,28 @@ Using small angle assumption\footnote{for small angles ($\theta$) measured in ra
 
 \begin{frame}\frametitle{Assignment: Double Slit}
 
+\begin{columns}
+\begin{column}{5cm}
 \begin{center}
-\includegraphics[width=8cm]{fig/thorDouble.jpg}
+\includegraphics[width=5cm]{fig/thorDS.jpg}
 \end{center}
+\end{column}
+\begin{column}{5.5cm}
+\begin{center}
+\includegraphics[width=5cm]{fig/littled.jpg}
+\end{center}
+\end{column}
+\end{columns}
 
 \vspace{1cm}
 
 \begin{itemize}
-\item Calculate the slit distance and slit width for three different double slits. 
-\end{itemize}
+\item Measure distance from slit to screen ($x$) and $y_1$.
+\item Use $d \sin{\theta} = \lambda $ to find $d$
+\item Using small angle assumption: $d = \frac{x}{y_1} \lambda$
+\item Repeat for at least three different double slits.
 
+\end{itemize}
 \end{frame}
 
 
@@ -2521,16 +2533,27 @@ Double slit is actually the double slit result times the single slit.
 
 \begin{frame}\frametitle{Assignment: Single Slits and Pinholes}
 
+\begin{columns}
+\begin{column}{5cm}
 \begin{center}
-\includegraphics[width=8cm]{fig/thorDouble.jpg}
+\includegraphics[width=5cm]{fig/thorDS.jpg}
 \end{center}
+\end{column}
+\begin{column}{5.5cm}
+\begin{center}
+\includegraphics[width=5cm]{fig/bigD.jpg}
+\end{center}
+\end{column}
+\end{columns}
 
 \vspace{1cm}
 
 \begin{itemize}
-\item Calculate the size of the various slits and pinholes using the distance between dark bands 
-\end{itemize}
+\item Measure distance from slit to screen ($x$) and $y_{dark}$.
+\item Using small angle assumption: $D = \frac{2x}{y_{dark}} \lambda$
+\item Repeat for at least three different single slits and/or pinholes.
 
+\end{itemize}
 \end{frame}
 
 \begin{frame}\frametitle{Diffraction Grating}
@@ -2592,25 +2615,34 @@ for, $m = 1$.
 \begin{column}{3cm}
 
 \begin{center}
-\includegraphics[width=3cm]{fig/diffslide.png}
+\includegraphics[width=2.5cm]{fig/diffslide.png}
+
+\vspace{0.25cm}
+
+\includegraphics[width=2.5cm]{fig/dg3.jpg}
 \end{center}
 \end{column}
 \begin{column}{7.5cm}
 \begin{itemize}
 \item Setup: Red Laser, Diffraction Slide, Mount, Screen
-\item Place diffraction slide approximately 3 inches from screen
-\item Calculate wavelength of laser using diffraction equation
+\item Place diffraction slide approximately 3 inches from screen (this is $x$)
+\item Calculate wavelength of laser by using:
+\begin{itemize}
+\item $d \sin{\theta_R}=\lambda$ 
+\item$\tan{\theta_R} = \frac{y_R}{x}$
+\end{itemize} 
 \item Repeat for Green and Blue/UV laser
 \end{itemize}
-\end{column}
-\end{columns}
 
 \vspace{1.0cm}
 
 NOTE: For the diffraction grating the small angle assumption does not apply.
+
+\end{column}
+\end{columns}
 \end{frame}
 
-\begin{frame}\frametitle{Assignment: Diffraction Grating}
+\begin{frame}\frametitle{Assignment: Combination Grating}
 \begin{columns}
 \begin{column}{4cm}
 
@@ -3283,6 +3315,33 @@ $ f_{c} = \frac{1}{2 \pi RC} = \frac{1}{2 \pi (500) (01.* 10^{-6})} = 3.34 kHz $
 \item Calculate the period of the oscillations.
 \item Calculate the dampening over time. 
 \end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Assignment: RLC Oscillator}
+\begin{columns}
+\begin{column}{4.75cm}
+Frequency (Hz):
+\[f = \frac{1}{2 \pi \sqrt{L C}}\]
+\begin{center}
+\begin{figure}[h]
+	\includegraphics[width=4.75cm]{fig/rlc_desmos.jpg}	
+\end{figure}
+\end{center}
+\end{column}
+\begin{column}{6.25cm}
+Dampening:
+\begin{itemize}
+\item Dampening Factor: $ \alpha = \frac{R}{2L} $
+\item Natural Frequency: $ \omega_0 = \frac{1}{\sqrt{LC}} $
+\item Dampening Coefficient: $\xi = \frac{\alpha}{\omega_0}$ 
+\end{itemize}
+\begin{center}
+\begin{figure}[h]
+	\includegraphics[width=5cm]{fig/rlc_damp.jpg}	
+\end{figure}
+\end{center}
 \end{column}
 \end{columns}
 \end{frame}
