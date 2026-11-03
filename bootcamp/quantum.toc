@@ -22,9 +22,9 @@
 \beamer@sectionintoc {22}{How Cold Is It?}{262}{0}{22}
 \beamer@sectionintoc {23}{The Atom and Quantum Mechanics}{267}{0}{23}
 \beamer@sectionintoc {24}{Saturation Absorption Spectroscopy}{295}{0}{24}
-\beamer@sectionintoc {25}{The Laser}{303}{0}{25}
-\beamer@sectionintoc {26}{Quantum Optics - Making Single Photon Pairs}{315}{0}{26}
-\beamer@sectionintoc {27}{Magneto-Optical Trap}{328}{0}{27}
-\beamer@sectionintoc {28}{What is a Qubit}{332}{0}{28}
-\beamer@sectionintoc {29}{Quantum Computing}{334}{0}{29}
-\beamer@sectionintoc {30}{Quantum Teleportation}{357}{0}{30}
+\beamer@sectionintoc {25}{The Laser}{307}{0}{25}
+\beamer@sectionintoc {26}{Quantum Optics - Making Single Photon Pairs}{319}{0}{26}
+\beamer@sectionintoc {27}{Magneto-Optical Trap}{332}{0}{27}
+\beamer@sectionintoc {28}{What is a Qubit}{336}{0}{28}
+\beamer@sectionintoc {29}{Quantum Computing}{338}{0}{29}
+\beamer@sectionintoc {30}{Quantum Teleportation}{361}{0}{30}
