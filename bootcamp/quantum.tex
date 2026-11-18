@@ -4725,6 +4725,67 @@ Light has momentum:
 \end{center}
 \end{frame}
 
+
+\begin{frame}\frametitle{Diodes in Reverse and Forward Bias}
+\begin{figure}	
+	\includegraphics[width=10cm]{fig/diodeFR.jpg}
+\end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{Before We Begin - The Photodiode}
+\begin{columns}
+\begin{column}{5.5cm}
+\begin{center}	
+	\includegraphics[width=5.2cm]{fig/photodiode3.jpg}
+\end{center}
+\end{column}
+\begin{column}{5.5cm}
+\begin{center}	
+	\includegraphics[width=5.2cm]{fig/photodiode2.png}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Avalanche Photodiode (APD)}
+\begin{columns}
+\begin{column}{5cm}
+\begin{center}	
+	\includegraphics[width=5cm]{fig/apd.jpg}
+\end{center}
+\end{column}
+\begin{column}{6cm}
+\begin{itemize}
+\item Operates in reverse direction and biased slightly beyond the breakdown threshold voltage $V_{BR}$ (Geiger Mode)
+\item An active quenching circuit limits the current through the APD in order to avoid destruction and lowers the bias voltage below $V_{BR}$
+\item There is a deadtime after quenching
+\item In addition to photo-generated events, Dark Counts can happen spontaneously
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Protect The Detector}
+\begin{center}	
+	\includegraphics[width=10cm]{fig/QOP1_DO.jpg}
+\end{center}
+\begin{columns}
+\begin{column}{2cm}
+\begin{center}	
+	\includegraphics[width=2cm]{fig/QOP1_Detect.jpg}
+\end{center}
+\end{column}
+\begin{column}{10cm}
+\begin{itemize}
+\item Detector damaged if ON and exposed to room light.
+\item Never have the detector ON without the detector optics attached. $810nm$ band pass filter will protect.
+\item It is OK to align to detector (square in middle) with power off.
+\item Always have lens cover on when not in use.
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
 \begin{frame}\frametitle{Assignment: Quantum Optics - Part 1}
 \begin{columns}
 \begin{column}{5cm}
@@ -4757,13 +4818,23 @@ Light has momentum:
 
 
 \end{columns}
-Incident photon:
-\[E_{inc} = hf = \frac{hc}{\lambda}= 4.89 \times 10^{-19} Joules \]
+Incident photon ($405nm$):
+\[E_{inc} = hf_{inc} = \frac{hc}{\lambda_{inc}} = \frac{(6.63 * 10^{-34})(3 * 10^{8})}{405 * 10^{-9}} = 4.89 \times 10^{-19} Joules \]
 
-Signal/Idler pair:
-\[\frac{hc}{\lambda} = \frac{E_{inc}}{2}  = 2.445 \times 10^{-19} Joules\]
-\[\lambda = 2 (\frac{hc}{E_{inc}}) = 810 nm\]
+Signal/Idler pair (Conservation of Energy):
+\[\frac{hc}{\lambda_{pair}} = \frac{E_{inc}}{2}  = 2.445 \times 10^{-19} Joules\]
+\[\lambda_{pair} = 2 (\frac{hc}{E_{inc}}) = 810 nm\]
 \end{frame}
+
+\begin{frame}\frametitle{For 3' by 8' Tables}
+Instead of what is in the manual, use this layout:
+
+\begin{center}
+\includegraphics[width=12cm]{fig/QOP1_38.jpg}
+\end{center}
+
+\end{frame}
+
 
 
 \begin{frame}\frametitle{Assignment: Quantum Optics - Part 2}
@@ -5038,7 +5109,7 @@ The vector sum of the momenta of all the objects of a system cannot be changed b
 \begin{columns}
 \begin{column}{6.5cm}
 \begin{itemize}
-\item Laser detuned slightly (~20MHz) from resonance
+\item Laser detuned slightly ($\approx 20MHz$) from resonance
 \item Rb moving towards light: blue shift (increase frequence) leads to photon being absorbed.
 \item Rb moving away from light: red shift results in no absorption
 \item Resulting in momentum decrease ($p = \frac{h}{\lambda}$) of former and no change to latter
@@ -5047,8 +5118,8 @@ The vector sum of the momenta of all the objects of a system cannot be changed b
 \begin{column}{5cm}
 \begin{center}
 \begin{center}
-\includegraphics[width=4.5cm]{fig/MOT_LC.jpg}
-\includegraphics[width=4.5cm]{fig/MOT_Detune.jpg}
+\includegraphics[width=4cm]{fig/MOT_LC.jpg}
+\includegraphics[width=4cm]{fig/Rb85_AOMScheme.jpg}
 \end{center}
 \end{center}
 \end{column}
@@ -5161,13 +5232,30 @@ Note: Each incident beam path has two mirrors. The first to center the incident 
 \begin{column}{5.5cm}
 \begin{center}
 \begin{center}
-\includegraphics[width=5.5cm]{fig/Rb85_xover2.jpg}
+\includegraphics[width=5.5cm]{fig/Rb85_xover2a.jpg}
 \end{center}
 \end{center}
 \end{column}
 \end{columns}
 \end{frame}
 
+\begin{frame}\frametitle{Rb85 Absorption Spectrum - Crossover}
+\begin{columns}
+\begin{column}{6.5cm}
+\begin{center}
+\includegraphics[width=6cm]{fig/Rb85_AOMScheme.jpg}
+\end{center}
+\end{column}
+\begin{column}{5cm}
+\begin{itemize}
+\item Lock to
+\item 200 MHz
+\item Double Pass
+\item Result
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
 
 \begin{frame}\frametitle{Magtenitc Field}
 \begin{columns}
